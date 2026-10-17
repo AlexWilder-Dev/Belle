@@ -125,7 +125,7 @@ const EXTRACTED_CUTOUTS = {
 };
 
 const LOGO_SOURCES = {
-  group: "ba1f1a_92d1b69b2c4c4461814c4bc64e51700a.png",
+  group: "ba1f1a_66f354cce6304c5c871c180499a8cbf6.jpg",
   moretown: "c6e57a_49335b2ec4a8493a89d20aeb52e49528.jpg",
   duchess: "ba1f1a_dcf9f7b2ea2c4ab39ba162b38301f64b.jpg",
   fitzrovia: "ba1f1a_19b4855ddd4e4a1d8f510c41ffe6c294.jpg",
@@ -154,7 +154,7 @@ async function traceLogo(name, file) {
   const png = await sharp(file)
     .flatten({ background: "#ffffff" })
     .toColourspace("srgb")
-    .resize({ width: 2400, withoutEnlargement: true })
+    .resize({ width: 2400, kernel: "lanczos3" })
     .greyscale()
     .threshold(150)
     .png()
@@ -179,15 +179,16 @@ await fs.mkdir(OUT, { recursive: true });
 await fs.mkdir(LOGOS, { recursive: true });
 
 const index = {};
-for (const [name, [file, widths]] of Object.entries(IMAGES)) {
+const logosOnly = process.argv.includes("--logos-only");
+for (const [name, [file, widths]] of logosOnly ? [] : Object.entries(IMAGES)) {
   const r = await variants(name, path.join(SRC, file), widths);
   index[name] = r.sizes;
   console.log(name, r.sizes.map((s) => `${s.w}x${s.h}`).join(" "));
 }
-for (const [name, [file, widths]] of Object.entries(CUTOUTS)) {
+for (const [name, [file, widths]] of logosOnly ? [] : Object.entries(CUTOUTS)) {
   index[name] = (await variants(name, path.join(SRC, file), widths, { alpha: true })).sizes;
 }
-for (const [name, [file, widths]] of Object.entries(EXTRACTED_CUTOUTS)) {
+for (const [name, [file, widths]] of logosOnly ? [] : Object.entries(EXTRACTED_CUTOUTS)) {
   index[name] = (await variants(name, path.join(EXTRACTED, file), widths, { alpha: true })).sizes;
 }
 const logos = {};
@@ -196,5 +197,5 @@ for (const [name, file] of Object.entries(LOGO_SOURCES)) {
   logos[name] = r.aspect;
   console.log("logo", name, r.aspect);
 }
-await fs.writeFile(path.join(ROOT, "src/_data/images.json"), JSON.stringify(index, null, 1));
+if (!logosOnly) await fs.writeFile(path.join(ROOT, "src/_data/images.json"), JSON.stringify(index, null, 1));
 await fs.writeFile(path.join(ROOT, "src/_data/logos.json"), JSON.stringify(logos, null, 1));

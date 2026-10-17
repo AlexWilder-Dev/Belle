@@ -1,4 +1,4 @@
-/* Belle Pubs & Hotels
+/* Belle Pubs & Restaurants
    Colours are sampled from Belle's own menus, roses and pubs (see RESEARCH.md §5.2).
    Alegreya stands in for the Amerigo BT on the printed menus; Oswald matches the offer posters. */
 
@@ -155,7 +155,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .masthead__bar { display: flex; align-items: center; gap: 14px; min-height: 68px; }
 .masthead__brand { color: var(--black); flex: 0 0 auto; }
 .theme-night .masthead__brand { color: #fff; }
-.masthead__brand .logo { height: 44px; width: auto; }
+.masthead__brand .logo { height: 48px; width: auto; }
 .masthead__nav { display: none; margin-left: auto; }
 .masthead__nav > ul { display: flex; gap: clamp(10px, 1.6vw, 26px); list-style: none; margin: 0; padding: 0; align-items: center; }
 .masthead__nav a, .venue-menu summary { font-family: var(--cond); text-transform: uppercase; letter-spacing: .07em; font-size: .9rem; text-decoration: none; padding: 6px 0; cursor: pointer; }

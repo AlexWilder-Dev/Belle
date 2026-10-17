@@ -4,7 +4,8 @@ const origin = (process.env.SITE_ORIGIN || "https://alexwilder-dev.github.io").r
 const prefix = process.env.PATH_PREFIX || "/belle-pubs/";
 
 export default {
-  name: "Belle Pubs & Hotels",
+  name: "Belle Pubs & Restaurants",
+  company: "Belle Pubs & Restaurants Ltd",
   line: "Beautiful sports pubs & hotel rooms",
   origin,
   prefix,

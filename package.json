@@ -2,7 +2,7 @@
   "name": "belle-pubs",
   "version": "1.0.0",
   "private": true,
-  "description": "Speculative website for Belle Pubs & Hotels: five London sports pubs, four with boutique rooms.",
+  "description": "Speculative website for Belle Pubs & Restaurants Ltd: five London sports pubs, four with boutique rooms.",
   "type": "module",
   "scripts": {
     "images": "node scripts/build-images.js",

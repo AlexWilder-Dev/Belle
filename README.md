@@ -1,6 +1,6 @@
-# Belle Pubs & Hotels: website preview
+# Belle Pubs & Restaurants: website preview
 
-A speculative redesign for [Belle Pubs & Hotels](https://www.bellepubsandrestaurants.co.uk): five London sports pubs, four with boutique rooms. It's a static site with mock forms that send nothing. The research behind every design choice is in [RESEARCH.md](RESEARCH.md).
+A speculative redesign for [Belle Pubs & Restaurants Ltd](https://www.bellepubsandrestaurants.co.uk): five London sports pubs, four with boutique rooms. It's a static site with mock forms that send nothing. The research behind every design choice is in [RESEARCH.md](RESEARCH.md).
 
 ## Run it
 

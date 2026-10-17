@@ -12,7 +12,7 @@ const logo = (n) => fs.readFileSync(path.join(ROOT, "src/assets/logos", `${n}.sv
 const file = (p) => "file://" + path.join(ROOT, p);
 
 const CARDS = [
-  { name: "home", photo: "duchess-exterior", kicker: "Belle Pubs & Hotels", title: "Five London sports pubs.<br>Forty rooms upstairs.", pos: "50% 40%" },
+  { name: "home", photo: "duchess-exterior", kicker: "Belle Pubs & Restaurants", title: "Five London sports pubs.<br>Forty rooms upstairs.", pos: "50% 40%" },
   { name: "sport", photo: "griffin-screens", kicker: "What's on at the Belle", title: "Every big game,<br>sound on.", pos: "50% 50%" },
   { name: "stay", photo: "room-griffin-king", kicker: "Stay at the Belle", title: "Come as a guest.<br>Leave as family.", pos: "50% 55%" },
   { name: "christmas", photo: "duchess-upstairs", kicker: "Christmas 2026", title: "Parties from £33 a head", pos: "50% 50%" },
@@ -24,7 +24,7 @@ const CARDS = [
   { name: "griffin", photo: "griffin-exterior", venue: "griffin", title: "Award-winning sport & 14 rooms in Vauxhall", pos: "50% 40%" },
   { name: "hammersmith", photo: "hammersmith-night", venue: "hammersmith", title: "The Enchanted Garden on King Street", pos: "50% 62%" },
   { name: "jobs", photo: "rose-wall", kicker: "Work with us", title: "Pull pints. Make people's day.", pos: "50% 50%" },
-  { name: "contact", photo: "duchess-flowers", kicker: "Belle Pubs & Hotels", title: "Five pubs, one hello", pos: "50% 50%" },
+  { name: "contact", photo: "duchess-flowers", kicker: "Belle Pubs & Restaurants", title: "Five pubs, one hello", pos: "50% 50%" },
 ];
 
 const biggest = (n) => images[n][0].w;
@@ -36,7 +36,7 @@ body { width: 1200px; height: 630px; position: relative; overflow: hidden; backg
 .bg { position: absolute; inset: 0; background: url(${file(`src/assets/img/${c.photo}-${biggest(c.photo)}.webp`)}) ${c.pos} / cover; }
 .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(20,16,15,.88) 0%, rgba(20,16,15,.6) 46%, rgba(20,16,15,.05) 80%), linear-gradient(0deg, rgba(20,16,15,.55), transparent 45%); }
 .roses { position: absolute; right: -40px; top: -46px; width: 330px; transform: scaleX(-1); }
-.group { position: absolute; left: 56px; top: 44px; width: 170px; color: #fff; }
+.group { position: absolute; left: 56px; top: 44px; width: 240px; color: #fff; }
 .group svg, .venue svg { width: 100%; height: auto; display: block; }
 .copy { position: absolute; left: 56px; bottom: 74px; width: 700px; color: #fff; }
 .kicker { font-family: Oswald; text-transform: uppercase; letter-spacing: .16em; font-size: 22px; color: #9dcbe4; margin-bottom: 14px; }

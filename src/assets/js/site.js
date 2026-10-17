@@ -1,4 +1,4 @@
-// Belle Pubs & Hotels: small, dependency-free enhancements. Every page works without it.
+// Belle Pubs & Restaurants: small, dependency-free enhancements. Every page works without it.
 (() => {
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];

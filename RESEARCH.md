@@ -1,4 +1,4 @@
-# Belle Pubs & Hotels: research
+# Belle Pubs & Restaurants: research
 
 Compiled 17 October 2026 for a speculative redesign pitch. Everything below was seen in a source listed in section 11; where sources disagree, both are given. Anything not verified is marked **unverified**.
 
@@ -10,9 +10,9 @@ Method: one script pulled all 14 pages in their Wix sitemap. One download script
 
 | | |
 |---|---|
-| Company | **Belle Pubs and Hotels Limited**, Companies House 11082149. Pubology and older material still say "Belle Pubs and Restaurants". |
+| Company | **Belle Pubs & Restaurants Ltd**, confirmed by Alex on 17 October 2026, and the name the site uses throughout. A Companies House search also turned up a separate registration, Belle Pubs and Hotels Limited (11082149). |
 | Founders | David Evans and Jane White. Jane White is managing director (Morning Advertiser, 29 May 2025). |
-| Trading name in use | Two names at once. The site header logo says **Belle Pubs & Restaurants Ltd**; the footer logo, page titles on newer pages, press releases and the weekly-offers poster say **Belle Pubs & Hotels**. The domain is still `bellepubsandrestaurants.co.uk`. |
+| Trading name in use | The current site mixes two names. Its header logo, its page titles and the domain (`bellepubsandrestaurants.co.uk`) say **Belle Pubs & Restaurants Ltd**; the footer logo, some newer page titles, press releases and the weekly-offers poster say "Belle Pubs & Hotels". **The new site uses Belle Pubs & Restaurants Ltd everywhere**, with the header logo traced to SVG. |
 | Their own lines | "**Beautiful Sports Pubs & Hotel Rooms**" (homepage). "**Come as a guest · Leave as family**" (the 'Belle Hotel Rooms' roundel badge). |
 | Venues | Five London sports pubs. Four now have rooms: Fitzrovia 5, Duchess 8, Griffin 14 and Hammersmith 13, so **40 rooms**. The weekly-offers poster still says "27 boutique hotel rooms", which is 5 + 8 + 14 without Hammersmith. |
 | Pubs owned by | Leaseholds. Griffin and Hammersmith are Star Pubs & Bars (Heineken) freeholds; Fitzrovia is Greene King (Pubology, WhatPub). |
@@ -275,7 +275,7 @@ Wix. 14 pages in the sitemap: Home, Belle Venues (`/bellepubsandrestaurants`), f
 6. **Menus are PDFs.** They are A4 sheets, landscape for four venues and portrait for Moretown, so they're unreadable on a phone. Four venues' "FOOD MENU" links open the same file. The site says 21 burgers; the menu lists 20.
 7. **The Rosie Galligan copy is two seasons stale**: World Cup "aspiration" (she won it) and "Saracens" (Harlequins since June 2026).
 8. **Hours disagree** between the homepage footer and the venue pages for the Duchess, Fitzrovia and Griffin. Moretown's Sunday opening reads "080.30hrs". CAMRA, WhatPub and DesignMyNight carry other hours again.
-9. **Two brand names on one page** (header "Pubs & Restaurants Ltd", footer "Pubs & Hotels"). Page titles are truncated to "Belle Pubs & Rest".
+9. **Two brand names on one page** (header "Pubs & Restaurants Ltd", footer "Pubs & Hotels"). Page titles are truncated to "Belle Pubs & Rest". The new site standardises on Belle Pubs & Restaurants Ltd.
 10. **No og:image on any page**, so a pasted link shows no picture. og:site_name is "Belle Pubs & Rest".
 11. **Broken links**: "VIEW MORE" for Hammersmith on the venues page goes to the homepage. Hammersmith has no social links.
 12. **Typos and errors**: "St Katherine's", "Moretown business development", "wirh", "all eith en-suite", "afabulous", "Battersea Power Station Station", "Tottenham Court" (no Road), "Accomodation" (in URL and title), "Griffin Belle Belle – Supervisor". On the PDFs: prawn cocktail marked (v)/(ve), and a Gmail address on the Fitzrovia menu.
