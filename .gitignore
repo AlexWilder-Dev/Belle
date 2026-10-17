@@ -1,0 +1,6 @@
+# Original downloads (about 300 MB); re-fetch with scripts/fetch-sources.py
+assets/source/images/
+assets/source/pdfs/
+node_modules/
+dist/
+.DS_Store

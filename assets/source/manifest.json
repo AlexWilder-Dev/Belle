@@ -1,0 +1,3273 @@
+[
+ {
+  "file": "images/ba1f1a_07459ddf270843ecbc4f4a5390e0544b.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_07459ddf270843ecbc4f4a5390e0544b~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 556492,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle",
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle",
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle",
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle",
+   "https://www.bellepubsandrestaurants.co.uk",
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "9be37a991610bc0c19f70a4f1b6a909cefc9a2ca",
+  "note": "POSTER weekly offers strip (2-for-1, Wine-y Thursday, Fizz Friday, kids eat free, roast, 27 rooms)",
+  "width": 221,
+  "height": 2599,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_09e26f6919ed481f92cb5d1c2c3fbc1a.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_09e26f6919ed481f92cb5d1c2c3fbc1a~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2100266,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "Room from Door.jpg",
+    "title": "",
+    "desc": null,
+    "w": 1667,
+    "h": 2500,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "cd097ea9ecf9387163a96ef6e7bcdd9e393a5033",
+  "note": "ROOM Griffin (file 'Room from Door')",
+  "width": 1667,
+  "height": 2500,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_0b4d9042ab07457baad130a7cc40032e.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_0b4d9042ab07457baad130a7cc40032e~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 175363,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "fbf4156b795ee004c0925a0003f8b81314d03830",
+  "note": "DUCHESS exterior ('outside.jpg', group venues page)",
+  "width": 640,
+  "height": 568,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_0e64341b63a845b0882662a5bd966bef.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_0e64341b63a845b0882662a5bd966bef~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2430384,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "Gr_Room_Cresta_4.jpg",
+    "title": "Super King ",
+    "desc": "Griffin Belle: Super King ",
+    "w": 2500,
+    "h": 1187,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "5eccb13dc085855ce6e2015fde27e5f5b05c01a9",
+  "note": "ROOM Griffin 'Super King' (file Gr_Room_Cresta_4)",
+  "width": 2500,
+  "height": 1187,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_0ec5e1674f154e76a721aee9fe22f844.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_0ec5e1674f154e76a721aee9fe22f844~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 1962477,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle",
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "0de4cb7c39ca09b4d65237a1fa4eddbaa72fa102",
+  "note": "BADGE 'Belle Hotel Rooms - Come as a guest, leave as family - Tottenham Court Road / Vauxhall', rose-filled roundel",
+  "width": 1181,
+  "height": 1181,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_0f720345250842289e857c1fc75facb1.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_0f720345250842289e857c1fc75facb1~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 87922,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle",
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Cheesecake.jpg",
+    "title": "",
+    "desc": null,
+    "w": 609,
+    "h": 358,
+    "created": "2026-03-03"
+   },
+   {
+    "page": "hammersmithbelle",
+    "file": "Cheesecake.jpg",
+    "title": "",
+    "desc": null,
+    "w": 609,
+    "h": 358,
+    "created": "2025-02-26"
+   }
+  ],
+  "sha1": "613f11baa000eb1831ceb2eb822a1664d6ca4430",
+  "note": "FOOD cheesecake",
+  "width": 609,
+  "height": 358,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_115486f1529a44edb0d2c8e9d462386d.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_115486f1529a44edb0d2c8e9d462386d~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 106159,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_3157.jpg",
+    "title": "",
+    "desc": null,
+    "w": 360,
+    "h": 640,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "6219bebdb53c0d7b28a621225bcb250c63d4f915",
+  "note": "ROOM (Hammersmith gallery, 2026) double, stained-glass ceiling",
+  "width": 360,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_13e85fd2e0a14387968d8c6669a5e641.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_13e85fd2e0a14387968d8c6669a5e641~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 96038,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_3165.jpg",
+    "title": "",
+    "desc": null,
+    "w": 360,
+    "h": 640,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "f5e9e1a003dadf835844eac6262ee11e11ebd847",
+  "note": "ROOM (Hammersmith gallery, 2026) shower room",
+  "width": 360,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_173a737b9fa1453e82426575a34d2967.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_173a737b9fa1453e82426575a34d2967~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2632155,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "Gr_Room_Opel_1570.jpg",
+    "title": "King Classic",
+    "desc": "Griffin Belle: King Classic",
+    "w": 2500,
+    "h": 1667,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "49ffd2ee196b27047d2b98f8c8ddc8bf8f14ad40",
+  "note": "ROOM Griffin 'King Classic' (file Gr_Room_Opel_1570)",
+  "width": 2500,
+  "height": 1667,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_19b4855ddd4e4a1d8f510c41ffe6c294.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_19b4855ddd4e4a1d8f510c41ffe6c294~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 96878,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "3722d3e040a1e51518e44e52b2baf1d18e35b39d",
+  "note": "LOGO Fitzrovia Belle (CMYK JPEG, large)",
+  "width": 1942,
+  "height": 345,
+  "colorspace": "CMYK"
+ },
+ {
+  "file": "images/ba1f1a_19c2d9c59d0c4960ac10922ce2adbb6c.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_19c2d9c59d0c4960ac10922ce2adbb6c~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1730066,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "c2535c065d8f4134ff7167cc5c99a578b6589539",
+  "note": "POSTER Hammersmith Christmas Showcase, Wed 2 Sept (past)",
+  "width": 1240,
+  "height": 1754,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_1cddca7a913547589b16ae94aa45c04e.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_1cddca7a913547589b16ae94aa45c04e~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 9168185,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "ff47eb2afc4ec9ea258ee8e64a830d9e2c2da824",
+  "note": "PHOTO Rosie Galligan in England shirt (homepage partnership block)",
+  "width": 6000,
+  "height": 4000,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_1ed55ae508b14568ad3b5fa96004191e.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_1ed55ae508b14568ad3b5fa96004191e~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 227247,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "fitzroviabelle",
+    "file": "IMG_3760.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2024-10-30"
+   }
+  ],
+  "sha1": "07c9e390bd9e4c41b3f25140967344975be4997c",
+  "note": "FITZROVIA interior, flower ceiling, booths",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_1f1adfbcb4ee4997ae484d176a9041bb.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_1f1adfbcb4ee4997ae484d176a9041bb~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2423049,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "Gr_Room_Chevette_2.jpg",
+    "title": "Economy, Cosy Double ",
+    "desc": "Griffin Belle: Economy, Cosy Double ",
+    "w": 2500,
+    "h": 1805,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "1380d0095d24296a905a4c7908934ee4ceaf5c6a",
+  "note": "ROOM Griffin 'Economy, Cosy Double' (file Gr_Room_Chevette_2)",
+  "width": 2500,
+  "height": 1805,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_21fa250e9d0a4dcaadcdede92bf450fc.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_21fa250e9d0a4dcaadcdede92bf450fc~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2270628,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "Dcss_top_venue_8.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1037,
+    "created": "2024-08-19"
+   }
+  ],
+  "sha1": "722214c3c0265b0619391878477e83e4d59ab8b2",
+  "note": "DUCHESS first-floor function room: red banquettes, chequerboard, chandelier",
+  "width": 2500,
+  "height": 1037,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_22b2784c5fe94ba282b6f87445a83804.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_22b2784c5fe94ba282b6f87445a83804~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1013004,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "Fajita steak & fries.jpg",
+    "title": "",
+    "desc": null,
+    "w": 3245,
+    "h": 1745,
+    "created": "2025-02-26"
+   }
+  ],
+  "sha1": "bb234ff60b1266dfa4e829243c6e2478ba85b436",
+  "note": "FOOD fajita steak and fries",
+  "width": 3245,
+  "height": 1745,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_248cafe26f374560a61accd002bbd01b.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_248cafe26f374560a61accd002bbd01b~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 833974,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "ce4500725a249c6754cfae02cd856cfc44b0a0af",
+  "note": "DUCHESS exterior: light brick, flower boxes, white blossom trees, 'Function Room & Terrace / Beer Garden' sign",
+  "width": 2016,
+  "height": 1158,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_28e2cd9bb2384705b22a869ff7b6e21f.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_28e2cd9bb2384705b22a869ff7b6e21f~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1748151,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "Dcss_top_terrace_9.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 709,
+    "created": "2024-08-19"
+   }
+  ],
+  "sha1": "01b67ed029b3d51bd16128f9b83c00ecc5ea587f",
+  "note": "DUCHESS first-floor terrace/balcony panorama with Battersea Power Station",
+  "width": 2500,
+  "height": 709,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_29bdf5b329d646058f5da296cf6ab9f3.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_29bdf5b329d646058f5da296cf6ab9f3~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 151898,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "f6b4998bb1fe95766bd3efd4c506e04a7b4d5832",
+  "note": "LOGO Hammersmith Belle (CMYK JPEG, large)",
+  "width": 2760,
+  "height": 293,
+  "colorspace": "CMYK"
+ },
+ {
+  "file": "images/ba1f1a_2b3349fe74ea4e3bb0e8713caddaca8c.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_2b3349fe74ea4e3bb0e8713caddaca8c~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 121918,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_8957.jpg",
+    "title": "",
+    "desc": null,
+    "w": 501,
+    "h": 640,
+    "created": "2025-07-07"
+   }
+  ],
+  "sha1": "663638e6387190cd2a13d07d5dd86f74a62cd46d",
+  "note": "HAMMERSMITH jug of cocktail by a blue beach hut",
+  "width": 501,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_2b4e189df6e94f98988b0ff901ab57bc.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_2b4e189df6e94f98988b0ff901ab57bc~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 684854,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "IMG_5348.jpg",
+    "title": "En-suite Bathroom",
+    "desc": "Duchess Belle: En-suite Bathroom",
+    "w": 1134,
+    "h": 2016,
+    "created": "2024-10-16"
+   }
+  ],
+  "sha1": "b6c0f0fe91fa03ab3d3fd005ae3760f8b3d86427",
+  "note": "ROOM Duchess en-suite (IMG_5348)",
+  "width": 1134,
+  "height": 2016,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_2bf809c7f8c54f77ac88dcffcc5cdfe1.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_2bf809c7f8c54f77ac88dcffcc5cdfe1~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 43270,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "ac8edb8ff9d77fed1077c10b1db7ded394333e10",
+  "note": "LOGO Hammersmith Belle (PNG, cropped screenshot)",
+  "width": 934,
+  "height": 139,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_2e88954008d04e56bc2a271ac79711e8.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_2e88954008d04e56bc2a271ac79711e8~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2523199,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Gr_Room_Viceroy_2.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1125,
+    "created": "2026-03-03"
+   }
+  ],
+  "sha1": "60c5652bb05f0a4501dcb6a14a63c67d26a3c782",
+  "note": "ROOM Griffin (file Gr_Room_Viceroy_2, Griffin gallery)",
+  "width": 2500,
+  "height": 1125,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_329eba82e5c24cd5b5604df654828d69.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_329eba82e5c24cd5b5604df654828d69~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1542871,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "e540e4253eb4fd202d14bd86c720aed63787fc3a",
+  "note": "HAMMERSMITH bar taps (page hero)",
+  "width": 3000,
+  "height": 1771,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_32c3b8e416e0410f9952deca33fb5226.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_32c3b8e416e0410f9952deca33fb5226~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 47903,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "e0789aeb895910b6ecb22657316208983f8bf355",
+  "note": "LOGO Hammersmith Belle (PNG)",
+  "width": 1140,
+  "height": 148,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_3764ce78f9f04eb886fbd4c16842a682.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_3764ce78f9f04eb886fbd4c16842a682~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2038180,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "4cbeb70544aa659a5bd7d81a7ac4e41f13f451c3",
+  "note": "BANNER Christmas page banner (file name 'BANNER 2025', CMYK)",
+  "width": 1920,
+  "height": 555,
+  "colorspace": "CMYK"
+ },
+ {
+  "file": "images/ba1f1a_37993c5e15804ee39c80df2b8ef3bbbc.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_37993c5e15804ee39c80df2b8ef3bbbc~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2506527,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "e3acd23cef67f9889f6357db64d42f50aad85bb2",
+  "note": "POSTER Griffin Belle 'The Haunted Hotel' Halloween Party, Fri 30 Oct 2026",
+  "width": 2480,
+  "height": 3508,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_37b4641264be4608a8f35388d629c9b6.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_37b4641264be4608a8f35388d629c9b6~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2256963,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "8aee4dd7d2db2a73753938984f79e6162d6d3d95",
+  "note": "GRIFFIN interior hero",
+  "width": 2500,
+  "height": 1290,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_3c398a0339c04dd79f2edfcb88034760.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_3c398a0339c04dd79f2edfcb88034760~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2441653,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "Gr_Room_Senator_24.jpg",
+    "title": "En-Suite Bathroom ",
+    "desc": "Griffin Belle: En-suite Bathroom ",
+    "w": 2500,
+    "h": 1667,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "6a6a24b54b51cf80558e22e84584c80708e2cef4",
+  "note": "ROOM Griffin en-suite (file Gr_Room_Senator_24)",
+  "width": 2500,
+  "height": 1667,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_40560d054de64bd0afed6af5ba56c501.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_40560d054de64bd0afed6af5ba56c501~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 108893,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_3156.jpg",
+    "title": "",
+    "desc": null,
+    "w": 360,
+    "h": 640,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "aa8fe5ab36fbeb0988c644f3b957e1c987969e2a",
+  "note": "ROOM (Hammersmith gallery, 2026) stained-glass ceiling",
+  "width": 360,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_41c0dc3d1bb24d22aa1bdb06f67d8736.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_41c0dc3d1bb24d22aa1bdb06f67d8736~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 122741,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "sunday roast.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 480,
+    "created": "2025-02-26"
+   }
+  ],
+  "sha1": "23102f92eaf699980740135810d1a85d31ebfa51",
+  "note": "FOOD Sunday roast",
+  "width": 640,
+  "height": 480,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_43133411cb614913a73de4d918e64ce5.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_43133411cb614913a73de4d918e64ce5~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2256963,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "8aee4dd7d2db2a73753938984f79e6162d6d3d95",
+  "note": "GRIFFIN interior (group page)",
+  "width": 2500,
+  "height": 1290,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_4763680918d84d1ba39df7e4b4fa4f83.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_4763680918d84d1ba39df7e4b4fa4f83~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2546535,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Gr_Pub_1.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1245,
+    "created": "2026-03-03"
+   }
+  ],
+  "sha1": "0a5513d0cfbd1a6ba9653d1e2c377a74c855e01b",
+  "note": "GRIFFIN interior",
+  "width": 2500,
+  "height": 1245,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_4adfe0a3397f48ce89f55c3b3625d211.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_4adfe0a3397f48ce89f55c3b3625d211~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 174442,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_8992.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2025-07-07"
+   }
+  ],
+  "sha1": "922317dbc3381048942fb790d89426ce95011c3d",
+  "note": "HAMMERSMITH garden picnic benches",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_4c94c7246bc54f08a2b922a9d4a98674.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_4c94c7246bc54f08a2b922a9d4a98674~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 51403,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "9f1c9e285d8f611b60e105da5c3a853a5cf794c2",
+  "note": "AWARD Star Pubs & Bars Awards winner graphic (Griffin; Live Sports Venue 2020 per Morning Advertiser)",
+  "width": 1532,
+  "height": 987,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_4d66db156673439d90fa87ea30da5321.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_4d66db156673439d90fa87ea30da5321~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2523199,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "Gr_Room_Viceroy_2.jpg",
+    "title": "Triple Classic\n",
+    "desc": "Griffin Belle: Triple Classic\n",
+    "w": 2500,
+    "h": 1125,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "60c5652bb05f0a4501dcb6a14a63c67d26a3c782",
+  "note": "ROOM Griffin 'Triple Classic' (file Gr_Room_Viceroy_2)",
+  "width": 2500,
+  "height": 1125,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_4edf306d66024e09bf8a97ebc859e47a.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_4edf306d66024e09bf8a97ebc859e47a~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1964548,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "Gr_Room_Senator_26.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1667,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "29f9364269a8e5410364017ca94abb59a45d2260",
+  "note": "ROOM Griffin (file Gr_Room_Senator_26)",
+  "width": 2500,
+  "height": 1667,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_505a2ac396244a66ad828ecd37064f0e.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_505a2ac396244a66ad828ecd37064f0e~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1310374,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_4451.jpg",
+    "title": "",
+    "desc": null,
+    "w": 1512,
+    "h": 2016,
+    "created": "2024-09-03"
+   }
+  ],
+  "sha1": "71712a02f97836d9bb1037a60e808aacb68fdd32",
+  "note": "DUCHESS exterior, portrait (needs EXIF auto-orient)",
+  "width": 2016,
+  "height": 1512,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_52bcc67f73184769b2d6764581c98c58.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_52bcc67f73184769b2d6764581c98c58~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2124941,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "Dcss_top_bar2-3.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1371,
+    "created": "2024-08-19"
+   }
+  ],
+  "sha1": "3264ab3c18579c34d9c8b566e5f059c2554d3e41",
+  "note": "DUCHESS first-floor bar, neon, rose walls",
+  "width": 2500,
+  "height": 1371,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_56228237f8ce4e7d9912660133d8caee.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_56228237f8ce4e7d9912660133d8caee~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 16028132,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_5452.HEIC",
+    "title": "",
+    "desc": null,
+    "w": 3024,
+    "h": 4032,
+    "created": "2025-02-26"
+   }
+  ],
+  "sha1": "d7d2e184779062c48f94bb36bebb5f5f0f879631",
+  "note": "HAMMERSMITH exterior at night, white blossom trees, 1883 facade",
+  "width": 3024,
+  "height": 4032,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_57c4d9781ef441cca344ffcba8ee7d23.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_57c4d9781ef441cca344ffcba8ee7d23~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2519180,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Gr_Exteriors_1532.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2397,
+    "h": 1598,
+    "created": "2026-03-03"
+   }
+  ],
+  "sha1": "24d48819b3fcbf3de85ede4ef0b86e34ccbc9ed9",
+  "note": "GRIFFIN outside tables",
+  "width": 2397,
+  "height": 1598,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_60f1ddf5466c4bfc97fd732309205858.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_60f1ddf5466c4bfc97fd732309205858~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 512522,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_5346.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2016,
+    "h": 1134,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "4553d4721b45ca0bff2aaa9688bc939b3949a719",
+  "note": "ROOM Duchess (IMG_5346)",
+  "width": 2016,
+  "height": 1134,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_622e7b7166f94db5be00b42c9805c17f.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_622e7b7166f94db5be00b42c9805c17f~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 78791,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "IMG_5159.jpg",
+    "title": "King Classic",
+    "desc": "Duchess Belle: King Classic",
+    "w": 640,
+    "h": 360,
+    "created": "2024-10-16"
+   }
+  ],
+  "sha1": "a552a64605a8dd792a53d3be3032d5663a5fbc33",
+  "note": "ROOM Duchess 'King Classic' (IMG_5159)",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_633b6a09f3e242f79d15240209bda3e3.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_633b6a09f3e242f79d15240209bda3e3~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 3270139,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/menus"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "6f91d4327c004a167f1a3133acb9d19c79e42ad9",
+  "note": "FOOD spread overhead ('MoretownBelleLimited_Hero_01', menus page hero)",
+  "width": 2880,
+  "height": 1620,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_669b91af89bb4edd962be892bceec2e9.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_669b91af89bb4edd962be892bceec2e9~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 165953,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_5164.jpg",
+    "title": "",
+    "desc": null,
+    "w": 360,
+    "h": 640,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "c574152b130f3569432d7201c97a6cc09357a2bb",
+  "note": "ROOM Duchess (IMG_5164)",
+  "width": 360,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_66f354cce6304c5c871c180499a8cbf6.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_66f354cce6304c5c871c180499a8cbf6~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 81157,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2019",
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024",
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle",
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle",
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle",
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle",
+   "https://www.bellepubsandrestaurants.co.uk",
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation",
+   "https://www.bellepubsandrestaurants.co.uk/menus",
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle",
+   "https://www.bellepubsandrestaurants.co.uk/privacy-policy",
+   "https://www.bellepubsandrestaurants.co.uk/work-with-us"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "d10d70f9f8d47b5f63c2c0a5840b58f87ee1950a",
+  "note": "LOGO group, 'Belle Pubs & Restaurants Ltd' (site header, older lock-up)",
+  "width": 883,
+  "height": 344,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_683051936e304116a55bb7769fea626e.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_683051936e304116a55bb7769fea626e~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 159352,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "fitzroviabelle",
+    "file": "IMG_3759.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2024-10-30"
+   }
+  ],
+  "sha1": "1ff973e67611b92f2fd54a3d8ec71758e0760e21",
+  "note": "FITZROVIA interior, flower ceiling",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_69f2547c70134653aa5c671a8b1e7349.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_69f2547c70134653aa5c671a8b1e7349~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2799940,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Gr_Pub_3.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1290,
+    "created": "2026-03-03"
+   }
+  ],
+  "sha1": "c84317892b0fbe8b5fa0818ec26f68f8face0012",
+  "note": "GRIFFIN interior with screens",
+  "width": 2500,
+  "height": 1290,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_6b64a315e008411ba67021af53ac81dd.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_6b64a315e008411ba67021af53ac81dd~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 163240,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_2598.jpg",
+    "title": "",
+    "desc": null,
+    "w": 537,
+    "h": 640,
+    "created": "2024-08-19"
+   }
+  ],
+  "sha1": "1a0a21d961ef5ceb8a6b3ccc054909c8b2fbb258",
+  "note": "DUCHESS exterior, small",
+  "width": 537,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_6dd3254834c341b1917fc22de5f85418.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_6dd3254834c341b1917fc22de5f85418~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 283069,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "0203b118e1170631012a22f78a81b19c723b1126",
+  "note": "POSTER The Kids' Table at Hammersmith, from Sun 25 Oct, Sundays 12-4pm",
+  "width": 1414,
+  "height": 2000,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_71dce9e673624e6d8a1deaf044dbfd36.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_71dce9e673624e6d8a1deaf044dbfd36~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 228838,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "food(43).jpg",
+    "title": "",
+    "desc": null,
+    "w": 1353,
+    "h": 902,
+    "created": "2025-02-26"
+   }
+  ],
+  "sha1": "ec9a61d38e48ecf9136bca28546e36c8e0060197",
+  "note": "FOOD wings, nachos and red wine",
+  "width": 1353,
+  "height": 902,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_740783e575384bb0ad67822fc42ae763.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_740783e575384bb0ad67822fc42ae763~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 160249,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "fitzroviabelle",
+    "file": "IMG_3765.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2024-10-30"
+   }
+  ],
+  "sha1": "cf2d9818e6dc26775c40e34f1bc04e8541fc24cf",
+  "note": "FITZROVIA bar",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_7d9bb30df0194f71bbcb49036154f2a4.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_7d9bb30df0194f71bbcb49036154f2a4~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 387417,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle",
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "c70b1fc63ea68b10f837d4e53b57839bef99d0d1",
+  "note": "POSTER Fizz Fridays (half price Prosecco, 1/3 off Champagne Piaff)",
+  "width": 1240,
+  "height": 1756,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_8671c653971142c3907d2fa8bed774e2.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_8671c653971142c3907d2fa8bed774e2~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 114873,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_3163.jpg",
+    "title": "",
+    "desc": null,
+    "w": 360,
+    "h": 640,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "f61a31be3871ca0333147338bea4b585e16be5d5",
+  "note": "ROOM (Hammersmith gallery, 2026) twin beds, stained-glass ceiling panel",
+  "width": 360,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_8a94206bc5424c7ea5665b6f09088bfb.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_8a94206bc5424c7ea5665b6f09088bfb~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1903502,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "Gr_Room_Cresta_1407.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 2000,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "ffd5a30e800c1501b1e1691a84e9b4c44d74b852",
+  "note": "ROOM Griffin (file Gr_Room_Cresta_1407)",
+  "width": 2500,
+  "height": 2000,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_914589fa74ef46af98e108aebef424ca.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_914589fa74ef46af98e108aebef424ca~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 213627,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "fitzroviabelle",
+    "file": "Front bar.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2024-10-30"
+   }
+  ],
+  "sha1": "a27cb74376b688673661ca159b5b587c3dc80acd",
+  "note": "FITZROVIA front bar",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_92961a65aab14a2c97e84e2c7dd627da.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_92961a65aab14a2c97e84e2c7dd627da~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 252900,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "a151a62b2e8b8a67b045da70d09479c7fa4be1a1",
+  "note": "AWARD H&F Business Awards 2026 winner graphic (Hammersmith page; category not stated)",
+  "width": 2250,
+  "height": 2813,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_92d1b69b2c4c4461814c4bc64e51700a.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_92d1b69b2c4c4461814c4bc64e51700a~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 119657,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2019",
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024",
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle",
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle",
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle",
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle",
+   "https://www.bellepubsandrestaurants.co.uk",
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation",
+   "https://www.bellepubsandrestaurants.co.uk/menus",
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle",
+   "https://www.bellepubsandrestaurants.co.uk/privacy-policy",
+   "https://www.bellepubsandrestaurants.co.uk/work-with-us"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "4bfe19939d15d017f9544192f14e155178c39876",
+  "note": "LOGO group, 'Belle Pubs & Hotels' (site footer, transparent PNG, current trading name)",
+  "width": 4002,
+  "height": 1804,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_942858b06c9c4d9e8a5a76e0ed6c300b.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_942858b06c9c4d9e8a5a76e0ed6c300b~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 180176,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "0d80d1cd753bdd9373012a0ec470995fad52a62f",
+  "note": "FITZROVIA exterior at night",
+  "width": 640,
+  "height": 568,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_9cad51b4faf24139b06d4692392d02d0.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_9cad51b4faf24139b06d4692392d02d0~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 37881085,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_5432.HEIC",
+    "title": "",
+    "desc": null,
+    "w": 4284,
+    "h": 5712,
+    "created": "2025-02-26"
+   }
+  ],
+  "sha1": "77e2de96e5e8228a898c155ed585953aeb6f5ed2",
+  "note": "HAMMERSMITH bar taps, chandeliers",
+  "width": 4284,
+  "height": 5712,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_9cd51a2ddadd4912a687db08f994ef8c.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_9cd51a2ddadd4912a687db08f994ef8c~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 104377,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_2297.jpg",
+    "title": "",
+    "desc": null,
+    "w": 480,
+    "h": 640,
+    "created": "2024-08-19"
+   }
+  ],
+  "sha1": "e908a1beabd6b90b392be3d733e77c8e02187a42",
+  "note": "DUCHESS interior",
+  "width": 480,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_9f4ded6e942a42a497eaa526742c23df.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_9f4ded6e942a42a497eaa526742c23df~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 200702,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_8608.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2025-07-07"
+   }
+  ],
+  "sha1": "69aa93c6a40a5ef65ba03fe631269171454912c4",
+  "note": "HAMMERSMITH kids' play castle and slides",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_a00036a3b3ae4f5cbee5bdb270639dd8.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_a00036a3b3ae4f5cbee5bdb270639dd8~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 53295,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "fitzroviabelle",
+    "file": "Entrance.jpg",
+    "title": "",
+    "desc": null,
+    "w": 348,
+    "h": 305,
+    "created": "2024-10-30"
+   }
+  ],
+  "sha1": "7640afb9e6e732ce5091c2406179e53b2f379575",
+  "note": "FITZROVIA entrance (small)",
+  "width": 348,
+  "height": 305,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_a1cdb19fd21f41ab9b9f711c4fe7e161.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_a1cdb19fd21f41ab9b9f711c4fe7e161~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 671692,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "4c2175d219fc9285e825b64908b72858c4b05fc6",
+  "note": "LOGO Griffin Belle (CMYK JPEG, large)",
+  "width": 2126,
+  "height": 591,
+  "colorspace": "CMYK"
+ },
+ {
+  "file": "images/ba1f1a_a684c2bff74544568b85291cb531f834.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_a684c2bff74544568b85291cb531f834~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 207061,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_8963.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2025-07-07"
+   }
+  ],
+  "sha1": "f6cdb14ed423f173d1b2a3b2420107ccccd51d3f",
+  "note": "HAMMERSMITH garden seen from the pergola, chequerboard floor",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_a8ea930931a44f9fa46dcb0a276382ec.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_a8ea930931a44f9fa46dcb0a276382ec~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 458299,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "064f6da2d832b27ff76f9604edaa48b0758bbf6b",
+  "note": "BADGE Member of West London Chambers of Commerce (Hammersmith page)",
+  "width": 4961,
+  "height": 3508,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_a8f209a0ae2d40b48e394fa1d7ffa633.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_a8f209a0ae2d40b48e394fa1d7ffa633~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1981587,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "Carlton_Double Room.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1125,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "7af00ea35a9c872ff7489489c94a1b5eff6ae1a6",
+  "note": "ROOM Griffin double (file Carlton_Double Room)",
+  "width": 2500,
+  "height": 1125,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_a9ef5714fcd540e8b5bb6a34fbb3f943.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_a9ef5714fcd540e8b5bb6a34fbb3f943~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2256963,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "8aee4dd7d2db2a73753938984f79e6162d6d3d95",
+  "note": "GRIFFIN interior (homepage tile)",
+  "width": 2500,
+  "height": 1290,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_b006ee3d6ffa4fbdbced1ffe1d9b1dd3.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_b006ee3d6ffa4fbdbced1ffe1d9b1dd3~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 135533,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_8511.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2025-07-07"
+   }
+  ],
+  "sha1": "63f50ff03be321b7ae3951acd363cd68178253b9",
+  "note": "HAMMERSMITH play castle",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_b332273fa93f411987d9bb5b55493b14.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_b332273fa93f411987d9bb5b55493b14~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 177367,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_8989.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2025-07-07"
+   }
+  ],
+  "sha1": "9c722ab680540c622978f356863c6ee382880b98",
+  "note": "HAMMERSMITH Enchanted Garden: parasols, blossom trees, astroturf",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_b488ce9e99eb4b4d8eb2807c1fffc788.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_b488ce9e99eb4b4d8eb2807c1fffc788~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 96183,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_3167.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "9f1b521b6fc49139c7a1a3e946dbf3008caf6100",
+  "note": "ROOM (Hammersmith gallery, 2026) double, butterfly mural",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_b61c6ead83804a72ad59db6d743e350a.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_b61c6ead83804a72ad59db6d743e350a~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1701188,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "Dcss_top_venue_2.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 660,
+    "created": "2024-08-19"
+   }
+  ],
+  "sha1": "c69714aebbd7617ba5727906742f21508a1c7e77",
+  "note": "DUCHESS first-floor venue panorama",
+  "width": 2500,
+  "height": 660,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_d4cc2e10c62a45948a69f7f745eef8a9.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_d4cc2e10c62a45948a69f7f745eef8a9~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 162777,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_8675.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 480,
+    "created": "2024-08-19"
+   }
+  ],
+  "sha1": "910f1e4999bd848bdf2cd0eb58a983173557bbae",
+  "note": "DUCHESS back bar with flowers",
+  "width": 640,
+  "height": 480,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_d63e307a54d84aaf977fe183906d5c52.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_d63e307a54d84aaf977fe183906d5c52~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1236925,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_4427.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2016,
+    "h": 1134,
+    "created": "2024-09-03"
+   }
+  ],
+  "sha1": "30f15fc6e4cbe3dd25ee27dcd1dce0cf600eeb42",
+  "note": "DUCHESS bar interior, flowers, screens",
+  "width": 2016,
+  "height": 1134,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_dcf9f7b2ea2c4ab39ba162b38301f64b.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_dcf9f7b2ea2c4ab39ba162b38301f64b~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 679523,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "a4183a237be9b3cbe5488186b4369781f627604d",
+  "note": "LOGO Duchess Belle, Victorian swash capitals (CMYK JPEG, large)",
+  "width": 2244,
+  "height": 472,
+  "colorspace": "CMYK"
+ },
+ {
+  "file": "images/ba1f1a_e3aa21e775ce4b3c973459200aafb526.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_e3aa21e775ce4b3c973459200aafb526~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 205907,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "ce6f23a887893e206fb7081b224648b2d7cb65ac",
+  "note": "DUCHESS ground-floor bar: red columns, chandelier, flower ceiling",
+  "width": 640,
+  "height": 480,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_e631b10df0a14db0bf2673946d03a7dc.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_e631b10df0a14db0bf2673946d03a7dc~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2217796,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Gr_Pub_10.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1296,
+    "created": "2026-03-03"
+   }
+  ],
+  "sha1": "ff828e892c408d5affa0a02777f4e80785f0cc8b",
+  "note": "GRIFFIN interior: flower ceiling, red banquettes, chequerboard",
+  "width": 2500,
+  "height": 1296,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_e70e5b03450749fd922a6ded66c08e1c.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_e70e5b03450749fd922a6ded66c08e1c~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 229017,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "f834c6a07c5978f360a2329f42463c077947b342",
+  "note": "DUCHESS/Fitzrovia homepage tile: bar interior",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_e9dd63bfb43a4b0fb6bcc14e54092c6c.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_e9dd63bfb43a4b0fb6bcc14e54092c6c~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 178962,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_4136.jpg",
+    "title": "",
+    "desc": null,
+    "w": 360,
+    "h": 640,
+    "created": "2024-08-19"
+   }
+  ],
+  "sha1": "553ab57c4c7983df2d058004fb56116c27f32adb",
+  "note": "DUCHESS interior portrait",
+  "width": 360,
+  "height": 640,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_ec11c94439b649ff9722da2e87b0faba.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_ec11c94439b649ff9722da2e87b0faba~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2352866,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Gr_Exteriors_1514.jpg",
+    "title": "",
+    "desc": null,
+    "w": 1667,
+    "h": 2500,
+    "created": "2026-03-03"
+   }
+  ],
+  "sha1": "618d0ec38557ee40c4ee2d534ab939acb2d90f65",
+  "note": "GRIFFIN exterior portrait, 'HOTEL' sign",
+  "width": 1667,
+  "height": 2500,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_efff37c0b37548a0b122ffb33200f231.png",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_efff37c0b37548a0b122ffb33200f231~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 174032,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "405824f28d7537a178027c4e12632dc91e08ac8f",
+  "note": "GRAPHIC Christmas branch & bauble",
+  "width": 362,
+  "height": 448,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_f073bbb5cd254d5e8f6ecc944b5a07c6.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_f073bbb5cd254d5e8f6ecc944b5a07c6~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2412979,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Gr_Exteriors_1517.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1667,
+    "created": "2026-03-03"
+   }
+  ],
+  "sha1": "17285ba8444fa2f99c69cc0f4ff407e03fc6c258",
+  "note": "GRIFFIN exterior corner: 'LIVE SPORTS HERE', 'WELCOME', hanging baskets",
+  "width": 2500,
+  "height": 1667,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_f1ebd9f63f644d398c84421e42f016a3.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_f1ebd9f63f644d398c84421e42f016a3~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 125097,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_7433.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2025-07-07"
+   }
+  ],
+  "sha1": "ddaa795e1f2816dc0d6455d4af5764adde0512f7",
+  "note": "DUCHESS garden with white blossom trees",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_f2490671cb4a483e8d444871bcd5f492.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_f2490671cb4a483e8d444871bcd5f492~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 145717,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_5190.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "cff8d1e38ae7f06a75b9d93c1397022895421116",
+  "note": "DUCHESS Battersea Power Station mural with flowers",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_f33acefb8e7f49808bf587852ebdc108.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_f33acefb8e7f49808bf587852ebdc108~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 144809,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "2afdd5d0bb1977035cb0a06138929c557a035afb",
+  "note": "LOGO Moretown Belle, script (edited copy)",
+  "width": 3000,
+  "height": 510,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_f621aa6483ef435c80c3c4e0149aa6f2.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_f621aa6483ef435c80c3c4e0149aa6f2~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 78791,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "duchessbelle",
+    "file": "IMG_5159.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2026-05-19"
+   }
+  ],
+  "sha1": "a552a64605a8dd792a53d3be3032d5663a5fbc33",
+  "note": "ROOM Duchess (IMG_5159, Duchess gallery 2026)",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_f7499ac19a3f4f82a6ef4a1466b66904.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_f7499ac19a3f4f82a6ef4a1466b66904~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2523199,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "Gr_Room_Viceroy_2.jpg",
+    "title": "",
+    "desc": null,
+    "w": 2500,
+    "h": 1125,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "60c5652bb05f0a4501dcb6a14a63c67d26a3c782",
+  "note": "ROOM Griffin (file Gr_Room_Viceroy_2)",
+  "width": 2500,
+  "height": 1125,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_f88cd681fa364a2c8b62da3c66e46148.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_f88cd681fa364a2c8b62da3c66e46148~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 650232,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "IMG_5350.jpg",
+    "title": "King Classic\n",
+    "desc": "Duchess Belle: King Classic\n",
+    "w": 2016,
+    "h": 1134,
+    "created": "2024-10-16"
+   }
+  ],
+  "sha1": "8ada60060a106b0b88bd67a1e55861e4f2ce24f0",
+  "note": "ROOM Duchess 'King Classic' (IMG_5350)",
+  "width": 2016,
+  "height": 1134,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_fc68d485f3f44703bc35062cbee3af04.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_fc68d485f3f44703bc35062cbee3af04~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 194705,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hammersmithbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hammersmithbelle",
+    "file": "IMG_8615.jpg",
+    "title": "",
+    "desc": null,
+    "w": 640,
+    "h": 360,
+    "created": "2025-07-07"
+   }
+  ],
+  "sha1": "f8ff1315797124156a074217c0e35df8e5e9d762",
+  "note": "HAMMERSMITH darts lounge: oches, flower walls",
+  "width": 640,
+  "height": 360,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/ba1f1a_fe333e4595dc49dfb6532fc198a1503d.jpg",
+  "source_url": "https://static.wixstatic.com/media/ba1f1a_fe333e4595dc49dfb6532fc198a1503d~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2548619,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "hotel-accomodation",
+    "file": "Gr_Room_Monterey_23.jpg",
+    "title": "Twin Room ",
+    "desc": "Griffin Belle: Twin Room ",
+    "w": 2500,
+    "h": 1667,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "5737e2d8403eaa210db4a7600fcb2d09245ef305",
+  "note": "ROOM Griffin 'Twin Room' (file Gr_Room_Monterey_23)",
+  "width": 2500,
+  "height": 1667,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_012179dc8e6340d6ad6d44d3ddb1be62.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_012179dc8e6340d6ad6d44d3ddb1be62~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 211032,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "ad16f1c209758158c16de924ddc82ebfe07fa031",
+  "note": "GRIFFIN historic photo: the Builders Arms",
+  "width": 720,
+  "height": 800,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_02f58222a694433dbc7501381a0d29e7.png",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_02f58222a694433dbc7501381a0d29e7~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 251625,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "b560e5171cde3c690664f9bd0440d91de0921975",
+  "note": "ROSE single yellow rose illustration (homepage icon, 'indoor & outdoor seating')",
+  "width": 498,
+  "height": 480,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_05576a2bf3544c27a57de71b845de19b.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_05576a2bf3544c27a57de71b845de19b~mv2_d_3840_5120_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5266358,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "500s bar.jpg",
+    "title": "500s bar.jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "8b9454e9b631b350789b112158ff1cbd1cbaf2a6",
+  "note": "MORETOWN '500s bar'",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_0c48455e82e2451c88dcc464b3e7f58f.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_0c48455e82e2451c88dcc464b3e7f58f~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 105193,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "fc643e0dbe49b7607ffafbccb288ebcce0f1eb98",
+  "note": "LOGO Griffin Belle",
+  "width": 2126,
+  "height": 591,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_14c5ed232fb4430bba374bfbb2ae2797.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_14c5ed232fb4430bba374bfbb2ae2797~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 3680901,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "room one 2.jpg",
+    "title": "room one 2.jpg",
+    "desc": null,
+    "w": 5120,
+    "h": 3840,
+    "created": "2020-01-09"
+   }
+  ],
+  "sha1": "dc276bb2d960507d2e8752e62886184ac2b5e966",
+  "note": "ROOM Fitzrovia room one",
+  "width": 5120,
+  "height": 3840,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_268c4f16417743e1ba8a47893ac42c56.png",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_268c4f16417743e1ba8a47893ac42c56~mv2_d_7712_5651_s_4_2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 10820471,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "d677fd7784a9c5c84da63edba7b31872715943a7",
+  "note": "ROSE single pink rose illustration (homepage icon)",
+  "width": 7712,
+  "height": 5651,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_2ef4a926c603446ea23b5b81bb7f71ee.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_2ef4a926c603446ea23b5b81bb7f71ee~mv2.jpeg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 25872,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "c168034e96c7aefdf539f4e9cc9cc97c87f98517",
+  "note": "LOGO Fitzrovia Belle (small)",
+  "width": 360,
+  "height": 180,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_320e8053abf149f3907845015fe81b69.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_320e8053abf149f3907845015fe81b69~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 39946,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle",
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "e41b9dc49bab0aa7b6ec98f5f6871db66956d16e",
+  "note": "LOGO Duchess Belle, Victorian swash capitals (small)",
+  "width": 883,
+  "height": 186,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_36b044ae0af24e53ab3579724f1aa7c4.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_36b044ae0af24e53ab3579724f1aa7c4~mv2_d_3840_5120_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 4463945,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "200s back.jpg",
+    "title": "200s back.jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "894373ec5f3d30dd6c0c2ac3581f1fa4b1a4e04a",
+  "note": "MORETOWN '200s back'",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_42a08f349d33446ebb36d623f5d89257.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_42a08f349d33446ebb36d623f5d89257~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2183884,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk",
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "baa0173b15702e4e8e7daa032fd60b1f74d017fa",
+  "note": "MORETOWN panorama: circular bar, 'Glamorous Girl' neon, screens",
+  "width": 2560,
+  "height": 901,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_49335b2ec4a8493a89d20aeb52e49528.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_49335b2ec4a8493a89d20aeb52e49528~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 219497,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants",
+   "https://www.bellepubsandrestaurants.co.uk",
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "79e598134a4a8188815042a00f9c796e128a1f07",
+  "note": "LOGO Moretown Belle, black brush script ('The Moretown Belle')",
+  "width": 4509,
+  "height": 766,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_4a515b4de55d439bb03a1d703e973a41.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_4a515b4de55d439bb03a1d703e973a41~mv2_d_3456_5184_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5894724,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "IMG_9173.JPG",
+    "title": "IMG_9173.JPG",
+    "desc": null,
+    "w": 3456,
+    "h": 5184,
+    "created": "2019-12-15"
+   }
+  ],
+  "sha1": "5b849ec8f3f8ed3a714e1c8ad2eeede5af8dc8f3",
+  "note": "MORETOWN Heineken font / back bar",
+  "width": 5184,
+  "height": 3456,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_4a539652f49f404fb41e4d158a912ab8.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_4a539652f49f404fb41e4d158a912ab8~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 358179,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/duchessbelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "3031da96ac3e814ddda1984acff83cb5757559c3",
+  "note": "DUCHESS historic photo (Duchess of York)",
+  "width": 1322,
+  "height": 1132,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_5ec673389ddb4a85b9e2b4f96e9f270a.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_5ec673389ddb4a85b9e2b4f96e9f270a~mv2_d_3840_5120_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 6239588,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "darts.jpg",
+    "title": "darts.jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "e71e8b30f498ff6b1b24f1655f7004de4410365a",
+  "note": "MORETOWN darts",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_6613f77a820747db9084e12beaa4891f.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_6613f77a820747db9084e12beaa4891f~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5533566,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "IMG_20191007_143341.jpg",
+    "title": "IMG_20191007_143341.jpg",
+    "desc": null,
+    "w": 5120,
+    "h": 3840,
+    "created": "2020-01-09"
+   },
+   {
+    "page": "hotel-accomodation",
+    "file": "IMG_20191007_143341.jpg",
+    "title": "Superior Double ",
+    "desc": "Fitzrovia Belle: Superior Double ",
+    "w": 5120,
+    "h": 3840,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "f3f8cf9ffc2bdad11d32bf18eaeadf32692d0e3f",
+  "note": "ROOM Fitzrovia 'Superior Double'",
+  "width": 5120,
+  "height": 3840,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_69ed0d60240d464f97b5788b5ad555ec.png",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_69ed0d60240d464f97b5788b5ad555ec~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 158747,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "a207d34004246e8b31e5c72f320ab2f4a2ce8015",
+  "note": "GRAPHIC gold bauble on wreath",
+  "width": 362,
+  "height": 448,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_6d8304888afe4676a642cb38a6b527fc.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_6d8304888afe4676a642cb38a6b527fc~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 10182432,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "IMG_9350.JPG",
+    "title": "IMG_9350.JPG",
+    "desc": null,
+    "w": 5184,
+    "h": 3456,
+    "created": "2020-01-09"
+   }
+  ],
+  "sha1": "6131f3185542b4206befc8bd02684a0c249ee4df",
+  "note": "ROOM Fitzrovia feature wallpaper",
+  "width": 5184,
+  "height": 3456,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_6df40a5f08e8470fb8153b39771519d7.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_6df40a5f08e8470fb8153b39771519d7~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 4551652,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "room 4 desk .jpg",
+    "title": "room 4 desk .jpg",
+    "desc": null,
+    "w": 5120,
+    "h": 3840,
+    "created": "2020-01-09"
+   }
+  ],
+  "sha1": "201462655b0478e4a05724cddc8c85480c3c3c98",
+  "note": "ROOM Fitzrovia room 4 desk",
+  "width": 5120,
+  "height": 3840,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_6e434056607c4faf899e6eddba91ab41.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_6e434056607c4faf899e6eddba91ab41~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 249990,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/griffinbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "griffinbelle",
+    "file": "Fitz staff .jpg",
+    "title": "",
+    "desc": null,
+    "w": 1600,
+    "h": 1200,
+    "created": "2026-03-03"
+   }
+  ],
+  "sha1": "cd1c82bd48869e2b9ead0bed121674eaf974136e",
+  "note": "STAFF in Halloween costume ('Fitz staff')",
+  "width": 1600,
+  "height": 1200,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_78ae18e407e24f369b490da870028f9b.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_78ae18e407e24f369b490da870028f9b~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2254132,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "room 3 two .jpg",
+    "title": "room 3 two .jpg",
+    "desc": null,
+    "w": 1920,
+    "h": 2560,
+    "created": "2020-01-09"
+   }
+  ],
+  "sha1": "fdc7754c90222aa33d1a83b129b8e110f961047d",
+  "note": "ROOM Fitzrovia room 3",
+  "width": 1920,
+  "height": 2560,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_81d6febd841547d484df8f50f878e586.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_81d6febd841547d484df8f50f878e586~mv2_d_3840_5120_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5082214,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "200s side.jpg",
+    "title": "200s side.jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "ef9283dfa90103fcc2b45886c131f9fa28bd4b98",
+  "note": "MORETOWN '200s side'",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_8250c7d834cf44a0a5a85f799f602aef.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_8250c7d834cf44a0a5a85f799f602aef~mv2_d_2736_3648_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2785251,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "main.jpg",
+    "title": "main.jpg",
+    "desc": null,
+    "w": 2736,
+    "h": 3648,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "6af97c5d89661418e3cbbe7aadff0fda83152a43",
+  "note": "MORETOWN main bar, neon",
+  "width": 3648,
+  "height": 2736,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_8c75ff04c4c64861b2a5a853414d8ece.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_8c75ff04c4c64861b2a5a853414d8ece~mv2_d_3600_2400_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 1526272,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "fitzroviabelle",
+    "file": "Fitzrovia cheesecake 01.jpg",
+    "title": "Fitzrovia cheesecake 01.jpg",
+    "desc": null,
+    "w": 3600,
+    "h": 2400,
+    "created": "2019-12-30"
+   }
+  ],
+  "sha1": "141d43a486bfcc1bd60b8108b0c0d1193d0e3ab9",
+  "note": "'I love Cheesecake' neon ('Fitzrovia cheesecake 01')",
+  "width": 3600,
+  "height": 2400,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_99007f0160e74b939e0a3e890cf53771.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_99007f0160e74b939e0a3e890cf53771~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5478047,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "room 4 shower .jpg",
+    "title": "room 4 shower .jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2020-01-09"
+   }
+  ],
+  "sha1": "c6d584b91dc9ce376f12e2fbced7f4229494e3bb",
+  "note": "ROOM Fitzrovia room 4 shower",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_9ed74bfd11a44503a20980538d13c507.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_9ed74bfd11a44503a20980538d13c507~mv2_d_5184_3456_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 8570700,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "IMG_9095.JPG",
+    "title": "IMG_9095.JPG",
+    "desc": null,
+    "w": 5184,
+    "h": 3456,
+    "created": "2019-12-15"
+   }
+  ],
+  "sha1": "33f88b6e651dcbcb749d9a99aa031d2dcea63d5d",
+  "note": "MORETOWN dartboard and rose wall",
+  "width": 5184,
+  "height": 3456,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_a18a697bc8c64bf6a68e3d25293e4e9c.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_a18a697bc8c64bf6a68e3d25293e4e9c~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2612958,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "room 3 .jpg",
+    "title": "room 3 .jpg",
+    "desc": null,
+    "w": 2560,
+    "h": 1920,
+    "created": "2020-01-09"
+   },
+   {
+    "page": "hotel-accomodation",
+    "file": "room 3 .jpg",
+    "title": "Double with En-Suite ",
+    "desc": "Fitzrovia Belle: Double with En-Suite ",
+    "w": 2560,
+    "h": 1920,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "797ac4261ba9268ea7edb3422bc8f55d5d74bb8e",
+  "note": "ROOM Fitzrovia 'Double with En-Suite' (room 3)",
+  "width": 2560,
+  "height": 1920,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_a53a2b52127744c3a45c7379fe9338eb.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_a53a2b52127744c3a45c7379fe9338eb~mv2_d_3840_5120_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 4664671,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "100s.jpg",
+    "title": "100s.jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "27bdfbab50575c7399c9e597142450f7fc4fe395",
+  "note": "MORETOWN 'Belle Burgers' neon sign ('100s')",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_a9ba430d8e6a4adcac650273af361a05.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_a9ba430d8e6a4adcac650273af361a05~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 4500157,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "room 3 toilets .jpg",
+    "title": "room 3 toilets .jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2020-01-09"
+   }
+  ],
+  "sha1": "434b7b9f45d13e9beefd1109627d3154b533316e",
+  "note": "ROOM Fitzrovia room 3 shower",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_aae76f76c10f4204ba0b8634da643b89.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_aae76f76c10f4204ba0b8634da643b89~mv2_d_3840_5120_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5187458,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "500s .jpg",
+    "title": "500s .jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "527f4860a0d4443497777226ba702777294d219f",
+  "note": "MORETOWN '500s' seating",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_aec2f1df259c4214a8274e051c4e147d.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_aec2f1df259c4214a8274e051c4e147d~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 6137908,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms",
+   "https://www.bellepubsandrestaurants.co.uk/hotel-accomodation"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "room 4 .jpg",
+    "title": "room 4 .jpg",
+    "desc": null,
+    "w": 5120,
+    "h": 3840,
+    "created": "2020-01-09"
+   },
+   {
+    "page": "hotel-accomodation",
+    "file": "room 4 .jpg",
+    "title": "Superior Double",
+    "desc": "Fitzrovia Belle: Superior Double",
+    "w": 5120,
+    "h": 3840,
+    "created": "2024-09-02"
+   }
+  ],
+  "sha1": "7a865d84dc9a04e0c123a7e61fdaa164d72a419d",
+  "note": "ROOM Fitzrovia 'Superior Double' (room 4)",
+  "width": 5120,
+  "height": 3840,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_b100cff153f9458d8237bbd7ffc7e90a.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_b100cff153f9458d8237bbd7ffc7e90a~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2183884,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/bellepubsandrestaurants"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "baa0173b15702e4e8e7daa032fd60b1f74d017fa",
+  "note": "MORETOWN panorama: circular tiled bar, chequerboard floor, screens, neon",
+  "width": 2560,
+  "height": 901,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_b7486441b4be4b1eb107897df5ed7ebb.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_b7486441b4be4b1eb107897df5ed7ebb~mv2_d_5184_3456_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5944367,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "IMG_9136.JPG",
+    "title": "IMG_9136.JPG",
+    "desc": null,
+    "w": 5184,
+    "h": 3456,
+    "created": "2019-12-15"
+   }
+  ],
+  "sha1": "bf26148fb821241b230955742162558743fa9a69",
+  "note": "MORETOWN pool balls",
+  "width": 5184,
+  "height": 3456,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_d45829f6a7f84b628fcce2f92c0301ff.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_d45829f6a7f84b628fcce2f92c0301ff~mv2_d_3600_2400_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 2097382,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/fitzroviabelle"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "a89f5c1aea6d61a5750bf8f7fc1338289df3fd57",
+  "note": "FITZROVIA exterior: black & gold frontage, hanging baskets, Tottenham Court Road",
+  "width": 3600,
+  "height": 2400,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_d7ee59ef5c7c4d6e90a5caf2c205d6c2.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_d7ee59ef5c7c4d6e90a5caf2c205d6c2~mv2_d_3456_5184_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 7191135,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "IMG_9167.JPG",
+    "title": "IMG_9167.JPG",
+    "desc": null,
+    "w": 3456,
+    "h": 5184,
+    "created": "2019-12-15"
+   }
+  ],
+  "sha1": "171bfbc7e472802adbd9fa05ebc8334fb6bfc471",
+  "note": "MORETOWN bar detail, neon",
+  "width": 5184,
+  "height": 3456,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_d83a95a9b5a6492dad2de7c0cabdfc35.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_d83a95a9b5a6492dad2de7c0cabdfc35~mv2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5803239,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/boutiquerooms"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "boutiquerooms",
+    "file": "room 2 bath 2.jpg",
+    "title": "room 2 bath 2.jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2020-01-09"
+   }
+  ],
+  "sha1": "6415072801f3ee41d5480e68b9341733358d59ca",
+  "note": "ROOM Fitzrovia room 2 bath",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_e012457705ec43f8ab7713026ca292f5.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_e012457705ec43f8ab7713026ca292f5~mv2_d_3840_5120_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 5638882,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "500s side bar pool.jpg",
+    "title": "500s side bar pool.jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "0d611a3df3bde938ee4ffc94dafa3e1e45466854",
+  "note": "MORETOWN '500s side bar pool'",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_e149c3d6219c47688a708e771635d291.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_e149c3d6219c47688a708e771635d291~mv2_d_5184_3456_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 6035269,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/work-with-us"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "b72add7b4b71fe6cf27cefffeb961acf64757b97",
+  "note": "TEXTURE wall of silk roses (Work With Us header)",
+  "width": 5184,
+  "height": 3456,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_eb1a88322cbb400ca264e64a9beb3460.png",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_eb1a88322cbb400ca264e64a9beb3460~mv2.png",
+  "status": "200",
+  "content_type": "image/png",
+  "bytes": 317334,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk"
+  ],
+  "alt": "",
+  "gallery": [],
+  "sha1": "9626335763d7a80aaf19b6665b7db1a6d7e7be86",
+  "note": "ROSE single yellow rose illustration (homepage icon, 'hotel rooms')",
+  "width": 498,
+  "height": 480,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "images/c6e57a_f29f2a2f58904248b478207cc1155813.jpg",
+  "source_url": "https://static.wixstatic.com/media/c6e57a_f29f2a2f58904248b478207cc1155813~mv2_d_3840_5120_s_4_2.jpg",
+  "status": "200",
+  "content_type": "image/jpeg",
+  "bytes": 4571385,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/moretownbelle"
+  ],
+  "alt": "",
+  "gallery": [
+   {
+    "page": "moretownbelle",
+    "file": "200s booth side.jpg",
+    "title": "200s booth side.jpg",
+    "desc": null,
+    "w": 3840,
+    "h": 5120,
+    "created": "2019-10-02"
+   }
+  ],
+  "sha1": "bbb4f2da46487b57aba00a7a0857ead9e54cc8d8",
+  "note": "MORETOWN '200s booth side', glass frontage",
+  "width": 3840,
+  "height": 5120,
+  "colorspace": "sRGB"
+ },
+ {
+  "file": "pdfs/ba1f1a_02dbfa89aa034f78ac0939848a1590f4.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_02dbfa89aa034f78ac0939848a1590f4.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 495502,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024"
+  ],
+  "label": "Christmas Day menu - Hammersmith, Duchess & Griffin",
+  "sha1": "b9445af9f4be9d8dab3ae66200ec6df52617be51",
+  "note": "Christmas Day menu - Hammersmith, Duchess & Griffin"
+ },
+ {
+  "file": "pdfs/ba1f1a_1ed270ce2e9844aaa8833d1b644bec9c.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_1ed270ce2e9844aaa8833d1b644bec9c.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 922524,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/menus"
+  ],
+  "label": "Moretown food menu",
+  "sha1": "b9196211ef3c37f8e50b9abb1c7a48848ddab8d1",
+  "note": "Moretown food menu"
+ },
+ {
+  "file": "pdfs/ba1f1a_2c838b68b1604c7fa1581900542dde5c.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_2c838b68b1604c7fa1581900542dde5c.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 783736,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/menus"
+  ],
+  "label": "Food menu linked for Fitzrovia, Griffin, Duchess and Hammersmith (same file)",
+  "sha1": "8ec841f2113a98043641d6f5dedba0a598bb5786",
+  "note": "Food menu linked for Fitzrovia, Griffin, Duchess and Hammersmith (same file)"
+ },
+ {
+  "file": "pdfs/ba1f1a_4a004def73d0471faf067dcd04c2e426.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_4a004def73d0471faf067dcd04c2e426.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 3864347,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024"
+  ],
+  "label": "Christmas party SET MENU (christmas-2024 page)",
+  "sha1": "63a3493b57c7d7007cd322802738fa4cef9b82e0",
+  "note": "Christmas party SET MENU (christmas-2024 page)"
+ },
+ {
+  "file": "pdfs/ba1f1a_5a81c78b304545499f3d914bb2b3f230.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_5a81c78b304545499f3d914bb2b3f230.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 1679333,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/menus"
+  ],
+  "label": "Moretown drinks menu",
+  "sha1": "1f793ac92b82e8588991470fff24ba50ff7816cd",
+  "note": "Moretown drinks menu"
+ },
+ {
+  "file": "pdfs/ba1f1a_5c0aa4bcf6d849f4ada8aba829e95070.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_5c0aa4bcf6d849f4ada8aba829e95070.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 1887515,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/menus"
+  ],
+  "label": "Duchess drinks menu",
+  "sha1": "c32b876420dd8c3c9350837ecd941427e9c6c659",
+  "note": "Duchess drinks menu"
+ },
+ {
+  "file": "pdfs/ba1f1a_617dab1fe46f461d997e7367e5614f17.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_617dab1fe46f461d997e7367e5614f17.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 1900588,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/menus"
+  ],
+  "label": "Griffin drinks menu",
+  "sha1": "55e09f4cb1eebed5692304e84392a12482695a42",
+  "note": "Griffin drinks menu"
+ },
+ {
+  "file": "pdfs/ba1f1a_c8ef1c97de8e448791fbcfb1544af8c9.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_c8ef1c97de8e448791fbcfb1544af8c9.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 3864351,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024"
+  ],
+  "label": "Christmas party BUFFET MENU (christmas-2024 page)",
+  "sha1": "b18454d3eda28ab4c3a2c99b66857722e34ed09e",
+  "note": "Christmas party BUFFET MENU (christmas-2024 page)"
+ },
+ {
+  "file": "pdfs/ba1f1a_d4e1203cc5364361a0458796e57dae7c.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_d4e1203cc5364361a0458796e57dae7c.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 1916062,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/menus"
+  ],
+  "label": "Fitzrovia drinks menu",
+  "sha1": "5422f90fc34425dba3064c6d962d37f528ad23f1",
+  "note": "Fitzrovia drinks menu"
+ },
+ {
+  "file": "pdfs/ba1f1a_e87ed81bf57a46ef86633c40c77e08e0.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_e87ed81bf57a46ef86633c40c77e08e0.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 1891041,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/menus"
+  ],
+  "label": "Hammersmith drinks menu",
+  "sha1": "8906db37f26611613c16d7ac16f9fbd2ad55a818",
+  "note": "Hammersmith drinks menu"
+ },
+ {
+  "file": "pdfs/ba1f1a_ffb5ba208abc4106bbce058c5e81a15f.pdf",
+  "source_url": "https://www.bellepubsandrestaurants.co.uk/_files/ugd/ba1f1a_ffb5ba208abc4106bbce058c5e81a15f.pdf",
+  "status": "200",
+  "content_type": "application/pdf",
+  "bytes": 157748,
+  "found_on": [
+   "https://www.bellepubsandrestaurants.co.uk/christmas-2024"
+  ],
+  "label": "Christmas Day menu - Moretown",
+  "sha1": "5fe3f445c6ef9f8ac0cf31a8bd252066d56bcfa6",
+  "note": "Christmas Day menu - Moretown"
+ }
+]
