@@ -1,0 +1,122 @@
+---
+layout: base.njk
+title: Hammersmith Belle, King Street
+ogTitle: "The Hammersmith Belle · The Enchanted Garden on King Street"
+description: "An 8,000 sq ft garden with beach huts, a kids' castle and an all-weather sports pergola, a five-oche darts lounge, 13 screens inside, Sunday roasts with the Kids' Table, and 13 new rooms upstairs."
+og: hammersmith
+permalink: /hammersmith/
+bodyClass: page-venue page-hammersmith
+---
+{% set v = venues | venue("hammersmith") %}
+{% set spots = [
+  { key: "pergola", n: 1, title: "The sports pergola", text: "All-weather cover with TVs showing live sport, so the garden works in October as well as June.", image: "hammersmith-pergola", alt: "Looking out from under the pergola to the garden" },
+  { key: "huts", n: 2, title: "Beach huts", text: "Hire your own hut for a birthday, a big game or a long Sunday. Jugs of cocktails optional but encouraged.", image: "hammersmith-jug", alt: "A jug of fruity cocktail on a table by a blue beach hut" },
+  { key: "castle", n: 3, title: "The castle", text: "A play area with a castle and slides for exploring, in sight of the tables.", image: "hammersmith-castle", alt: "The kids' castle climbing frame with yellow slides" },
+  { key: "benches", n: 4, title: "Benches under the blossom", text: "Picnic benches, parasols and white blossom trees, with room for up to 300 across the garden.", image: "hammersmith-garden", alt: "Picnic benches, blue parasols and white blossom trees on artificial grass" },
+  { key: "darts", n: 5, title: "The darts lounge", text: "Five BullHitters Winmau oches among the flower walls. Book them for the office tournament.", image: "hammersmith-darts", alt: "Two dartboards on a flower wall with red oche mats" }
+] %}
+<section class="garden-hero" style="background:repeating-linear-gradient(100deg,#2f5f2c 0 3px,#356a31 3px 6px)">
+  <div class="wrap" style="position:relative;z-index:2;padding-block:28px 50px">
+    <p class="crumbs" style="color:#cfe3c4"><a href="{{ '/' | u }}">Belle</a> / King Street, W6</p>
+    <div class="split" style="margin-top:18px">
+      <div>
+        <h1 class="vlogo" style="color:#fff;margin:0 0 18px">{% logo "hammersmith", "The Hammersmith Belle" %}</h1>
+        <p class="kicker" style="color:var(--butter)">Home of the Belle Enchanted Garden</p>
+        <p class="lede" style="color:#f1f7ec">Eight thousand square feet of garden behind an 1883 pub on King Street: beach huts, a castle for the kids, an all-weather sports pergola and room for 300.</p>
+        <p style="color:#dfeed6">Family-friendly, dog-friendly and sport-friendly, a short walk from Ravenscourt Park and Hammersmith stations. Inside: thirteen screens including two super screens, four sound zones and a darts lounge with five oches.</p>
+        <div class="btn-row">
+          <button class="btn btn--butter" type="button" data-book data-venue="hammersmith">Book a table</button>
+          <a class="btn btn--ghost" href="#garden" style="color:#fff">Explore the garden</a>
+        </div>
+      </div>
+      <div class="trio">
+        <span class="postcard"><span class="photo">{% img "hammersmith-garden", "The garden", "(min-width: 980px) 28vw, 62vw", "", true %}</span><span class="postcard__area"><span>The garden</span><span>up to 300</span></span></span>
+        <span class="postcard"><span class="photo">{% img "hammersmith-castle", "The kids' castle", "(min-width: 980px) 28vw, 62vw" %}</span><span class="postcard__area"><span>The castle</span><span>kids</span></span></span>
+        <span class="postcard"><span class="photo">{% img "hammersmith-night", "The Hammersmith Belle lit up at night with white blossom trees", "(min-width: 980px) 28vw, 62vw" %}</span><span class="postcard__area"><span>King Street</span><span>since 1883</span></span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="garden" style="background:#f3f8ee">
+  <div class="wrap">
+    <h2 class="rule-head" style="color:var(--leaf)">A wander round the garden</h2>
+    <div class="plan-wrap" data-plan style="margin-top:24px">
+      <figure class="plan" style="margin:0">
+        <svg viewBox="0 0 800 520" role="img" aria-label="Illustrated guide to the Belle Enchanted Garden">
+          <defs><pattern id="turf" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#8fc46b"/><path d="M2 8l1-4M6 9l1-5" stroke="#7bb35a" stroke-width="1"/></pattern></defs>
+          <rect width="800" height="520" fill="url(#turf)"/>
+          <rect x="0" y="0" width="800" height="78" fill="#b5654a"/>
+          <g fill="#9b513a">{% for x in range(20, 800, 60) %}<rect x="{{ x }}" y="14" width="28" height="40" rx="14"/>{% endfor %}</g>
+          <text x="400" y="104" text-anchor="middle" style="font-family:var(--cond);letter-spacing:.2em;font-size:15px" fill="#2d6b2b">THE PUB · 1883 · KING STREET THIS WAY ↑</text>
+          <!-- pergola -->
+          <g><rect x="40" y="128" width="270" height="140" fill="#f4efe6" stroke="#5b4a3a" stroke-width="3"/>{% for x in range(55, 310, 22) %}<path d="M{{ x }} 128v140" stroke="#cdbfa9" stroke-width="2"/>{% endfor %}<rect x="135" y="140" width="80" height="46" fill="#1a1411"/><rect x="141" y="146" width="68" height="34" fill="#2c8c4a"/></g>
+          <!-- beach huts -->
+          {% set hutCols = ["#9dcbe4", "#f39aa8", "#eed8a0", "#9dcbe4", "#fce7dc", "#f39aa8"] %}
+          {% for c in hutCols %}<g transform="translate({{ 470 + loop.index0 * 52 }} 128)"><path d="M0 22L22 0l22 22v70H0z" fill="{{ c }}" stroke="#1a1411" stroke-width="2"/>{% for y in range(32, 92, 10) %}<path d="M2 {{ y }}h40" stroke="#1a1411" stroke-opacity=".25"/>{% endfor %}<rect x="14" y="56" width="16" height="36" fill="#fff" stroke="#1a1411" stroke-width="1.5"/></g>{% endfor %}
+          <!-- castle -->
+          <g transform="translate(60 330)" fill="#d8d3cc" stroke="#5b4a3a" stroke-width="2.5"><rect x="0" y="40" width="160" height="110"/><rect x="-14" y="10" width="44" height="140"/><rect x="130" y="10" width="44" height="140"/>{% for x in [-14, 2, 18, 130, 146, 162] %}<rect x="{{ x }}" y="0" width="10" height="12"/>{% endfor %}<path d="M60 150v-46a20 20 0 0 1 40 0v46" fill="#5b4a3a"/><path d="M174 70l70 70" stroke="#f2c230" stroke-width="16" stroke-linecap="round"/></g>
+          <!-- benches -->
+          <g fill="#c09a6b" stroke="#6e5232" stroke-width="2">{% for r in range(0, 3) %}{% for c in range(0, 3) %}<g transform="translate({{ 330 + c * 70 }} {{ 300 + r * 62 }})"><rect x="0" y="0" width="50" height="14"/><rect x="-6" y="-14" width="62" height="7"/><rect x="-6" y="21" width="62" height="7"/></g>{% endfor %}{% endfor %}</g>
+          <g fill="#fff" opacity=".95">{% for p in [[310,290],[548,292],[310,470],[548,470],[440,276]] %}<circle cx="{{ p[0] }}" cy="{{ p[1] }}" r="18"/><circle cx="{{ p[0] + 12 }}" cy="{{ p[1] - 10 }}" r="12"/><circle cx="{{ p[0] - 12 }}" cy="{{ p[1] - 8 }}" r="11"/>{% endfor %}</g>
+          <!-- darts lounge -->
+          <g><rect x="590" y="300" width="190" height="180" fill="#1a1411"/><rect x="600" y="310" width="170" height="160" fill="#2a2320"/>{% for x in [620, 680, 740] %}<circle cx="{{ x }}" cy="350" r="16" fill="#efe4c8" stroke="#d22d4e" stroke-width="4"/><rect x="{{ x - 9 }}" y="380" width="18" height="70" fill="#d22d4e"/>{% endfor %}</g>
+          <!-- hotspots -->
+          {%- set at = { pergola: [175, 230], huts: [626, 238], castle: [140, 312], benches: [430, 400], darts: [685, 300] } %}
+          {%- for s in spots %}
+          <g class="hot{% if loop.first %} is-on{% endif %}" data-spot="{{ s.key }}" tabindex="0" role="button" aria-label="{{ s.title }}" transform="translate({{ at[s.key][0] }} {{ at[s.key][1] }})"><circle r="20"/><text y="6">{{ s.n }}</text></g>
+          {%- endfor %}
+        </svg>
+        <figcaption class="caption" style="padding:8px 12px">An illustrated guide to what's out there, not a floor plan.</figcaption>
+      </figure>
+      <div class="plan-pop">
+        <ul class="plan-legend">
+          {%- for s in spots %}<li><button type="button" data-spot-btn="{{ s.key }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ s.n }} · {{ s.title }}</button></li>{% endfor %}
+        </ul>
+        {%- for s in spots %}
+        <div data-spot-pane="{{ s.key }}"{% if not loop.first %} hidden{% endif %}>
+          <div class="photo">{% img s.image, s.alt, "(min-width: 900px) 40vw, 100vw" %}</div>
+          <h3 style="margin-top:12px">{{ s.title }}</h3>
+          <p>{{ s.text }}</p>
+        </div>
+        {%- endfor %}
+        <button class="btn btn--rose" type="button" data-book data-book-tab="party" data-venue="hammersmith">Hire a beach hut or the garden</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% set evs = events | where("venue", "hammersmith") %}
+{%- for e in evs %}
+<section class="section blush">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">{{ e.repeat }}, from {{ e.date | dayShort }}</p>
+      <h2>{{ e.title }}</h2>
+      <p class="lede">{{ e.text }}</p>
+      <p>And Saturdays until 7pm, one under-12 eats free off the kids' menu with every paying adult main.</p>
+      <button class="btn btn--rose" type="button" data-book data-venue="hammersmith" data-date="{{ e.date }}">Book Sunday lunch</button>
+    </div>
+    <div class="photo" style="aspect-ratio:3/4;max-height:600px;background:none">{% img e.image, "Poster for The Kids' Table at the Hammersmith Belle", "(min-width: 900px) 40vw, 100vw" %}</div>
+  </div>
+</section>
+{%- endfor %}
+
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">The building</p>
+      <h2>The Hogs, the Hog, the Belle</h2>
+      <ol class="timeline">
+        {%- for t in v.timeline %}<li><b>{{ t[0] }}</b><span>{{ t[1] }}</span></li>{% endfor %}
+      </ol>
+    </div>
+    <div class="photo" style="aspect-ratio:3/4;max-height:640px">{% img "hammersmith-bar", "The bar at the Hammersmith Belle under chandeliers", "(min-width: 900px) 50vw, 100vw" %}</div>
+  </div>
+</section>
+
+{% set whatsOnClass = "wash" %}{% set hideEvents = true %}{% set whatsOnTitle = "On the super screens" %}{% set whatsOnCount = 6 %}
+{% include "partials/venue-whatson.njk" %}
+{% set roomsClass = "blush" %}{% include "partials/venue-rooms.njk" %}
+{% set galleryTitle = "Around the Hammersmith Belle" %}{% include "partials/venue-gallery.njk" %}
+{% include "partials/visit.njk" %}

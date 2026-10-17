@@ -1,0 +1,10 @@
+{
+  "source": "Belle weekly offers poster and the Fizz Fridays poster on the current site.",
+  "weekly": [
+    { "day": "Mon–Fri", "title": "2 for 1 on burgers & steaks", "text": "Every Belle Burger and every minute steak, 11.30am to 7pm.", "big": "2 for 1" },
+    { "day": "Thursday", "title": "Wine-y Thursday", "text": "Buy two large glasses of wine and the rest of the bottle's free. All day.", "big": "Wine-y" },
+    { "day": "Friday", "title": "Fizz Friday", "text": "Half-price bottles of Prosecco and a third off every bottle of Champagne Piaff. All day.", "big": "½ price fizz" },
+    { "day": "Saturday", "title": "Kids eat free", "text": "One under-12 eats free off the kids' menu with every paying adult main, until 7pm.", "big": "Kids free" },
+    { "day": "Sunday", "title": "Sunday roast", "text": "Unlimited Yorkshires and veg from midday till it's gone. Kids still eat free (not the kids' roast).", "big": "Roast" }
+  ]
+}

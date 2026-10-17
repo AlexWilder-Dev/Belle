@@ -1,0 +1,91 @@
+---
+layout: base.njk
+title: Griffin Belle, Vauxhall
+ogTitle: "The Griffin Belle · Award-winning sport and 14 rooms in Vauxhall"
+description: "Winner of Live Sports Venue at the Star Pubs & Bars Awards, a short walk from Vauxhall, Nine Elms, the Oval and the US Embassy. UHD screens, a multi-screen wall, three sound zones and fourteen rooms upstairs."
+og: griffin
+theme: night
+permalink: /griffin/
+bodyClass: page-venue page-griffin
+---
+{% set v = venues | venue("griffin") %}
+<section class="griffin-hero">
+  <div class="wrap griffin-hero__grid">
+    <div>
+      <p class="crumbs"><a href="{{ '/' | u }}">Belle</a> / Wyvil Road, Vauxhall</p>
+      <h1 class="vlogo" style="margin:14px 0 18px">{% logo "griffin", "The Griffin Belle" %}</h1>
+      <p class="lede">Named after the griffin on the Vauxhall Motors badge, whose iron works began just up the road on Wandsworth Road. Serving this corner for over 150 years.</p>
+      <p>A laid-back, charming pub with personality, fourteen rooms upstairs, and screens good enough to win Live Sports Venue at the Star Pubs & Bars Awards. Tables outside in the sun, heaters when it isn't, and a home-cooked roast every Sunday.</p>
+      <div class="btn-row">
+        <button class="btn btn--rose" type="button" data-book data-venue="griffin">Book a table</button>
+        <a class="btn btn--ghost" href="#rooms">14 rooms upstairs</a>
+      </div>
+    </div>
+    <div style="text-align:center">
+      {% include "partials/griffin-crest.njk" %}
+      <p class="sign" style="margin-top:18px">Live<br>Sports<br>Here</p>
+    </div>
+  </div>
+</section>
+
+<section class="section--tight">
+  <div class="wrap">
+    <dl class="vfacts">
+      {%- for f in v.facts %}<div><dt>{{ f[0] }}</dt><dd>{{ f[1] }}</dd></div>{% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="photo" style="aspect-ratio:16/9">{% img "griffin-interior", "Inside the Griffin Belle: a ceiling of flowers, red banquettes, a chequerboard floor and screens", "(min-width: 900px) 50vw, 100vw" %}</div>
+    <div>
+      <p class="kicker">Award-winning live sport</p>
+      <div class="award">
+        <img src="{{ 'award-star' | imgUrl(480) }}" alt="Star Pubs & Bars Awards winner" width="480" height="300" loading="lazy">
+        <p style="margin:0">Live Sports Venue, Star Pubs & Bars Awards 2020, sponsored by Sky Sports. From the citation: <em>"Sports screenings are turned into special occasions with the team and pub dressed to match."</em></p>
+      </div>
+      <p style="margin-top:18px">The best UHD screens we could get our hands on, a multi-screen wall and three sound zones, so the big one gets the commentary and the other games still get a screen. A short walk from the Kia Oval for the cricket, too.</p>
+    </div>
+  </div>
+</section>
+
+{% set evs = events | where("venue", "griffin") %}
+{%- for e in evs %}
+<section class="section night" style="background:#1b1022">
+  <div class="wrap split">
+    <div class="photo" style="aspect-ratio:3/4;max-height:640px;background:none">{% img e.image, "Poster for The Haunted Hotel Halloween party at the Griffin Belle", "(min-width: 900px) 40vw, 100vw" %}</div>
+    <div>
+      <p class="kicker">{{ e.date | dayLong }}</p>
+      <h2>{{ e.title }}</h2>
+      <p class="lede">{{ e.text }}</p>
+      <p class="muted">Under new management… a new regime of terror.</p>
+      <button class="btn btn--rose" type="button" data-book data-venue="griffin" data-date="{{ e.date }}">Book for the party</button>
+    </div>
+  </div>
+</section>
+{%- endfor %}
+
+{% set whatsOnClass = "" %}{% set hideEvents = true %}{% set whatsOnTitle = "Next on the screen wall" %}{% set whatsOnCount = 6 %}
+{% include "partials/venue-whatson.njk" %}
+
+{% set roomsClass = "blush" %}{% include "partials/venue-rooms.njk" %}
+
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Pub history</p>
+      <h2>Builders Arms to Griffin Belle</h2>
+      <ol class="timeline">
+        {%- for t in v.timeline %}<li><b>{{ t[0] }}</b><span>{{ t[1] }}</span></li>{% endfor %}
+      </ol>
+    </div>
+    <figure style="margin:0">
+      <div class="photo" style="aspect-ratio:4/5;max-width:480px">{% img "griffin-history", "Black and white photograph of the Builders Arms, the pub before it was the Griffin Belle", "(min-width: 900px) 40vw, 100vw" %}</div>
+      <figcaption class="caption">The Builders Arms, before it was ours.</figcaption>
+    </figure>
+  </div>
+</section>
+
+{% set galleryTitle = "Inside the Griffin" %}{% include "partials/venue-gallery.njk" %}
+{% include "partials/visit.njk" %}

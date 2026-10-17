@@ -1,0 +1,228 @@
+{
+  "source": "Transcribed from the Belle food and drink menu PDFs dated October 2025. Dietary marks follow the printed menus; anything unmarked, ask the team.",
+  "serviceNote": "Tables of six or more have a discretionary 12.5% service charge added, shared equally among our hourly paid team. Got an allergy or a special dietary requirement? Tell your server before you order. Everything is subject to availability.",
+  "breakfast": {
+    "title": "Breakfast",
+    "intro": "Served every day until 11.30am. Then the all-day menu takes over.",
+    "items": [
+      { "name": "All Day Breakfast", "desc": "2 rashers of grilled bacon, 2 fried eggs, 1 grilled sausage, mushrooms, grilled tomato, baked beans, hash browns & toast. Served Monday to Friday until 5pm.", "price": "£13.90" }
+    ]
+  },
+  "burgers": {
+    "title": "Belle Burgers",
+    "intro": "Smashed beef burger, southern fried chicken breast or a crispy vegetable pattie in a warm brioche-style bun (ve), with homemade burger sauce, lettuce, tomato, onion & gherkin. Have it dressed, topless or naked, with fries or salad. Swap to sweet potato fries for £2.",
+    "dipping": "Make it a dipping burger: add a mug of American cheese or delicious gravy, £4.95.",
+    "items": [
+      { "name": "Simple Simon", "desc": "Plain & simple, with or without burger sauce. Your choice.", "price": "£14.95" },
+      { "name": "Say Cheese", "desc": "Melted cheese or stilton.", "price": "£16.95" },
+      { "name": "Some Like It Hot", "desc": "Chilli seasoned, tabasco, buffalo sauce, pepperoni, melted cheese & jalapeños.", "price": "£19.95" },
+      { "name": "Tony Curtis", "desc": "Teriyaki sauce, sesame seeds, spring onions & crushed cashew nuts.", "price": "£18.95" },
+      { "name": "Juicy Jane", "desc": "Double bacon, stilton, BBQ sauce & melted cheese.", "price": "£19.95" },
+      { "name": "Mighty Mike", "desc": "Double chorizo, melted cheese, jalapeños & cajun spices.", "price": "£19.95" },
+      { "name": "Sloppy Joe", "desc": "Homemade spicy beef chilli topped with sour cream & jalapeños.", "price": "£19.95" },
+      { "name": "Big Belle", "desc": "Two beef patties, double grilled bacon rashers, double melted cheese. Not available as chicken.", "price": "£24.95", "star": true },
+      { "name": "Mississippi Blue Belle", "desc": "Stilton, sautéed mushrooms & blue cheese sauce.", "price": "£18.95" },
+      { "name": "Hot Kahuna", "desc": "Pepperoni, melted cheese, pineapple & hot honey sauce.", "price": "£19.95" },
+      { "name": "Pepperoni Melt", "desc": "Melted cheese & pepperoni.", "price": "£19.95" },
+      { "name": "Texas Tornado", "desc": "Smokey Texan BBQ sauce topped with melted cheese.", "price": "£17.95" },
+      { "name": "Paddington Bear", "desc": "Orange marmalade & melted cheese.", "price": "£17.95" },
+      { "name": "Fajita Crunch", "desc": "Mexican fajita spices, guacamole, salsa & sour cream on crushed tortillas.", "price": "£18.95" },
+      { "name": "Bay Watch", "desc": "Tempura prawns, cocktail sauce & lemon zest.", "price": "£22.95" },
+      { "name": "Buffalo Bill", "desc": "Stilton, blue cheese & buffalo sauce.", "price": "£18.95" },
+      { "name": "Hot Honey", "desc": "Grilled bacon, melted cheese & hot honey sauce.", "price": "£19.95" },
+      { "name": "Double Trouble", "desc": "Double grilled bacon & melted cheese.", "price": "£18.95" },
+      { "name": "Finger Licking Chicken Katsu Curry", "desc": "Chicken tenders smothered with katsu curry sauce, crunchy pickled red cabbage & ginger.", "price": "£18.95" },
+      { "name": "Halloumi Belle", "desc": "Grilled halloumi topped with homemade salsa & guacamole.", "price": "£17.95" }
+    ],
+    "onionRings": { "name": "Homemade crispy onion rings", "desc": "Simply the best!", "price": "£7.95" }
+  },
+  "food": [
+    {
+      "id": "starters",
+      "title": "Starters",
+      "items": [
+        { "name": "Crispy Katsu Chicken", "desc": "Garnished with pickled ginger & red cabbage.", "price": "£9.95" },
+        { "name": "Chicken Wings", "desc": "10, 20 or 40, coated in your choice of sauce: medium, hot, BBQ, sweet chilli or teriyaki with sesame seeds.", "price": "£12.95 · £22.95 · £43.95" },
+        { "name": "Baby Back Pork Ribs", "desc": "Half rack smothered in BBQ sauce, garnished with spring onion, crushed cashews & sesame seeds.", "price": "£13.00", "venues": ["moretown"] },
+        { "name": "Homemade Crispy Onion Rings", "desc": "With homemade cocktail sauce.", "price": "£7.95" },
+        { "name": "Calamari", "desc": "Lightly spiced, deep fried, drizzled with sweet chilli sauce & toasted sesame seeds.", "price": "£9.95" },
+        { "name": "Tempura Battered Prawns", "desc": "With sweet chilli dip.", "price": "£11.95" },
+        { "name": "Battered Halloumi", "desc": "With sweet chilli dip.", "price": "£10.95" }
+      ]
+    },
+    {
+      "id": "tenders",
+      "title": "Crispy Chicken Tenders Topped Fries",
+      "items": [
+        { "name": "Plain", "price": "£12.95" },
+        { "name": "Homemade secret cocktail sauce", "price": "£13.95" },
+        { "name": "Hot honey & American cheese sauce", "price": "£13.95" },
+        { "name": "Franks buffalo & blue cheese sauce", "price": "£14.95" },
+        { "name": "Franks buffalo hot sauce & cool ranch dressing", "price": "£14.95" },
+        { "name": "Teriyaki sauce with sesame seeds & spring onion", "price": "£13.95" },
+        { "name": "Sour cream, guacamole, salsa & American cheese sauce", "price": "£15.95" },
+        { "name": "BBQ & ranch sauces", "price": "£13.95" },
+        { "name": "Sweet chilli sauce", "price": "£13.95" },
+        { "name": "Katsu curry sauce with red cabbage & pickled ginger", "price": "£14.95" }
+      ]
+    },
+    {
+      "id": "chips",
+      "title": "Hippy Happy Chips",
+      "items": [
+        { "name": "Katsu curry sauce with red cabbage & ginger", "price": "£8.95" },
+        { "name": "Homemade gravy", "price": "£7.95" },
+        { "name": "Spicy beef chilli, sour cream & jalapeños", "price": "£13.95" },
+        { "name": "Pepperoni, cheese sauce & hot honey", "price": "£13.95" },
+        { "name": "Fish fingers with ketchup & mayo", "price": "£11.95" },
+        { "name": "Vegetarian fingers with ketchup & mayo", "price": "£10.95", "diet": ["v"] },
+        { "name": "Heinz baked beans & cheese", "price": "£10.95" }
+      ]
+    },
+    {
+      "id": "nachos",
+      "title": "Nachos",
+      "items": [
+        { "name": "Cheese, guacamole, salsa & sour cream", "price": "£12.95 · £16.95" },
+        { "name": "Spicy beef chilli, melted cheese, sour cream & jalapeños", "price": "£14.95 · £18.95" }
+      ]
+    },
+    {
+      "id": "fish",
+      "title": "Fish",
+      "items": [
+        { "name": "Traditional Fish & Chips", "desc": "Battered cod & chips with tartare sauce & a lemon wedge.", "price": "£19.95" },
+        { "name": "Chip Shop Wholetail Scampi", "desc": "12 pieces with tartare sauce & fries.", "price": "£17.95" },
+        { "name": "Six Cod Fish Fingers", "desc": "With fries & either baked beans or mushy peas.", "price": "£11.95" },
+        { "name": "Six Vegetarian Fingers", "desc": "With fries & either baked beans or mushy peas.", "price": "£11.95", "diet": ["v"] },
+        { "name": "Fish Finger or Veg Finger Roll", "desc": "Warm buttered brioche with ketchup, mayo or tartare sauce & fries.", "price": "£10.95" },
+        { "name": "Add mushy peas, garden peas or buttered brioche", "price": "£3.50" }
+      ]
+    },
+    {
+      "id": "steaks",
+      "title": "Minute Steaks",
+      "intro": "A 4oz fillet steak, flattened and grilled for 60 seconds.",
+      "items": [
+        { "name": "Classic Minute Steak", "desc": "With fries & salad.", "price": "£22.95" },
+        { "name": "Steak 'n' Eggs", "desc": "3 fried eggs with french fries.", "price": "£23.95" },
+        { "name": "Hunters Steak", "desc": "Topped with BBQ sauce, grilled bacon & melted cheese, with french fries & salad.", "price": "£23.95" },
+        { "name": "Fajita Steak", "desc": "Fajita seasoned, topped with sour cream, guacamole & salsa, with Cajun fries.", "price": "£24.95" },
+        { "name": "Teriyaki Steak", "desc": "Topped with spring onions, sesame seeds, pickled ginger & red cabbage, with rice & salad garnish.", "price": "£24.95" },
+        { "name": "Alpine Steak", "desc": "Topped with sautéed mushrooms & mozzarella, with fries.", "price": "£24.95" }
+      ]
+    },
+    {
+      "id": "chicken",
+      "title": "Chicken, Chilli & Katsu",
+      "titleMoretown": "Chicken, Ribs, Chilli & Katsu",
+      "items": [
+        { "name": "Homemade Spicy Beef Chilli", "desc": "With rice, tortillas, jalapeños & sour cream.", "price": "£17.95" },
+        { "name": "BBQ Half Chicken & Chips", "price": "£17.95" },
+        { "name": "Rack of BBQ Baby Back Pork Ribs", "desc": "With fries, garnished with chopped spring onions & crushed cashew nuts.", "price": "£24.95", "venues": ["moretown"] },
+        { "name": "Half Rack of BBQ Ribs & 6 Chicken Wings", "desc": "With fries.", "price": "£23.95", "venues": ["moretown"] },
+        { "name": "Crispy Half Chicken & Chips", "desc": "Deep fried boneless chicken served crispy with chips & salad garnish.", "price": "£17.95" },
+        { "name": "Chicken Katsu Curry", "desc": "With rice, crunchy red cabbage & pickled ginger.", "price": "£17.95" },
+        { "name": "Halloumi & Pineapple Katsu Curry", "desc": "With rice, crunchy red cabbage & pickled ginger.", "price": "£17.95", "diet": ["v"] },
+        { "name": "Hunters Chicken", "desc": "Grilled chicken breast covered in BBQ sauce, bacon & melted cheese, with fries & salad.", "price": "£18.95" }
+      ]
+    },
+    {
+      "id": "salads",
+      "title": "Salads",
+      "items": [
+        { "name": "Tempura King Prawns & Avocado", "desc": "On mixed leaves, cherry tomatoes, cucumber, peppers & radish with sweet chilli dressing.", "price": "£17.95" },
+        { "name": "Grilled Halloumi", "desc": "On a bed of leaves with strawberries, pineapple & grapes, with French dressing.", "price": "£14.95" },
+        { "name": "Crispy Fried Southern Chicken Strips & Chorizo", "desc": "On mixed leaves with tomato, cucumber, peppers & radish, sweet chilli dressing.", "price": "£15.95" },
+        { "name": "Wholetail Scampi", "desc": "On mixed leaves with cherry tomatoes, cucumber, peppers & radish, cocktail sauce & lemon zest.", "price": "£15.95" },
+        { "name": "Caesar Salad", "desc": "Croutons, parmesan & Caesar dressing with grilled chicken (£14.95), chicken & bacon (£15.95) or tempura prawns & lemon zest (£17.95).", "price": "from £14.95" },
+        { "name": "Teriyaki Beef Salad", "desc": "Mixed salad topped with teriyaki beef strips, crushed cashews & sesame seeds.", "price": "£18.95" }
+      ]
+    },
+    {
+      "id": "sides",
+      "title": "Sides",
+      "items": [
+        { "name": "Hash browns · sautéed mushrooms · Heinz baked beans · mushy peas · coleslaw · buttered brioche", "price": "£3.50" },
+        { "name": "Mixed salad & house dressing", "price": "£3.95" },
+        { "name": "Homemade crispy onion rings", "price": "£7.95" },
+        { "name": "Mug of American cheese dipping sauce", "price": "£4.95" },
+        { "name": "Sweet potato fries", "desc": "Small, medium, large.", "price": "£3.95 · £4.45 · £9.95" },
+        { "name": "Chunky chips or french fries", "desc": "Small, medium, large.", "price": "£2.95 · £3.25 · £7.95" },
+        { "name": "Add cheese", "price": "£1.25 · £1.95 · £1.95" },
+        { "name": "Add katsu sauce", "price": "£1.50 · £1.95 · £2.50" },
+        { "name": "Add gravy", "price": "£0.50 · £0.50 · £1.00" }
+      ]
+    },
+    {
+      "id": "desserts",
+      "title": "Desserts",
+      "items": [
+        { "name": "Lotus Biscoff Cheesecake", "desc": "With vanilla ice cream.", "price": "£9.95" },
+        { "name": "Banana & Salted Caramel Cheesecake", "desc": "With ice cream.", "price": "£9.95" },
+        { "name": "Warm Chocolate Fudge Cake", "desc": "With chocolate ice cream.", "price": "£9.95" },
+        { "name": "Banana Lollipops", "desc": "Battered deep fried banana with chocolate dipping sauce.", "price": "£8.95" },
+        { "name": "Pineapple Fritters", "desc": "With vanilla ice cream, chocolate or salted caramel sauce.", "price": "£8.95" },
+        { "name": "Strawberry or Chocolate Sundae", "price": "£9.95" }
+      ]
+    }
+  ],
+  "roast": {
+    "title": "Sunday Roast",
+    "intro": "From midday every Sunday until we sell out. Homemade Yorkshire pudding, herb-roasted potatoes, pigs in blankets, seasonal veg and classic gravy. Want more Yorkshires? Just ask.",
+    "items": [
+      { "name": "British reared beef", "desc": "With horseradish.", "price": "£22.50" },
+      { "name": "Roasted boneless half chicken", "desc": "With cranberry sauce.", "price": "£19.95" },
+      { "name": "Mixed roast", "desc": "Half chicken & a slice of beef.", "price": "£22.50" },
+      { "name": "Vegetable escalopes", "price": "£16.95", "diet": ["v"] },
+      { "name": "Kids' mini roast beef", "price": "£11.95" }
+    ]
+  },
+  "drinks": [
+    {
+      "title": "Draught beer & cider",
+      "cols": ["Pint", "Half"],
+      "items": [
+        ["Heineken", "£7.40", "£3.80"], ["Birra Moretti", "£7.60", "£3.90"], ["Cruzcampo", "£7.60", "£3.90"], ["Amstel", "£7.40", "£3.80"],
+        ["Fosters", "£6.60", "£3.50"], ["Bones Lager", "£7.70", "£3.90"], ["Beavertown Neck Oil", "£7.70", "£3.90"], ["Guinness", "£7.70", "£3.90"],
+        ["Ale", "£6.95", "£3.60"], ["Brixton Reliance", "£7.70", "£3.90"], ["Inches Cider", "£7.40", "£3.80"], ["Orchard Thieves", "£7.40", "£3.80"],
+        ["Old Mout Berries & Cherries", "£7.70", "£3.90"]
+      ]
+    },
+    {
+      "title": "Bottles (330ml unless we say)",
+      "cols": ["Bottle"],
+      "items": [["Heineken", "£6.95"], ["Budvar or Budweiser", "£6.95"], ["Sol", "£6.95"], ["Peroni", "£6.95"], ["Bulmers cider (500ml)", "£7.50"], ["Old Mout (500ml, various)", "£7.50"], ["Heineken 0.0", "£5.95"], ["Old Mout alcohol-free cider", "£7.50"]]
+    },
+    {
+      "title": "White wine",
+      "cols": ["Bottle", "250ml", "125ml"],
+      "items": [["Unbelievable White, South Africa", "£26.50", "£8.95", "£4.95"], ["Sauvignon Blanc, Chile", "£26.50", "£8.95", ""], ["Chenin Blanc, South Africa", "£29.00", "£9.50", ""], ["Chardonnay, Chile", "£29.00", "£9.50", ""], ["Pinot Grigio, Italy", "£33.00", "£11.00", ""], ["Sauvignon Blanc, New Zealand", "£40.00", "£13.95", ""], ["Petit Chablis, France", "£59.00", "", ""]]
+    },
+    {
+      "title": "Red wine",
+      "cols": ["Bottle", "250ml", "125ml"],
+      "items": [["Unbelievable Red, South Africa", "£26.50", "£8.95", "£4.95"], ["Tempranillo, Spain", "£26.50", "£8.95", ""], ["Merlot, Chile", "£29.00", "£9.50", ""], ["Cabernet Sauvignon, Chile", "£29.00", "£9.50", ""], ["Montepulciano d'Abruzzo, Italy", "£29.00", "£9.50", ""], ["Shiraz, Australia", "£33.00", "£11.00", ""], ["Malbec, Argentina", "£33.00", "£11.00", ""], ["Pinot Noir, France", "£45.00", "£15.00", ""]]
+    },
+    {
+      "title": "Rosé",
+      "cols": ["Bottle", "250ml", "125ml"],
+      "items": [["Tempranillo, Spain", "£26.50", "£8.95", "£4.95"], ["Pinot Grigio Blush, Italy", "£33.00", "£11.00", ""], ["Zinfandel Rosé, California", "£33.00", "£11.00", ""], ["Moment de Plaisir, France", "£35.00", "£12.00", ""]]
+    },
+    {
+      "title": "Bubbles",
+      "cols": ["Bottle", "125ml"],
+      "items": [["Prosecco, Italy NV", "£33.00", "£7.95"], ["Champagne Piaff Brut NV", "£69.95", ""], ["Champagne Piaff Rosé Brut NV", "£79.95", ""], ["Laurent-Perrier Rosé NV", "£130.00", ""], ["Dom Pérignon, vintage", "£215.00", ""]]
+    },
+    {
+      "title": "Fine wines, all £69 a bottle",
+      "cols": [],
+      "items": [["Whispering Angel (rosé)"], ["Cloudy Bay Sauvignon Blanc (white)"], ["Albariño Xion (white)"], ["Châteauneuf-du-Pape La Bastide St Dominique (red)"], ["Fleurie Depagneux Vieilles Vignes (red)"]]
+    },
+    {
+      "title": "Soft drinks",
+      "cols": ["Reg", "Pint"],
+      "items": [["Draught cola, diet cola, lemonade", "£3.95", "£4.95"], ["Juices: mango, passionfruit, cranberry, pineapple, orange, apple, tomato", "£3.95", "£4.95"], ["Bottled Coca-Cola or Diet Coke", "£3.95", ""], ["Still or sparkling water (small / large)", "£3.95", "£6.25"]]
+    }
+  ]
+}

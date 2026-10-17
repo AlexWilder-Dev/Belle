@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2026-10-25",
+    "repeat": "Every Sunday, 12–4pm",
+    "venue": "hammersmith",
+    "title": "The Kids' Table",
+    "text": "From Sunday 25 October. Free supervised table-top fun for the littl'uns (3+) while you finish your roast. Free to dining customers. Ask for The Kids' Table when you book.",
+    "image": "poster-kids-table",
+    "source": "Kids' Table poster on the Hammersmith Belle page"
+  },
+  {
+    "date": "2026-10-30",
+    "venue": "griffin",
+    "title": "The Haunted Hotel: Halloween Party",
+    "text": "Friday 30 October. Fancy dress encouraged, with prizes for best dressed and best group. Halloween cocktails and shots, and a DJ from 7pm until the witching hour. One night. No escape.",
+    "image": "poster-halloween",
+    "source": "Griffin Belle Halloween poster on the current site"
+  },
+  {
+    "date": "2026-10-30",
+    "venue": "all",
+    "title": "Last day for the Christmas cocktail deal",
+    "text": "Book and confirm your work Christmas party by 30 October and everyone gets a Christmas cocktail on arrival.",
+    "link": "christmas/",
+    "source": "Christmas page on the current site"
+  }
+]

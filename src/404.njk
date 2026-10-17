@@ -1,0 +1,21 @@
+---
+layout: base.njk
+title: Page not found
+description: "That page has wandered off. Try the fixtures, the rooms or the menus."
+og: home
+theme: night
+permalink: /404.html
+eleventyExcludeFromCollections: true
+---
+<section class="notfound">
+  <div class="wrap">
+    <p class="neon neon--flicker">404</p>
+    <h1 style="font-size:var(--step-3)">This page has gone to the bar.</h1>
+    <p class="lede" style="margin-inline:auto">It might be back. In the meantime, here's where everyone else is.</p>
+    <div class="btn-row" style="justify-content:center">
+      <a class="btn btn--rose" href="{{ '/sport/' | u }}">What's on</a>
+      <a class="btn btn--ghost" href="{{ '/stay/' | u }}">Rooms</a>
+      <a class="btn btn--ghost" href="{{ '/menus/' | u }}">Menus</a>
+    </div>
+  </div>
+</section>

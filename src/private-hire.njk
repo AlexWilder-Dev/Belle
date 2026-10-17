@@ -1,0 +1,72 @@
+---
+layout: base.njk
+title: Parties, private hire & work dos
+ogTitle: "Private hire at the Belle · Five London pubs for your do"
+description: "Birthdays, wedding receptions, work socials, breakfast briefings, watch parties and wakes. Beach huts in Hammersmith, a balcony over Battersea Power Station, and room for 200 at the Moretown."
+og: hire
+permalink: /private-hire/
+bodyClass: page-hire
+---
+<section class="menu-hero">
+  <div class="photo">{% img "duchess-terrace", "The Duchess Belle terrace looking across to Battersea Power Station", "100vw", "", true %}</div>
+  <div class="wrap menu-hero__inner">
+    <p class="kicker" style="color:var(--butter)">Parties & private hire</p>
+    <h1>Your do. Our place.</h1>
+    <p class="lede">Birthdays, baby showers, leaving dos, wedding receptions, stag and hen dos, team socials and wakes. Every area at every Belle can be hired, from a beach hut to the whole pub.</p>
+    <a class="btn btn--rose" href="#enquire">Enquire about a date</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="rule-head">Five pubs, five ways to party</h2>
+    <div class="spaces">
+      {%- for s in [
+        { v: "hammersmith", img: "hammersmith-jug", title: "A beach hut of your own", cap: "Garden for up to 300", text: "Hire one of the beach huts in the Belle Enchanted Garden, or the whole 8,000 sq ft garden with its sports pergola and a castle to keep the kids busy." },
+        { v: "duchess", img: "duchess-terrace", title: "First-floor bar & balcony", cap: "Private upstairs bar", text: "Wedding receptions, birthdays and baby showers with Battersea Power Station across the road. An affordable space, and it looks anything but." },
+        { v: "moretown", img: "moretown-500s", title: "The Moretown, any part or all of it", cap: "Up to 120 seated · 200 standing", text: "Five sound zones, five darts boards and three pool tables for team building that doesn't feel like it." },
+        { v: "griffin", img: "griffin-banquettes", title: "The Griffin", cap: "Areas for hire · 14 rooms upstairs", text: "Birthdays, anniversaries and leaving dos in Vauxhall, with beds upstairs for anyone who'd rather not go home." },
+        { v: "fitzrovia", img: "fitzrovia-frontbar", title: "Fitzrovia's two bars", cap: "Areas for hire · 5 rooms upstairs", text: "Company gatherings and celebrations on Tottenham Court Road, a short walk from Goodge Street and Warren Street." },
+        { v: "hammersmith", img: "hammersmith-darts", title: "The darts lounge", cap: "5 oches", text: "Book the oches for the office tournament. Flower walls, scoreboards and a bar a few steps away." }
+      ] %}{% set v = venues | venue(s.v) %}
+      <article class="space">
+        <span class="photo">{% img s.img, s.title, "(min-width: 1140px) 33vw, (min-width: 760px) 50vw, 100vw" %}</span>
+        <div class="space__body">
+          <a class="space__logo" href="{{ ('/' + v.slug + '/') | u }}">{% logo v.logo, v.name %}</a>
+          <h3>{{ s.title }}</h3>
+          <p class="space__cap">{{ s.cap }}</p>
+          <p>{{ s.text }}</p>
+          <p><button class="btn btn--sm btn--ghost" type="button" data-book data-book-tab="party" data-venue="{{ v.slug }}">Enquire here</button></p>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section belle-blue">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">For work</p>
+      <h2>Meetings, briefings & the bit after</h2>
+      <p>The Moretown sits in the middle of an office square by St Katharine Docks and opens at 8am, so it's set up for meetings, breakfast briefings and presentations.</p>
+      <p>Then there's the team social, the leaving do, the client drinks and the Christmas party. Jane at head office handles corporate bookings across all five Belles.</p>
+      <p><a class="btn btn--ink" href="mailto:jane@bellepubsandrestaurants.co.uk?subject=Corporate%20booking">Email Jane White</a></p>
+    </div>
+    <div class="photo" style="aspect-ratio:4/3">{% img "moretown-booths", "Booths and glass frontage at the Moretown Belle", "(min-width: 900px) 50vw, 100vw" %}</div>
+  </div>
+</section>
+
+<section class="section wash" id="enquire">
+  <div class="wrap enquire">
+    <div>
+      <p class="kicker">Tell us what you're planning</p>
+      <h2>Let's find you the right room</h2>
+      <p>Not sure which Belle suits? Leave it on "Help me choose" and we'll suggest one. We'll come back with spaces, food and drink options and a deposit link.</p>
+      <ul class="facts-row"><li>Birthdays</li><li>Baby showers</li><li>Wedding receptions</li><li>Stag & hen dos</li><li>Leaving dos</li><li>Quiz nights</li><li>Wakes</li><li>Watch parties</li></ul>
+    </div>
+    <div class="enquire__form frame">
+      {% set partyOccasion = "" %}{% set showMenuChoice = false %}{% include "partials/party-form.njk" %}
+    </div>
+  </div>
+</section>

@@ -279,7 +279,7 @@ Wix. 14 pages in the sitemap: Home, Belle Venues (`/bellepubsandrestaurants`), f
 10. **No og:image on any page**, so a pasted link shows no picture. og:site_name is "Belle Pubs & Rest".
 11. **Broken links**: "VIEW MORE" for Hammersmith on the venues page goes to the homepage. Hammersmith has no social links.
 12. **Typos and errors**: "St Katherine's", "Moretown business development", "wirh", "all eith en-suite", "afabulous", "Battersea Power Station Station", "Tottenham Court" (no Road), "Accomodation" (in URL and title), "Griffin Belle Belle – Supervisor". On the PDFs: prawn cocktail marked (v)/(ve), and a Gmail address on the Fitzrovia menu.
-13. **Hotel gallery captions** sit on the wrong photos ("Griffin Belle: En-suite Bathroom" over a bedroom, for example). Many recent photos are 640×360 phone exports.
+13. **Photo quality is uneven.** Many recent gallery photos are 640×360 phone exports (the Hammersmith garden, Duchess rooms, Fitzrovia interiors), while the 2019 Moretown and 2024 Griffin shoots are full-resolution. Room photos are only captioned on the hotel page; the venue galleries have none.
 14. **Check-in time**: 3pm on the site, 2pm on the OTA listings for Fitzrovia and Hammersmith.
 15. **Booking is spread across five routes**: three eviivo links, one dead subdomain, phone-only tables, plus Booked.it, Tagvenue and DesignMyNight for hire. There's no single "book" journey.
 

@@ -1,0 +1,50 @@
+{%- set nav = [
+  { url: "/sport/", label: "Sport" },
+  { url: "/stay/", label: "Stay" },
+  { url: "/menus/", label: "Eat & drink" },
+  { url: "/christmas/", label: "Christmas" },
+  { url: "/private-hire/", label: "Parties & hire" }
+] -%}
+<header class="masthead" data-masthead>
+  <div class="masthead__bar wrap">
+    <a class="masthead__brand" href="{{ '/' | u }}" aria-label="Belle Pubs & Hotels, home">{% logo "group", "Belle Pubs & Hotels" %}</a>
+    <nav class="masthead__nav" aria-label="Main">
+      <ul>
+        {%- for item in nav %}
+        <li><a href="{{ item.url | u }}"{% if page.url.startsWith(item.url) %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {%- endfor %}
+        <li class="has-venues">
+          <details class="venue-menu">
+            <summary>The Belles</summary>
+            <ul>
+              {%- for v in venues %}
+              <li><a href="{{ ('/' + v.slug + '/') | u }}"{% if page.url == '/' + v.slug + '/' %} aria-current="page"{% endif %}><span>{{ v.name }}</span><small>{{ v.areaShort }}</small></a></li>
+              {%- endfor %}
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </nav>
+    <button class="btn btn--rose masthead__book" type="button" data-book>Book</button>
+    <button class="masthead__toggle" type="button" aria-expanded="false" aria-controls="drawer" data-drawer-toggle>
+      <span class="sr-only">Menu</span><span class="burger" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+  </div>
+  <div class="drawer" id="drawer" hidden>
+    <ul class="drawer__main">
+      {%- for item in nav %}
+      <li><a href="{{ item.url | u }}">{{ item.label }}</a></li>
+      {%- endfor %}
+    </ul>
+    <p class="drawer__label">The Belles</p>
+    <ul class="drawer__venues">
+      {%- for v in venues %}
+      <li><a href="{{ ('/' + v.slug + '/') | u }}">{% logo v.logo, v.name %}<small>{{ v.areaShort }}{% if v.rooms %} · {{ v.rooms.count }} rooms{% endif %}</small></a></li>
+      {%- endfor %}
+    </ul>
+    <ul class="drawer__more">
+      <li><a href="{{ '/work-with-us/' | u }}">Work with us</a></li>
+      <li><a href="{{ '/contact/' | u }}">Contact & gift vouchers</a></li>
+    </ul>
+  </div>
+</header>

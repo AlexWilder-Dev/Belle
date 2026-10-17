@@ -1,0 +1,105 @@
+---
+layout: base.njk
+title: Duchess Belle, Battersea
+ogTitle: "The Duchess Belle · Flowers, gardens and the Power Station view"
+description: "A Victorian corner pub opposite Battersea Power Station: flowers on every wall, two gardens, a first-floor bar and balcony for hire, live sport on three sound zones and eight rooms upstairs."
+og: duchess
+permalink: /duchess/
+bodyClass: page-venue page-duchess
+---
+{% set v = venues | venue("duchess") %}
+<section class="duchess-hero">
+  <div class="wrap">
+    <p class="crumbs"><a href="{{ '/' | u }}">Belle</a> / Battersea Park Road</p>
+    <div class="duchess-hero__frame">
+      <img class="roses roses--tl" src="{{ 'menu-roses' | imgUrl(600) }}" alt="" width="600" height="425">
+      <img class="roses roses--br" src="{{ 'menu-roses-alt' | imgUrl(600) }}" alt="" width="600" height="425">
+      <div class="photo">{% img "duchess-exterior", "The Duchess Belle: light brick Victorian corner pub with flower boxes along the fascia and white blossom trees", "100vw", "", true %}</div>
+    </div>
+    <div class="duchess-title">
+      <h1 class="vlogo">{% logo "duchess", "The Duchess Belle" %}</h1>
+      <p>Flowers on every wall, two gardens, and Battersea Power Station across the road.</p>
+    </div>
+  </div>
+  <svg class="skyline" viewBox="0 0 1440 170" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+      <path d="M0 150h1440"/>
+      <path d="M40 150V112h70v38M126 150V96h54v54M196 150v-30h40v30"/>
+      <path d="M560 150V78h320v72"/>
+      <path d="M560 78h320M600 78v72M840 78v72M640 104h160M640 124h160"/>
+      <path d="M574 78V20h22v58M574 20h22M572 16h26"/>
+      <path d="M844 78V20h22v58M844 20h22M842 16h26"/>
+      <path d="M574 150V78M866 150V78"/>
+      <path d="M582 34h6M582 48h6M852 34h6M852 48h6"/>
+      <path d="M1000 150V86h46v64M1060 150V64h60v86M1136 150V100h44v50M1250 150V90h70v60"/>
+      <path d="M1060 64l30-20 30 20"/>
+    </g>
+    <g fill="currentColor" opacity=".08"><path d="M560 78h320v72H560z"/></g>
+    <path d="M0 158c120-6 240 6 360 0s240-6 360 0 240 6 360 0 240-6 360 0" fill="none" stroke="var(--blue)" stroke-width="8" stroke-linecap="round"/>
+  </svg>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <p class="lede">A friendly, cosy pub opposite Battersea Power Station tube, and up the road from Battersea Dogs Home, so a dog-friendly one too.</p>
+      <p>The walls inside are laced with flowers, and so are the gardens: a sunny one at the back and a terrace at the front, with heaters for the colder months. Upstairs there's a bar and balcony looking straight at the Power Station chimneys.</p>
+      <p>Breakfast from 8am, then pub grub with an American twist, a roast on Sundays, jugs of cocktails and UHD screens across three sound zones for the football, rugby, cricket, F1 and American sports.</p>
+      <div class="btn-row">
+        <button class="btn btn--rose" type="button" data-book data-venue="duchess">Book a table</button>
+        <a class="btn btn--ghost" href="#rooms">Stay the night</a>
+      </div>
+    </div>
+    <dl class="vfacts">
+      {%- for f in v.facts %}<div><dt>{{ f[0] }}</dt><dd>{{ f[1] }}</dd></div>{% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="balcony">
+  <div class="photo">{% img "duchess-terrace", "The Duchess Belle's first-floor terrace, with Battersea Power Station's chimneys across the road", "100vw" %}</div>
+  <div class="wrap split section--tight">
+    <div>
+      <p class="kicker">Upstairs</p>
+      <h2>The first-floor bar & balcony</h2>
+    </div>
+    <div>
+      <p>{{ v.hire }}</p>
+      <button class="btn btn--rose" type="button" data-book data-book-tab="party" data-venue="duchess">Enquire about the balcony</button>
+    </div>
+  </div>
+</section>
+
+<section class="section blush">
+  <div class="wrap">
+    <h2 class="rule-head">Flowers on every wall</h2>
+    <div class="room-mosaic" style="margin-top:26px">
+      <span class="photo">{% img "duchess-bar", "The ground-floor bar: red columns, a chandelier and a ceiling of flowers", "(min-width: 900px) 60vw, 66vw" %}</span>
+      <span class="photo">{% img "duchess-mural", "A mural of Battersea Power Station framed in flowers", "(min-width: 900px) 30vw, 33vw" %}</span>
+      <span class="photo">{% img "duchess-garden", "The garden with white blossom trees", "(min-width: 900px) 30vw, 33vw" %}</span>
+      <span class="photo">{% img "duchess-topbar", "The upstairs bar with neon and rose walls", "(min-width: 900px) 60vw, 66vw" %}</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Pub history</p>
+      <h2>Here since 1789. Ish.</h2>
+      <ol class="timeline">
+        {%- for t in v.timeline %}<li><b>{{ t[0] }}</b><span>{{ t[1] }}</span></li>{% endfor %}
+      </ol>
+    </div>
+    <figure style="margin:0">
+      <div class="photo" style="aspect-ratio:4/3">{% img "duchess-history", "An old photograph of the pub on the corner of Battersea Park Road", "(min-width: 900px) 50vw, 100vw" %}</div>
+      <figcaption class="caption">The pub, years ago.</figcaption>
+    </figure>
+  </div>
+</section>
+
+{% set whatsOnClass = "wash" %}{% set whatsOnTitle = "On the screens" %}{% set whatsOnCount = 6 %}
+{% include "partials/venue-whatson.njk" %}
+{% set roomsClass = "blush" %}{% include "partials/venue-rooms.njk" %}
+{% set galleryTitle = "More flowers" %}{% include "partials/venue-gallery.njk" %}
+{% include "partials/visit.njk" %}

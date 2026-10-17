@@ -1,0 +1,132 @@
+---
+layout: base.njk
+title: Christmas 2026 at the Belle
+ogTitle: "Christmas 2026 at the Belle · Parties from £33 a head"
+description: "Christmas parties at five London pubs: set menus from £33, buffets at £34, private areas and whole-venue hire. Book before 30 October for a free Christmas cocktail each. Christmas Day lunch at four Belles."
+og: christmas
+permalink: /christmas/
+bodyClass: page-christmas
+---
+<section class="xmas-hero">
+  <img class="roses roses--tr" src="{{ 'menu-roses-alt' | imgUrl(600) }}" alt="" width="600" height="425">
+  <div class="wrap xmas-hero__grid">
+    <div>
+      <p class="kicker">Christmas 2026</p>
+      <h1>Your Christmas do, <em>done properly.</em></h1>
+      <p class="lede">Every Belle beautifully decorated, a private area or the whole place, a set menu or a buffet, and a team who'll sort the pre-orders and the deposits. You just turn up in the jumper.</p>
+      <p class="countdown" data-countdown="{{ christmas.earlyBird.deadline }}"><strong data-days>13</strong> <span data-days-label>days left</span> for a free Christmas cocktail each</p>
+      <p>{{ christmas.earlyBird.text }}</p>
+      <div class="btn-row">
+        <a class="btn btn--butter" href="#enquire">Start an enquiry</a>
+        <a class="btn btn--ghost" href="#day">Christmas Day lunch</a>
+      </div>
+    </div>
+    <div class="photo">{% img "duchess-upstairs", "The Duchess Belle's first-floor bar with red banquettes and a chandelier", "(min-width: 960px) 45vw, 100vw", "", true %}</div>
+  </div>
+</section>
+
+<section class="section blush" id="menus">
+  <div class="wrap wrap--narrow">
+    <div class="menu-panel frame">
+      <div class="tabs" role="tablist" aria-label="Christmas menus">
+        <button role="tab" type="button" id="xt-set" aria-controls="xp-set" aria-selected="true">Set menu</button>
+        <button role="tab" type="button" id="xt-buffet" aria-controls="xp-buffet" aria-selected="false" tabindex="-1">Buffet</button>
+        <button role="tab" type="button" id="xt-drinks" aria-controls="xp-drinks" aria-selected="false" tabindex="-1">Christmas drinks</button>
+      </div>
+      <section role="tabpanel" id="xp-set" aria-labelledby="xt-set">
+        <h2 class="rule-head">{{ christmas.setMenu.title }}</h2>
+        <p class="menu-panel__price">{{ christmas.setMenu.price }}</p>
+        {%- for c in christmas.setMenu.courses %}
+        <div class="course">
+          <h4>{{ c.title }}</h4>
+          {%- for d in c.items %}
+          <div class="dish{% if d.diet %} is-veg{% endif %}"><span class="dish__name">{{ d.name }}{% for m in d.diet %}<span class="diet" title="{{ 'Vegan' if m == 've' else 'Vegetarian' }}">{{ m }}</span>{% endfor %}</span><span></span><p class="dish__desc">{{ d.desc }}</p></div>
+          {%- endfor %}
+        </div>
+        {%- endfor %}
+      </section>
+      <section role="tabpanel" id="xp-buffet" aria-labelledby="xt-buffet" hidden>
+        <h2 class="rule-head">{{ christmas.buffet.title }}</h2>
+        <p class="menu-panel__price">{{ christmas.buffet.price }}</p>
+        {%- for d in christmas.buffet.items %}
+        <div class="dish"><span class="dish__name">{{ d.name }}{% for m in d.diet %}<span class="diet" title="{{ 'Vegan' if m == 've' else 'Vegetarian' }}">{{ m }}</span>{% endfor %}</span></div>
+        {%- endfor %}
+      </section>
+      <section role="tabpanel" id="xp-drinks" aria-labelledby="xt-drinks" hidden>
+        <h2 class="rule-head">Christmas drinks</h2>
+        {%- for d in christmas.drinks %}
+        <div class="dish"><span class="dish__name">{{ d.name }}</span><span class="dish__price">{{ d.price }}</span>{% if d.desc %}<p class="dish__desc">{{ d.desc }}</p>{% endif %}</div>
+        {%- endfor %}
+        <div class="course"><h4>Christmas virgins</h4>
+        {%- for d in christmas.virgins %}
+        <div class="dish"><span class="dish__name">{{ d.name }}</span><span class="dish__price">{{ d.price }}</span><p class="dish__desc">{{ d.desc }}</p></div>
+        {%- endfor %}
+        </div>
+      </section>
+      <p class="menu-note">(v) vegetarian · (ve) vegan. Allergies or special diets? Tell us when you book and the kitchen will look after you. {{ christmas.serviceNote }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section xmas-band" id="day">
+  <div class="wrap">
+    <p class="kicker">25 December</p>
+    <h2>Christmas Day, without the washing up</h2>
+    <p class="lede" style="color:#fbeee9">{{ christmas.dayOpen }} at four Belles. Crackers on the tables, the King's speech on the telly, and {{ christmas.deposit | lower }}. Celebrating at home? Pop in for a drink while the turkey's in the oven.</p>
+    <div class="xmas-days">
+      {%- for d in christmas.day %}
+      <article class="xday">
+        <div class="xday__logos">{% for s in d.venues %}{% set v = venues | venue(s) %}{% logo v.logo, v.name %}{% endfor %}</div>
+        <h3>{{ d.title }}</h3>
+        <p class="xday__price">{{ d.price }}</p>
+        <p>{{ d.welcome }} {{ d.extras }}</p>
+        {%- for c in d.courses %}
+        <h4>{{ c.title }}</h4>
+        <ul>{% for i in c.items %}<li>{{ i }}</li>{% endfor %}</ul>
+        {%- endfor %}
+        <p style="margin-top:16px"><button class="btn btn--rose" type="button" data-book data-book-tab="party" data-occasion="Christmas Day lunch" data-venue="{{ d.venues[0] }}">Reserve Christmas Day</button></p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="rule-head">Where to have it</h2>
+    <div class="spaces">
+      {%- for s in [
+        { v: "duchess", img: "duchess-terrace", title: "First-floor bar & balcony", cap: "Private hire", text: "Your own bar upstairs, looking across the road at the Battersea Power Station chimneys." },
+        { v: "moretown", img: "moretown-pano", title: "The whole Moretown", cap: "Up to 120 seated · 200 standing", text: "Thirty-one screens, five sound zones, darts and pool, by St Katharine Docks. Big enough for the whole company." },
+        { v: "hammersmith", img: "hammersmith-bar", title: "Private areas on King Street", cap: "Private areas & garden pergola", text: "Rose walls, chandeliers and the old fireplace, with a darts lounge for when the speeches finish." },
+        { v: "griffin", img: "griffin-interior", title: "The Griffin, Vauxhall", cap: "Areas for hire · 14 rooms upstairs", text: "Flower ceilings and red banquettes, a short walk from Vauxhall. Book the rooms too and nobody needs a night bus." },
+        { v: "fitzrovia", img: "fitzrovia-booths", title: "Two bars on Tottenham Court Road", cap: "Areas for hire · 5 rooms upstairs", text: "Right in the middle of town for the office crowd, with the piano in the front bar for anyone brave enough." }
+      ] %}{% set v = venues | venue(s.v) %}
+      <article class="space">
+        <span class="photo">{% img s.img, s.title, "(min-width: 1140px) 33vw, (min-width: 760px) 50vw, 100vw" %}</span>
+        <div class="space__body">
+          <a class="space__logo" href="{{ ('/' + v.slug + '/') | u }}">{% logo v.logo, v.name %}</a>
+          <h3>{{ s.title }}</h3>
+          <p class="space__cap">{{ s.cap }}</p>
+          <p>{{ s.text }}</p>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section wash" id="enquire">
+  <div class="wrap enquire">
+    <div>
+      <p class="kicker">Get a date in the diary</p>
+      <h2>Tell us about your party</h2>
+      <p>Pick a Belle and a date, tell us roughly how many, and the team will come back with spaces, menus and a deposit link. They'll sort food and drink pre-orders and make sure it runs smoothly from start to finish.</p>
+      <p>Booked and confirmed by <b>30 October</b>? Everyone gets a Christmas cocktail on arrival.</p>
+      <p class="small muted">Prefer a chat? <a href="mailto:jane@bellepubsandrestaurants.co.uk">Email Jane at head office</a> or ring your local.</p>
+    </div>
+    <div class="enquire__form frame">
+      {% set partyOccasion = "Christmas party" %}{% set showMenuChoice = true %}{% include "partials/party-form.njk" %}
+    </div>
+  </div>
+</section>

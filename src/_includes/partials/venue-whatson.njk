@@ -1,0 +1,32 @@
+<section class="section {{ whatsOnClass or '' }}" id="whats-on">
+  <div class="wrap">
+    <div class="next-up__head">
+      <div>
+        <p class="kicker">What's on at the {{ v.name }}</p>
+        <h2>{{ whatsOnTitle or "Coming up on the screens" }}</h2>
+      </div>
+      <a class="btn btn--ghost" href="{{ '/sport/' | u }}">Every fixture, every Belle</a>
+    </div>
+    {%- set evs = events | where("venue", v.slug) %}
+    {%- if evs.length and not hideEvents %}
+    <div class="whats-on" style="margin-bottom:22px">
+      {%- for e in evs %}
+      <article class="event">
+        <span class="photo">{% img e.image, e.title + " poster", "110px" %}</span>
+        <div>
+          <span class="tag tag--rose">{{ e.date | dayShort }}{% if e.repeat %} · {{ e.repeat }}{% endif %}</span>
+          <h3>{{ e.title }}</h3>
+          <p>{{ e.text }}</p>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+    <div class="tickets tickets--row" data-upcoming>
+      {%- for f in board.items | forVenue(v.slug) | limit(whatsOnCount or 8) %}
+      {% set onlyVenue = v.slug %}{% include "partials/ticket.njk" %}
+      {%- endfor %}
+    </div>
+    <p class="small muted" style="margin-top:16px">Sample screen plan. Our sports schedule can change with demand, so give us a ring on {{ v.phone }} before a big one.</p>
+  </div>
+</section>

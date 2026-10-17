@@ -1,0 +1,64 @@
+<dialog class="book" id="book" aria-labelledby="book-title">
+  <div class="book__card frame">
+    <button class="book__close" type="button" data-book-close aria-label="Close">&times;</button>
+    <h2 class="book__title" id="book-title">Book at the Belle</h2>
+    <div class="tabs" role="tablist" aria-label="What would you like to book?">
+      <button role="tab" type="button" id="tab-table" aria-controls="pane-table" aria-selected="true" data-tab="table">A table</button>
+      <button role="tab" type="button" id="tab-room" aria-controls="pane-room" aria-selected="false" data-tab="room" tabindex="-1">A room</button>
+      <button role="tab" type="button" id="tab-party" aria-controls="pane-party" aria-selected="false" data-tab="party" tabindex="-1">A party</button>
+    </div>
+
+    <section class="book__pane" role="tabpanel" id="pane-table" aria-labelledby="tab-table">
+      <form class="form" data-mock="table" novalidate>
+        <div class="form__row">
+          <label>Which Belle?
+            <select name="venue" required>
+              {%- for v in venues %}<option value="{{ v.slug }}">{{ v.name }} · {{ v.areaShort }}</option>{% endfor %}
+            </select>
+          </label>
+        </div>
+        <div class="form__row form__row--3">
+          <label>Date <input type="date" name="date" required></label>
+          <label>Time <input type="time" name="time" value="17:00" step="900" required></label>
+          <label>Guests <input type="number" name="guests" min="1" max="40" value="4" inputmode="numeric" required></label>
+        </div>
+        <div class="form__row">
+          <label>Coming for a game? <span class="opt">optional</span>
+            <select name="fixture" data-fixture-select>
+              <option value="">No game, just good company</option>
+            </select>
+          </label>
+        </div>
+        <div class="form__row form__row--2">
+          <label>Name <input type="text" name="name" autocomplete="name" required></label>
+          <label>Mobile <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required></label>
+        </div>
+        <label class="form__check"><input type="checkbox" name="kids"> Bringing little ones? We'll find you room for a highchair.</label>
+        <button class="btn btn--rose btn--wide" type="submit">Hold my table</button>
+      </form>
+    </section>
+
+    <section class="book__pane" role="tabpanel" id="pane-room" aria-labelledby="tab-room" hidden>
+      <p class="book__lede">Book straight with the pub and you're dealing with the people who'll pour your breakfast tea. Breakfast is included with every room.</p>
+      <ul class="book__hotels">
+        {%- for v in venues %}{% if v.rooms %}
+        <li>
+          <span class="book__hotel">{% logo v.logo, v.name %}<small>{{ v.rooms.count }} rooms · {{ v.areaShort }}</small></span>
+          {%- if v.rooms.booking %}
+          <a class="btn btn--rose" href="{{ v.rooms.booking }}" rel="noopener">Book direct</a>
+          {%- else %}
+          <span class="book__call"><a class="btn btn--rose" href="tel:{{ v.phone | replace(' ', '') }}">Call to book</a> <a href="mailto:{{ v.email }}?subject=Room%20booking">or email</a></span>
+          {%- endif %}
+        </li>
+        {%- endif %}{% endfor %}
+      </ul>
+      <p class="book__small"><a href="{{ '/stay/' | u }}">Compare the four hotels</a> · check-in from 3pm · check-out 11am</p>
+    </section>
+
+    <section class="book__pane" role="tabpanel" id="pane-party" aria-labelledby="tab-party" hidden>
+      {% set formId = "dialog" %}{% include "partials/party-form.njk" %}
+    </section>
+
+    <div class="book__done" role="status" hidden></div>
+  </div>
+</dialog>

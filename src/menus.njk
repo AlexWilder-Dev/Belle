@@ -1,0 +1,165 @@
+---
+layout: base.njk
+title: Menus
+ogTitle: "Belle menus · Breakfast, Belle Burgers, Sunday roast & drinks"
+description: "Breakfast till 11.30, then pub grub with an American twist: twenty smashed Belle Burgers, minute steaks, wings, katsu and a proper Sunday roast. Vegetarian and vegan options marked."
+og: menus
+permalink: /menus/
+bodyClass: page-menus
+---
+{%- macro dish(d) -%}
+<div class="dish{% if d.diet %} is-veg{% endif %}{% if d.venues %} dish--only{% endif %}">
+  <span class="dish__name">{{ d.name }}{% for m in d.diet %}<span class="diet" title="{{ 'Vegan' if m == 've' else 'Vegetarian' }}">{{ m }}</span>{% endfor %}{% if d.venues %}<span class="dish__only">Moretown</span>{% endif %}</span>
+  <span class="dish__price">{{ d.price }}</span>
+  {%- if d.desc %}<p class="dish__desc">{{ d.desc }}</p>{% endif %}
+</div>
+{%- endmacro -%}
+<section class="menu-hero">
+  <div class="photo">{% img "food-spread", "A table of Belle food: burgers, wings, ribs, nachos and fish and chips", "100vw", "", true %}</div>
+  <div class="wrap menu-hero__inner">
+    <p class="kicker" style="color:var(--butter)">Eat & drink</p>
+    <h1>Pub grub with an American twist</h1>
+    <p class="lede">Breakfast every day until 11.30am, then the all-day menu takes over: smashed burgers, minute steaks, wings, nachos, katsu, and fish freshly battered. Prepared from produce delivered fresh every day.</p>
+  </div>
+</section>
+
+<div class="menu-nav">
+  <div class="wrap menu-nav__inner">
+    <nav class="chips" aria-label="Menu sections">
+      <a class="chip" href="#burgers">Belle Burgers</a>
+      <a class="chip" href="#all-day">All day</a>
+      <a class="chip" href="#roast">Sunday roast</a>
+      <a class="chip" href="#breakfast">Breakfast</a>
+      <a class="chip" href="#drinks">Drinks</a>
+      <a class="chip" href="{{ '/christmas/#menus' | u }}">Christmas</a>
+    </nav>
+    <div class="menu-switch" role="group" aria-label="Which Belle?">
+      <span>Eating at</span>
+      <button class="chip" type="button" data-menu-venue-btn="shared" aria-pressed="true">Duchess · Fitzrovia · Griffin · Hammersmith</button>
+      <button class="chip" type="button" data-menu-venue-btn="moretown" aria-pressed="false">Moretown</button>
+      <button class="chip chip--toggle" type="button" data-diet-btn aria-pressed="false">Veggie & vegan only</button>
+    </div>
+  </div>
+</div>
+
+<div data-menu-root data-menu-venue="shared" data-diet-filter="all">
+<section class="burgers night section" id="burgers">
+  <div class="wrap">
+    <div class="burgers__head">
+      <p class="kicker">Our speciality</p>
+      <h2 class="neon neon--flicker">Belle Burgers</h2>
+      <p>{{ menus.burgers.intro }}</p>
+    </div>
+    <div class="builder" data-builder data-style="dressed" data-fill="beef">
+      <svg class="builder__art" viewBox="0 0 320 300" role="img" aria-label="A Belle Burger that changes as you pick how it's served">
+        <ellipse cx="160" cy="268" rx="138" ry="16" fill="#000" opacity=".35"/>
+        <g class="b-bottom"><path d="M42 214h236c0 26-22 44-52 44H94c-30 0-52-18-52-44z" fill="#d79a45"/><path d="M42 214h236v8H42z" fill="#c4842f"/></g>
+        <g class="b-leaves"><path d="M30 206c18-14 28 6 46-8s28 8 46-6 28 8 46-6 28 8 46-6 28 8 46-6 28 6 30 10l-6 14H36z" fill="#7dbb4a"/></g>
+        <g class="b-patty"><path d="M44 168h232c10 0 14 8 12 18-2 12-10 20-22 20H54c-12 0-20-8-22-20-2-10 2-18 12-18z" fill="#6b3a24"/></g>
+        <g class="b-cheese"><path d="M40 162h240l-12 14-18-2-12 18-14-16-30 4-16 14-18-14-26 4-16 12-16-14-28 2-14 10-12-16z" fill="#f2c230"/></g>
+        <g class="b-tomato"><rect x="62" y="148" width="86" height="14" rx="7" fill="#d22d4e"/><rect x="170" y="148" width="86" height="14" rx="7" fill="#d22d4e"/></g>
+        <g class="b-top"><path d="M40 146c0-60 54-96 120-96s120 36 120 96z" fill="#e3a650"/><path d="M40 146h240v-6H40z" fill="#c98a3a"/><g fill="#fff7e0"><ellipse cx="118" cy="86" rx="6" ry="3" transform="rotate(-20 118 86)"/><ellipse cx="160" cy="74" rx="6" ry="3"/><ellipse cx="200" cy="90" rx="6" ry="3" transform="rotate(25 200 90)"/><ellipse cx="140" cy="108" rx="6" ry="3" transform="rotate(10 140 108)"/><ellipse cx="185" cy="114" rx="6" ry="3" transform="rotate(-15 185 114)"/></g></g>
+      </svg>
+      <div class="builder__controls">
+        <fieldset>
+          <legend>Pick your patty</legend>
+          <div class="seg">
+            <button type="button" data-set="fill:beef" aria-pressed="true">Smashed beef</button>
+            <button type="button" data-set="fill:chicken" aria-pressed="false">Southern chicken</button>
+            <button type="button" data-set="fill:veg" aria-pressed="false">Veggie <span class="diet">ve</span></button>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>How do you take it?</legend>
+          <div class="seg">
+            <button type="button" data-set="style:dressed" aria-pressed="true">Dressed</button>
+            <button type="button" data-set="style:topless" aria-pressed="false">Topless</button>
+            <button type="button" data-set="style:naked" aria-pressed="false">Naked</button>
+          </div>
+        </fieldset>
+        <p class="builder__say" data-builder-say aria-live="polite">Dressed: the full works, lid on.</p>
+        <p class="small muted">With fries or salad. Swap to sweet potato fries for £2. {{ menus.burgers.dipping }}</p>
+      </div>
+    </div>
+    <div class="burger-list">
+      {%- for b in menus.burgers.items %}
+      <article class="bcard{% if b.star %} bcard--star{% endif %}">
+        <span class="bcard__n">No. {{ loop.index }}</span>
+        <h3>{{ b.name }} <span>{{ b.price }}</span></h3>
+        <p>{{ b.desc }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+    <div class="ring-box">Homemade crispy onion rings <b>Simply the best!</b> £7.95 a side</div>
+    <p class="menu-note" style="color:var(--muted)">Every burger can be built on the crispy vegetable pattie, in the vegan bun. 2 for 1 on all burgers and steaks, Monday to Friday, 11.30am to 7pm.</p>
+  </div>
+</section>
+
+<section class="section wash" id="all-day">
+  <div class="wrap">
+    <div class="menu-sheet frame">
+      <img class="roses roses--tr" src="{{ 'menu-roses' | imgUrl(360) }}" alt="" width="360" height="255" style="width:clamp(110px,18vw,220px)">
+      <h2 class="rule-head">All-day menu</h2>
+      <div class="menu-grid">
+        {%- for sec in menus.food %}
+        <section class="menu-sec" id="m-{{ sec.id }}">
+          <h3 class="rule-head"{% if sec.titleMoretown %} data-chicken-title data-shared="{{ sec.title }}" data-moretown="{{ sec.titleMoretown }}"{% endif %}>{{ sec.title }}</h3>
+          {%- if sec.intro %}<p class="menu-sec__intro">{{ sec.intro }}</p>{% endif %}
+          {%- for d in sec.items %}{{ dish(d) }}{% endfor %}
+        </section>
+        {%- endfor %}
+      </div>
+      <p class="menu-note">(v) vegetarian · (ve) vegan, as marked by our kitchen. Plenty more can be made veggie: just ask. {{ menus.serviceNote }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section blush" id="roast">
+  <div class="wrap split">
+    <div class="photo" style="aspect-ratio:4/3">{% img "food-roast", "A Belle Sunday roast with Yorkshire pudding and gravy", "(min-width: 900px) 50vw, 100vw" %}</div>
+    <div>
+      <p class="kicker">Every Sunday from midday</p>
+      <h2>Sunday wouldn't be Sunday without it</h2>
+      <p>{{ menus.roast.intro }} Booking's a good idea.</p>
+      {%- for d in menus.roast.items %}{{ dish(d) }}{% endfor %}
+      <p class="small muted" style="margin-top:14px">Kids eat free on Sundays too: one under-12 off the kids' menu with every paying adult main (not the kids' roast).</p>
+      <button class="btn btn--rose" type="button" data-book>Book Sunday lunch</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="breakfast">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Open daily for breakfast</p>
+      <h2>Breakfast until half eleven</h2>
+      <p>{{ menus.breakfast.intro }} Hotel guests: yours is included in the room rate.</p>
+      {%- for d in menus.breakfast.items %}{{ dish(d) }}{% endfor %}
+    </div>
+    <div class="photo" style="aspect-ratio:4/3">{% img "moretown-booths", "Morning light through the Moretown Belle's glass frontage", "(min-width: 900px) 50vw, 100vw" %}</div>
+  </div>
+</section>
+
+<section class="section belle-blue" id="drinks">
+  <div class="wrap">
+    <h2 class="rule-head">Drinks</h2>
+    <p style="text-align:center;max-width:56ch;margin:0 auto 30px">Draught beers, ales and ciders, wines by the glass and bottle, bubbles and jugs of cocktails. Same list at every Belle.</p>
+    <div class="menu-sheet frame">
+      <div class="drinks">
+        {%- for t in menus.drinks %}
+        <table>
+          <caption>{{ t.title }}</caption>
+          {%- if t.cols.length %}<thead><tr><th scope="col"><span class="sr-only">Drink</span></th>{% for c in t.cols %}<th scope="col">{{ c }}</th>{% endfor %}</tr></thead>{% endif %}
+          <tbody>
+            {%- for row in t.items %}
+            <tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>
+            {%- endfor %}
+          </tbody>
+        </table>
+        {%- endfor %}
+      </div>
+      <p class="menu-note">Thursday: buy two large glasses of wine and the rest of the bottle is free. Friday: half-price Prosecco and a third off Champagne Piaff.</p>
+    </div>
+  </div>
+</section>
+</div>

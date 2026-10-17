@@ -1,0 +1,82 @@
+---
+layout: base.njk
+title: Work with us
+ogTitle: "Work at the Belle · Jobs in five London pubs"
+description: "We're always after great people with energy, enthusiasm, a sense of humour and a winning smile. Current roles at the Hammersmith Belle and the Griffin Belle, with training, tips and a free meal on every shift."
+og: jobs
+permalink: /work-with-us/
+bodyClass: page-jobs
+---
+<section class="rosewall-hero">
+  <div class="photo">{% img "rose-wall", "", "100vw", "", true %}</div>
+  <div class="wrap rosewall-hero__inner">
+    <p class="kicker" style="color:var(--butter)">Join the team</p>
+    <h1>Pull pints. Make people's day.</h1>
+    <p class="lede">We're always on the lookout for great people with energy, enthusiasm, a sense of humour and a winning smile, and a passion for the trade.</p>
+    <a class="btn btn--butter" href="#apply">Apply today</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="rule-head">Hiring now</h2>
+    <div class="roles" style="margin-top:26px">
+      {%- for r in jobs.roles %}{% set v = venues | venue(r.venue) %}
+      <article class="role">
+        {% logo v.logo, v.name %}
+        <h3 style="margin:6px 0 0">{{ r.title }}</h3>
+        <p style="margin:0">{{ r.text }}</p>
+        <p class="small muted" style="margin:0">{{ v.address | join(", ") }}</p>
+        <p style="margin:6px 0 0"><a class="btn btn--sm btn--rose" href="#apply" data-role="{{ r.title }}" data-role-venue="{{ r.venue }}">Apply for this</a></p>
+      </article>
+      {%- endfor %}
+    </div>
+    <p class="muted" style="margin-top:18px">Nothing that fits? Drop into any Belle and ask for the manager on duty, or send us your details anyway. We're a growing company and things come up.</p>
+  </div>
+</section>
+
+<section class="section blush">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">What you get</p>
+      <h2>The good bits</h2>
+      <ul class="perks">{% for p in jobs.perks %}<li>{{ p }}</li>{% endfor %}</ul>
+    </div>
+    <div class="photo" style="aspect-ratio:4/3">{% img "hammersmith-bar", "Behind the bar at the Hammersmith Belle", "(min-width: 900px) 50vw, 100vw" %}</div>
+  </div>
+</section>
+
+<section class="section wash" id="apply">
+  <div class="wrap enquire">
+    <div>
+      <p class="kicker">Simple, we promise</p>
+      <h2>Apply in two minutes</h2>
+      <p>Tell us where you'd like to work and a bit about you. The manager will be in touch, or just pop in and say hello.</p>
+    </div>
+    <div class="enquire__form frame">
+      <form class="form" data-mock="job" novalidate>
+        <div class="form__row form__row--2">
+          <label>Which Belle?
+            <select name="venue" required>
+              {%- for v in venues %}<option value="{{ v.slug }}">{{ v.name }}</option>{% endfor %}
+            </select>
+          </label>
+          <label>Role
+            <select name="role">
+              {%- for r in jobs.roles %}<option>{{ r.title }}, {{ (venues | venue(r.venue)).name }}</option>{% endfor %}
+              <option>Bar team</option><option>Kitchen team</option><option>Housekeeping</option><option>Anything going</option>
+            </select>
+          </label>
+        </div>
+        <div class="form__row form__row--2">
+          <label>Name <input type="text" name="name" autocomplete="name" required></label>
+          <label>Email <input type="email" name="email" autocomplete="email" required></label>
+        </div>
+        <label>Tell us about you <span class="opt">optional</span>
+          <textarea name="about" rows="4" placeholder="Where you've worked, when you can start, what makes you laugh…"></textarea>
+        </label>
+        <button class="btn btn--rose btn--wide" type="submit">I didn't delay, I'm applying today!</button>
+      </form>
+    </div>
+  </div>
+</section>

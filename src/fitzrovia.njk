@@ -1,0 +1,66 @@
+---
+layout: base.njk
+title: Fitzrovia Belle, Tottenham Court Road
+ogTitle: "The Fitzrovia Belle · Pub & five rooms on Tottenham Court Road"
+description: "A pub and five boutique rooms on Tottenham Court Road, between Goodge Street and Warren Street. Breakfast from 7.30am, two bars, seven screens and a piano in the front bar."
+og: fitzrovia
+permalink: /fitzrovia/
+bodyClass: page-venue page-fitzrovia
+---
+{% set v = venues | venue("fitzrovia") %}
+<section class="fascia">
+  <div class="wrap">
+    <p class="crumbs" style="padding-top:14px;color:#a8925a"><a href="{{ '/' | u }}">Belle</a> / Tottenham Court Road</p>
+    <div class="fascia__board">
+      <h1 style="margin:0">{% logo "fitzrovia", "The Fitzrovia Belle" %}</h1>
+      <p class="fascia__line"><span>Public House</span><span>Dining &amp; Drinking</span><span>Hotel</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="fitz-shop">
+  <div class="photo">{% img "fitzrovia-exterior", "The Fitzrovia Belle's black and gold frontage on Tottenham Court Road, hanging baskets and picnic benches outside", "(min-width: 900px) 50vw, 100vw", "", true %}</div>
+  <div class="section" style="padding-inline:var(--gutter);max-width:640px">
+    <p class="lede">A proper community pub on Tottenham Court Road, all about friendly service, with five rooms upstairs for when you'd rather not get the last train.</p>
+    <p>Breakfast from half seven. After that, classic pub favourites, daily kitchen specials and a traditional Sunday roast, all made from produce delivered fresh each day. Two bars pour draught beers, premium spirits, and wine and champagne by the glass or bottle.</p>
+    <p>Seven screens and three sound zones for the big games. Call ahead and we'll keep you a table.</p>
+    <div class="btn-row">
+      <a class="btn btn--rose" href="#rooms">Book a room</a>
+      <button class="btn btn--ghost" type="button" data-book data-venue="fitzrovia">Book a table</button>
+    </div>
+  </div>
+</section>
+
+{% set roomsClass = "wash" %}{% include "partials/venue-rooms.njk" %}
+
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Since 1780, give or take a war</p>
+      <h2>From the Mortimer Arms</h2>
+      <ol class="timeline">
+        {%- for t in v.timeline %}<li><b>{{ t[0] }}</b><span>{{ t[1] }}</span></li>{% endfor %}
+      </ol>
+    </div>
+    <dl class="vfacts">
+      {%- for f in v.facts %}<div><dt>{{ f[0] }}</dt><dd>{{ f[1] }}</dd></div>{% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="section night">
+  <div class="wrap split">
+    <div class="photo" style="aspect-ratio:3/2">{% img "neon-cheesecake", "A red neon sign reading I love cheesecake", "(min-width: 900px) 50vw, 100vw" %}</div>
+    <div>
+      <p class="kicker">Save room</p>
+      <h2>We ♥ cheesecake.</h2>
+      <p>Lotus Biscoff, or banana and salted caramel, both £9.95. Or the warm chocolate fudge cake, or banana lollipops dipped in chocolate. Then a nightcap, then upstairs.</p>
+      <a class="btn btn--ghost" href="{{ '/menus/#m-desserts' | u }}">Desserts & the full menu</a>
+    </div>
+  </div>
+</section>
+
+{% set whatsOnClass = "" %}{% set whatsOnTitle = "On the seven screens" %}{% set whatsOnCount = 6 %}
+{% include "partials/venue-whatson.njk" %}
+{% set galleryTitle = "Inside" %}{% include "partials/venue-gallery.njk" %}
+{% include "partials/visit.njk" %}

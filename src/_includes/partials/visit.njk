@@ -1,0 +1,49 @@
+{%- set days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] -%}
+<section class="section" id="visit">
+  <div class="wrap">
+    <h2 class="rule-head rule-head--left">Come and see us</h2>
+    <div class="visit">
+      <div>
+        <h3>Opening hours</h3>
+        <div data-hours='{{ v.hours | json }}'><p class="open-now" data-open-now></p></div>
+        <table class="hours">
+          <tbody>
+            {%- for d in days %}
+            <tr><td>{{ d }}</td><td>{{ v.hours[loop.index0][0] | clock }} – {{ v.hours[loop.index0][1] | clock }}</td></tr>
+            {%- endfor %}
+          </tbody>
+        </table>
+        <p class="small muted" style="margin-top:10px">Breakfast until 11.30am. The all-day menu runs after that.</p>
+      </div>
+      <div>
+        <h3>Find us</h3>
+        <address style="font-style:normal;font-size:1.15rem;margin-bottom:12px">{{ v.address | join("<br>") | safe }}</address>
+        <p><a href="tel:{{ v.phone | replace(' ', '') }}">{{ v.phone }}</a><br><a href="mailto:{{ v.email }}">{{ v.email }}</a></p>
+        <h3>Nearest stations</h3>
+        <ul class="stations">
+          {%- for s in v.stations %}
+          <li><span>{{ s.name }}</span><small>{{ s.lines }}{% if s.walk %}<br>{{ s.walk }}{% endif %}</small></li>
+          {%- endfor %}
+        </ul>
+        <p><a class="btn btn--sm btn--ghost" href="https://www.google.com/maps/search/?api=1&query={{ (v.name + ' ' + v.address | join(' ')) | urlencode }}" rel="noopener">Open in Maps</a></p>
+      </div>
+      <div class="table-box" id="book-table">
+        <h3>Book a table</h3>
+        <form class="form" data-mock="table" novalidate>
+          <input type="hidden" name="venue" value="{{ v.slug }}">
+          <div class="form__row form__row--3">
+            <label>Date <input type="date" name="date" min="2026-10-17" required></label>
+            <label>Time <input type="time" name="time" value="18:00" step="900" required></label>
+            <label>Guests <input type="number" name="guests" min="1" max="40" value="4" inputmode="numeric" required></label>
+          </div>
+          <div class="form__row form__row--2">
+            <label>Name <input type="text" name="name" autocomplete="name" required></label>
+            <label>Mobile <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required></label>
+          </div>
+          <button class="btn btn--rose btn--wide" type="submit">Hold my table</button>
+          <p class="small muted" style="margin:0">Coming for a game? <button class="linklike" type="button" data-book data-venue="{{ v.slug }}">Pick the fixture</button> and we'll seat you by a screen with the sound on.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

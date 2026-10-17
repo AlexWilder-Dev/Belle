@@ -1,0 +1,106 @@
+---
+layout: base.njk
+title: Moretown Belle, Tower Hill
+ogTitle: "The Moretown Belle · 31 screens by St Katharine Docks"
+description: "Thirty-one UHD screens, five sound zones, five darts boards and three pool tables, a short walk from the Tower of London. Breakfast from 8am, meetings, team socials and room for 200."
+og: moretown
+theme: night
+permalink: /moretown/
+bodyClass: page-venue page-moretown
+---
+{% set v = venues | venue("moretown") %}
+{% set next = board.items | forVenue("moretown") | limit(10) %}
+<section class="wall">
+  <div class="wrap">
+    <p class="crumbs"><a href="{{ '/' | u }}">Belle</a> / Tower Hill & St Katharine Docks</p>
+    <div class="wall__grid" aria-label="The Moretown Belle's wall of screens">
+      <div class="tv tv--big">
+        <span class="photo">{% img "moretown-pano-neon", "Inside the Moretown Belle: the circular blue-tiled bar, screens all round and the Glamorous Girl neon", "(min-width: 720px) 50vw, 100vw", "", true %}</span>
+        <div class="tv__label">{% logo "moretown", "The Moretown Belle" %}</div>
+      </div>
+      {%- set photos = [["moretown-bar", "The Moretown bar under neon"], ["moretown-darts", "A dartboard on a wall of roses"], ["moretown-pool", "Pool tables by the side bar"], ["moretown-booths", "Booths by the glass frontage"], ["moretown-poolballs", "Pool balls racked"], ["moretown-heineken", "Taps and the back bar"]] %}
+      {%- for i in range(0, 6) %}
+      {%- set f = next[i] %}
+      {%- if f %}
+      <div class="tv{% if loop.index0 % 2 == 0 %} tv--pitch{% endif %}{% if loop.first %} tv--live{% endif %}"><p class="tv__fix"><b>{{ f.date | dayShort }} · {{ f.time or "TBC" }}</b><span>{{ f.title }}</span></p></div>
+      {%- endif %}
+      <div class="tv"><span class="photo">{% img photos[i][0], photos[i][1], "140px", "", true %}</span></div>
+      {%- endfor %}
+    </div>
+  </div>
+  <div class="moretown-floor" aria-hidden="true"></div>
+  <div class="wrap">
+    <h1 class="sr-only">The Moretown Belle</h1>
+    <div class="split split--wide-left">
+      <div>
+        <p class="lede">A short walk from the Tower of London through St Katharine Docks, with a big sunny garden out front and thirty-one UHD screens inside. Plus what we reckon is the biggest single telly in Europe.</p>
+        <p>Five sound zones mean the derby, the darts and the Grand Prix can all be on at once, each with its own commentary. Breakfast from 8am, the all-day menu after, a roast every Sunday, and reservations all day, every day.</p>
+        <div class="btn-row">
+          <button class="btn btn--rose" type="button" data-book data-venue="moretown">Book a table</button>
+          <a class="btn btn--ghost" href="#whats-on">What's on</a>
+        </div>
+      </div>
+      <dl class="vfacts">
+        {%- for f in v.facts %}<div><dt>{{ f[0] }}</dt><dd>{{ f[1] }}</dd></div>{% endfor %}
+      </dl>
+    </div>
+  </div>
+</section>
+
+{% set whatsOnClass = "" %}{% set whatsOnTitle = "On the wall this week" %}{% set whatsOnCount = 8 %}
+{% include "partials/venue-whatson.njk" %}
+
+<section class="section" style="padding-top:0">
+  <div class="wrap split">
+    <div class="photo" style="aspect-ratio:4/3">{% img "moretown-darts", "A dartboard set into a wall of roses at the Moretown", "(min-width: 900px) 50vw, 100vw" %}</div>
+    <div>
+      <p class="kicker">Between games</p>
+      <h2>Five darts boards. Three pool tables.</h2>
+      <p>For a social, a team night or settling who's buying the next round. Darts boards sit among the rose walls; the pool tables are round by the side bar.</p>
+      <p class="muted">Want them for your group? Mention it when you book.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section belle-blue" style="color:var(--ink)">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Meetings to Friday night</p>
+      <h2>Room for 200, or a quiet corner for 10</h2>
+      <p>{{ v.hire }}</p>
+      <ul class="facts-row"><li>120 seated</li><li>200 standing</li><li>Breakfast briefings from 8am</li><li>5 sound zones</li></ul>
+      <button class="btn btn--ink" type="button" data-book data-book-tab="party" data-venue="moretown" data-occasion="Meeting or breakfast briefing">Enquire about hire</button>
+    </div>
+    <div class="photo" style="aspect-ratio:4/3">{% img "moretown-500s", "A long room with high tables and screens at the Moretown", "(min-width: 900px) 50vw, 100vw" %}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Only at the Moretown</p>
+      <h2>Ribs.</h2>
+      <p>Everything on the Belle menu, plus baby back pork ribs you won't find at the other four.</p>
+      {%- for sec in menus.food %}{% for d in sec.items %}{% if d.venues and "moretown" in d.venues %}
+      <div class="dish"><span class="dish__name">{{ d.name }}</span><span class="dish__price">{{ d.price }}</span><p class="dish__desc">{{ d.desc }}</p></div>
+      {%- endif %}{% endfor %}{% endfor %}
+      <p style="margin-top:18px"><a class="btn btn--ghost" href="{{ '/menus/' | u }}">Full menu</a></p>
+    </div>
+    <div class="photo" style="aspect-ratio:3/4;max-height:620px">{% img "moretown-neon-burgers", "The Belle Burgers neon sign at the Moretown", "(min-width: 900px) 50vw, 100vw" %}</div>
+  </div>
+</section>
+
+<section class="section xmas-band">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Christmas Day at the Moretown</p>
+      <h2>The carvery's on.</h2>
+      <p>Welcome cocktail, three courses with a proper carvery in the middle, crackers, free pool and darts, and the King's speech on the biggest telly in Europe. £85 adults, £75 seniors, £21 for under-18s. Bar open 11am to 6pm.</p>
+      <a class="btn btn--butter" href="{{ '/christmas/#day' | u }}">See the Christmas Day menu</a>
+    </div>
+    <div class="photo" style="aspect-ratio:16/10">{% img "moretown-200s", "The Moretown dining area", "(min-width: 900px) 50vw, 100vw" %}</div>
+  </div>
+</section>
+
+{% set galleryTitle = "Around the bar" %}{% include "partials/venue-gallery.njk" %}
+{% include "partials/visit.njk" %}

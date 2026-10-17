@@ -1,0 +1,10 @@
+<section class="section--tight {{ galleryClass or '' }}">
+  <div class="wrap">
+    <h2 class="rule-head rule-head--left">{{ galleryTitle or "Have a look around" }}</h2>
+    <div class="gallery" tabindex="0" aria-label="{{ v.name }} photos">
+      {%- for g in v.gallery %}
+      <span class="photo">{% img g, v.name, "(min-width: 1100px) 28vw, (min-width: 760px) 38vw, 78vw" %}</span>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

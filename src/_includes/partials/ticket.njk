@@ -1,0 +1,24 @@
+<article class="ticket{% if f.headline %} is-headline{% endif %}" data-fixture data-sport="{{ f.sport }}" data-venues="{% for s in f.showing %}{{ s.venue }} {% endfor %}" data-headline="{{ 'yes' if f.headline else 'no' }}" data-when="{{ f.date }}T{{ f.time or '23:59' }}">
+  <div class="ticket__when">
+    <span class="ticket__day">{{ f.date | dayShort }}</span>
+    <span class="ticket__time">{{ f.time or "TBC" }}</span>
+    <span class="ticket__sport"><span class="tag{% if theme == 'night' or night %} tag--night{% endif %}">{{ f.sportLabel }}</span></span>
+  </div>
+  <div>
+    <p class="ticket__comp">{{ f.competition }}</p>
+    <h3 class="ticket__title">{{ f.title }}</h3>
+    <p class="ticket__meta">{% if f.channel %}{{ f.channel }}{% else %}Channel TBC{% endif %}{% if f.venue %} · {{ f.venue }}{% endif %}{% if f.note %} · {{ f.note }}{% endif %}</p>
+    <ul class="ticket__venues" aria-label="Showing at">
+      {%- if not onlyVenue and f.showing.length == 5 %}
+      <li class="{{ 'has-sound' if f.headline }}" title="All five Belles{% if f.headline %}, sound on everywhere{% endif %}">{% if f.headline %}<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M2 6h3l4-3v10L5 10H2z"/><path d="M11 5.5a3.5 3.5 0 0 1 0 5M12.5 3.5a6 6 0 0 1 0 9" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>{% endif %}All five Belles</li>
+      {%- else %}
+      {%- for s in f.showing %}
+      {%- if not onlyVenue or onlyVenue == s.venue %}
+      <li class="{{ 'has-sound' if s.zones == s.of }}" title="{{ s.name }}: {{ s.sound }}">{% if s.zones == s.of %}<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M2 6h3l4-3v10L5 10H2z"/><path d="M11 5.5a3.5 3.5 0 0 1 0 5M12.5 3.5a6 6 0 0 1 0 9" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>{% endif %}{{ s.area }}{% if onlyVenue %} · {{ s.sound }}{% endif %}</li>
+      {%- endif %}
+      {%- endfor %}
+      {%- endif %}
+    </ul>
+    <button class="btn btn--sm {{ 'btn--rose' if f.headline else 'btn--ghost' }} ticket__book" type="button" data-book data-fix="{{ f.id }}" data-date="{{ f.date }}"{% if onlyVenue %} data-venue="{{ onlyVenue }}"{% endif %}>Book a table</button>
+  </div>
+</article>

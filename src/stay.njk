@@ -1,0 +1,117 @@
+---
+layout: base.njk
+title: Stay at the Belle
+ogTitle: "Stay at the Belle · 40 boutique rooms above four London pubs"
+description: "Boutique rooms above four London pubs in Fitzrovia, Battersea, Vauxhall and Hammersmith. Breakfast included, check-in from 3pm, and the bar's downstairs. Book direct with the pub."
+og: stay
+permalink: /stay/
+bodyClass: page-stay
+---
+{% set hotels = venues | withRooms %}
+<section class="stay-hero">
+  <img class="roses roses--tl" src="{{ 'menu-roses' | imgUrl(600) }}" alt="" width="600" height="425" style="width:clamp(110px,16vw,220px)">
+  <div class="wrap stay-hero__grid">
+    <div>
+      <p class="kicker" style="padding-left:clamp(70px,10vw,150px)">Boutique rooms above four Belles</p>
+      <h1>Come as a guest. <span>Leave as family.</span></h1>
+      <p class="lede">{{ venues | roomsTotal }} rooms in Fitzrovia, Battersea, Vauxhall and Hammersmith. Every one has its own bathroom, every rate includes breakfast, and there's a pint and a big screen downstairs.</p>
+      <div class="chooser">
+        <p>What's bringing you to London?</p>
+        <div class="chips">
+          <button class="chip" type="button" data-choose="griffin duchess" aria-pressed="false">US Embassy appointment</button>
+          <button class="chip" type="button" data-choose="griffin" aria-pressed="false">A day at the Oval</button>
+          <button class="chip" type="button" data-choose="fitzrovia" aria-pressed="false">The West End</button>
+          <button class="chip" type="button" data-choose="duchess" aria-pressed="false">Battersea Power Station</button>
+          <button class="chip" type="button" data-choose="hammersmith" aria-pressed="false">West London &amp; the river</button>
+          <button class="chip" type="button" data-choose="griffin hammersmith" aria-pressed="false">Three to a room</button>
+        </div>
+      </div>
+    </div>
+    <div class="stay-hero__photos">
+      <img class="stay-hero__badge" src="{{ 'badge-rooms' | imgUrl(240) }}" alt="Belle Hotel Rooms badge: come as a guest, leave as family" width="240" height="240">
+      <div class="room-mosaic">
+        <span class="photo">{% img "room-griffin-superking", "A Griffin Belle super king room with purple floral wallpaper", "(min-width: 960px) 32vw, 66vw", "", true %}</span>
+        <span class="photo">{% img "room-fitzrovia-desk", "Desk and leather armchair in a Fitzrovia Belle room", "(min-width: 960px) 16vw, 33vw" %}</span>
+        <span class="photo">{% img "room-duchess-3", "A Duchess Belle room with painted butterflies", "(min-width: 960px) 16vw, 33vw" %}</span>
+        <span class="photo">{% img "room-griffin-cosy", "A cosy Griffin Belle double under a skylight", "(min-width: 960px) 32vw, 66vw" %}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="hotels">
+  <div class="wrap">
+    <h2 class="rule-head">Four hotels, side by side</h2>
+    <div class="hotels">
+      {%- for v in hotels %}
+      <article class="hotel" data-hotel="{{ v.slug }}" id="stay-{{ v.slug }}">
+        <header class="hotel__head">
+          <a href="{{ ('/' + v.slug + '/') | u }}" style="color:inherit">{% logo v.logo, v.name %}</a>
+          <span class="hotel__count">{{ v.rooms.count }}<small>rooms · {{ v.areaShort }}</small></span>
+        </header>
+        <div data-slides>
+          <div class="slides" tabindex="0" aria-label="{{ v.name }} rooms">
+            {%- for r in v.rooms.types %}
+            <figure class="slide">
+              <span class="photo">{% img r.image, v.name + " " + r.name, "(min-width: 1240px) 24vw, (min-width: 760px) 48vw, 100vw" %}</span>
+              <figcaption><b>{{ r.name }}</b>{{ r.text }}</figcaption>
+            </figure>
+            {%- endfor %}
+          </div>
+          <div class="slides-nav">
+            <button type="button" data-prev aria-label="Previous room">←</button>
+            <span data-slide-count>1 / {{ v.rooms.types.length }}</span>
+            <button type="button" data-next aria-label="Next room">→</button>
+          </div>
+        </div>
+        <div class="hotel__body">
+          <p>{{ v.rooms.summary }}</p>
+          <h3>Good for</h3>
+          <p>{{ v.rooms.goodFor | ucfirst }}.</p>
+          <h3>Getting there</h3>
+          <p>{% for s in v.stations %}{{ s.name }}{% if not loop.last %} · {% endif %}{% endfor %}</p>
+          <h3>In every room</h3>
+          <ul class="kit">{% for k in v.rooms.kit %}<li>{{ k }}</li>{% endfor %}</ul>
+        </div>
+        <footer class="hotel__foot">
+          {%- if v.rooms.booking %}
+          <a class="btn btn--rose btn--wide" href="{{ v.rooms.booking }}" rel="noopener">Book direct</a>
+          <small>Secure booking with the {{ v.name }}</small>
+          {%- else %}
+          <a class="btn btn--rose btn--wide" href="tel:{{ v.phone | replace(' ', '') }}">Call {{ v.phone }}</a>
+          <small><a href="mailto:{{ v.email }}?subject=Room%20booking">Or email the team</a>.</small>
+          {%- endif %}
+        </footer>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section wash">
+  <div class="wrap wrap--narrow">
+    <div class="policy frame">
+      <h2 class="rule-head">The small print, in large print</h2>
+      <dl>
+        <dt>Breakfast</dt><dd>Included in every room rate, served in the pub dining room from 7.30 to 11.30am.</dd>
+        <dt>Check-in</dt><dd>From 3pm. Here early? We'll look after your bags.</dd>
+        <dt>Check-out</dt><dd>11am. Bags can stay with us while you make the most of the day.</dd>
+        <dt>Stairs</dt><dd>None of our pubs have lifts, so our team will carry your luggage up for you.</dd>
+        <dt>Help</dt><dd>There's no concierge desk, but the team behind the bar knows the area and will help with anything they can.</dd>
+        <dt>Cancelling</dt><dd>Cancellations within 48 hours of arrival are charged at 50% of the room rate.</dd>
+        <dt>Sleep</dt><dd>These are rooms above lively pubs. Light sleeper, or here on a big match night? Ask us for our quietest room when you book.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="rule-head rule-head--left">Why book with us, not the big sites</h2>
+    <div class="reasons">
+      <div><h3>You're talking to the pub</h3><p>Ask for a quieter room, an early bag drop or a table downstairs for the match, and the people who'll be pouring your breakfast tea will sort it.</p></div>
+      <div><h3>Our terms, not theirs</h3><p>One straightforward policy across all four hotels, with no platform rules on top. Changing your dates is a phone call, not a support ticket.</p></div>
+      <div><h3>It all stays local</h3><p>No middleman taking a cut, so more of what you pay stays with the pub and the team who run it.</p></div>
+    </div>
+  </div>
+</section>

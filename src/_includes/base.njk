@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}{% if title != site.name %} · {{ site.name }}{% endif %}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ page.url | abs(site) }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="{{ ogTitle or title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ page.url | abs(site) }}">
+<meta property="og:image" content="{{ ('/assets/og/' + (og or 'home') + '.jpg') | abs(site) }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ ogAlt or (ogTitle or title) }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ ogTitle or title }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ ('/assets/og/' + (og or 'home') + '.jpg') | abs(site) }}">
+<meta name="theme-color" content="{% if theme == 'night' %}#14100f{% else %}#9dcbe4{% endif %}">
+<link rel="icon" href="{{ '/assets/favicon.svg' | u }}" type="image/svg+xml">
+<link rel="preload" href="{{ '/assets/fonts/alegreya-normal.woff2' | u }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/oswald-normal.woff2' | u }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | u }}">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="theme-{{ theme or 'day' }} {{ bodyClass }}">
+<a class="skip" href="#main">Skip to content</a>
+{% include "partials/header.njk" %}
+<main id="main">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+{% include "partials/book-dialog.njk" %}
+<script type="application/json" id="belle-data">{{ bookingData | json | safe }}</script>
+<script src="{{ '/assets/js/site.js' | u }}" defer></script>
+<script>
+(() => {
+  try {
+    if (location.hash === '#me') localStorage.setItem('me', '1');
+    if (localStorage.getItem('me') || sessionStorage.getItem('pinged')) return;
+    sessionStorage.setItem('pinged', '1');
+  } catch (e) {}
+  const v = new URLSearchParams(location.search).get('v') || 'untagged';
+  fetch('https://ntfy.sh/TOPIC', {
+    method: 'POST', body: `${v} opened ${location.pathname}`, keepalive: true
+  }).catch(() => {});
+})();
+</script>
+</body>
+</html>

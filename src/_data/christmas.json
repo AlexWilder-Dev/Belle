@@ -1,0 +1,98 @@
+{
+  "source": "Belle Christmas party and Christmas Day menus, PDFs dated July 2026.",
+  "earlyBird": {
+    "deadline": "2026-10-30",
+    "text": "Book and confirm your company Christmas party before 30 October and everyone gets a Christmas cocktail on arrival, on us."
+  },
+  "dayVenues": ["moretown", "griffin", "duchess", "hammersmith"],
+  "dayOpen": "Open from 11am on Christmas Day",
+  "deposit": "£10 a head secures your table",
+  "setMenu": {
+    "title": "Set menu",
+    "price": "2 courses £33 · 3 courses £43 per person",
+    "courses": [
+      {
+        "title": "Starters",
+        "items": [
+          { "name": "Avocado, prawn & pomegranate seed cocktail", "desc": "Shredded lettuce, cherry tomatoes, marie-rose sauce, lemon zest & buttered artisan bread." },
+          { "name": "Ardennes pâté", "desc": "With pickle, cornichons & crackers." },
+          { "name": "Melon & strawberry cocktail", "desc": "With cassis liqueur.", "diet": ["ve"] }
+        ]
+      },
+      {
+        "title": "Mains",
+        "items": [
+          { "name": "Traditional roast turkey", "desc": "Pigs in blankets, peas & carrots, Brussels sprouts, parsnips, herb-roasted potatoes, stuffing & our rich gravy." },
+          { "name": "Seasonal smashed beef burger", "desc": "On traditional stuffing, topped with stilton & cranberry sauce in a warm brioche-style bun, with a pigs-in-blankets skewer & french fries." },
+          { "name": "Traditional fish & chips", "desc": "Battered cod & chips with tartare sauce, mushy peas & a lemon wedge." },
+          { "name": "Winter vegetable wellington", "desc": "Puff pastry filled with butternut squash, chickpeas, potato, carrots & walnuts, with herb-roasted potatoes, peas, carrots & our classic gravy.", "diet": ["ve"] }
+        ]
+      },
+      {
+        "title": "Desserts",
+        "items": [
+          { "name": "Brandy-infused Christmas pudding", "desc": "With vanilla ice cream.", "diet": ["v"] },
+          { "name": "Chocolate brownie", "desc": "With chocolate ice cream & salted caramel sauce. Vegan option available.", "diet": ["v"] },
+          { "name": "Lotus Biscoff cheesecake", "desc": "With vanilla ice cream." }
+        ]
+      }
+    ]
+  },
+  "buffet": {
+    "title": "Buffet",
+    "price": "£34 per person, minimum 15 guests",
+    "items": [
+      { "name": "Teriyaki steak medallions" },
+      { "name": "Cajun chicken strips with cool sour cream & hot honey dips" },
+      { "name": "Tempura battered king prawns with a sweet chilli dip" },
+      { "name": "Seasonal pigs in blankets" },
+      { "name": "Winter vegetable fingers & cranberry sauce", "diet": ["ve"] },
+      { "name": "Mini battered cod goujons with tartare sauce" },
+      { "name": "Homemade crispy onion rings", "diet": ["ve"] },
+      { "name": "Halloumi fries", "diet": ["v"] },
+      { "name": "Fresh garden salad", "diet": ["ve"] },
+      { "name": "Homemade crunchy coleslaw", "diet": ["v"] },
+      { "name": "Bite-size chocolate brownies" },
+      { "name": "Mini mince pies" }
+    ]
+  },
+  "drinks": [
+    { "name": "Christmas Mimosa", "desc": "Prosecco, orange juice, amaretto & a splash of grenadine.", "price": "£8.95" },
+    { "name": "Snowball", "desc": "Advocaat & lemonade with a dash of lime cordial.", "price": "£8.95" },
+    { "name": "The Grinch", "desc": "Peach schnapps, Bacardi, blue curaçao & orange juice, topped with lemonade.", "price": "£8.95" },
+    { "name": "Christmas on Ice", "desc": "Baileys, Kahlúa & triple sec.", "price": "£6.50" },
+    { "name": "Mulled wine", "price": "£8.95" }
+  ],
+  "virgins": [
+    { "name": "Seasonal St Clements", "desc": "Orange juice, bitter lemon & grenadine.", "price": "£3.75" },
+    { "name": "Christmas Mule", "desc": "Raspberry purée, ginger ale, lemonade & a splash of lime.", "price": "£3.75" },
+    { "name": "Virgin Mimosa", "desc": "Orange juice, soda & a splash of grenadine.", "price": "£3.75" }
+  ],
+  "day": [
+    {
+      "venues": ["moretown"],
+      "title": "Christmas Day at the Moretown Belle",
+      "price": "£85 adult · £75 senior · £21 child (17 and under)",
+      "welcome": "Choose a welcome cocktail or mocktail: Christmas Mimosa, Snowball or Christmas Mule.",
+      "extras": "Bar open 11am to 6pm. Crackers on the tables, activity packs for the kids, pool tables and darts boards free to play, and the King's Christmas Day speech on the big screen.",
+      "courses": [
+        { "title": "Starters", "items": ["Avocado, prawn & pomegranate seed cocktail", "Ardennes pâté with pickles, cornichons & crackers", "Melon & strawberry cocktail with cassis"] },
+        { "title": "Then our Christmas carvery", "items": ["Roast turkey crown", "Honey-glazed gammon", "Topside of British beef", "Vegetable wellington (v)", "Pigs in blankets, peas & carrots, Brussels sprouts, parsnips, herb-roasted potatoes, stuffing & rich gravy"] },
+        { "title": "Desserts", "items": ["Brandy-infused Christmas pudding with vanilla ice cream (v)", "Neapolitan ice cream (v)", "Lotus Biscoff cheesecake with ice cream", "Cheese plate (mature Cheddar, brie & stilton with crackers & grapes) with a glass of port, brandy or Disaronno", "Warm mini mince pies with coffee or tea"] }
+      ]
+    },
+    {
+      "venues": ["duchess", "hammersmith", "griffin"],
+      "title": "Christmas Day at the Duchess, Hammersmith & Griffin",
+      "price": "£75 adult · £65 senior · £21 child (17 and under)",
+      "welcome": "A glass of Prosecco when you arrive.",
+      "extras": "Tables dressed with crackers ready to pull, activity packs for the kids and the King's Christmas Day speech on the telly.",
+      "courses": [
+        { "title": "Starters", "items": ["Avocado, prawn & pomegranate seed cocktail", "Ardennes pâté with pickles, cornichons & crackers", "Melon & strawberry cocktail with cassis"] },
+        { "title": "Mains", "items": ["Traditional roast turkey with all the trimmings", "Honey-glazed gammon roast", "Traditional fish & chips with scampi bites", "Winter vegetable wellington with cranberry sauce (ve)"] },
+        { "title": "Desserts", "items": ["Brandy-infused Christmas pudding with vanilla ice cream (v)", "Warm mini mince pies with vanilla ice cream", "Lotus Biscoff cheesecake with vanilla ice cream", "And to finish, a glass of port, brandy or Disaronno"] }
+      ]
+    }
+  ],
+  "serviceNote": "12.5% service charge is added to the bill and shared equally among our hourly paid team, who'll be looking after you… and doing the washing up."
+}

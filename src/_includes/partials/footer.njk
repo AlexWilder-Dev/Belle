@@ -1,0 +1,52 @@
+<footer class="foot">
+  <div class="chequer" aria-hidden="true"></div>
+  <div class="foot__mailer wrap">
+    <div class="foot__mailer-copy">
+      <h2 class="foot__title">Join the mailer</h2>
+      <p>Big fixtures, new rooms, party dates and the odd half-price bottle of fizz. About once a fortnight, never more.</p>
+    </div>
+    <form class="mailer" data-mock="mailer" novalidate>
+      <label class="sr-only" for="mailer-email-{{ page.fileSlug or 'home' }}">Email address</label>
+      <input id="mailer-email-{{ page.fileSlug or 'home' }}" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+      <label class="mailer__pick"><span class="sr-only">Your local</span>
+        <select name="local">
+          <option value="">My local is…</option>
+          {%- for v in venues %}<option value="{{ v.slug }}">{{ v.name }}</option>{% endfor %}
+        </select>
+      </label>
+      <button class="btn btn--rose" type="submit">Sign me up</button>
+      <p class="mailer__done" role="status" hidden></p>
+    </form>
+  </div>
+  <div class="foot__venues wrap">
+    {%- for v in venues %}
+    <section class="foot__venue" data-hours='{{ v.hours | json }}'>
+      <a class="foot__logo" href="{{ ('/' + v.slug + '/') | u }}">{% logo v.logo, v.name %}</a>
+      <p class="foot__open" data-open-now></p>
+      <address>{{ v.address | join("<br>") | safe }}</address>
+      <p><a href="tel:{{ v.phone | replace(' ', '') }}">{{ v.phone }}</a><br><a href="mailto:{{ v.email }}">Email the {{ v.areaShort }} team</a></p>
+      {%- if v.socials.instagram or v.socials.facebook %}
+      <p class="foot__social">{% if v.socials.instagram %}<a href="{{ v.socials.instagram }}" rel="noopener">Instagram</a>{% endif %}{% if v.socials.facebook %} · <a href="{{ v.socials.facebook }}" rel="noopener">Facebook</a>{% endif %}</p>
+      {%- endif %}
+    </section>
+    {%- endfor %}
+  </div>
+  <div class="foot__base wrap">
+    <div>
+      {% logo "group", "Belle Pubs & Hotels", "foot__group" %}
+      <p class="foot__line">Beautiful sports pubs &amp; hotel rooms</p>
+    </div>
+    <div class="foot__office">
+      <h2 class="foot__small">Head office</h2>
+      {%- for p in site.headOffice %}
+      <p><span>{{ p.role }}</span> {{ p.name }} · <a href="mailto:{{ p.email }}">{{ p.email }}</a></p>
+      {%- endfor %}
+    </div>
+    <ul class="foot__links">
+      <li><a href="{{ '/work-with-us/' | u }}">Work with us</a></li>
+      <li><a href="{{ '/contact/' | u }}">Contact & gift vouchers</a></li>
+      <li><a href="https://www.bellepubsandrestaurants.co.uk/privacy-policy" rel="noopener">Privacy policy</a></li>
+    </ul>
+  </div>
+  <p class="foot__preview wrap">A preview of a proposed new website for Belle Pubs &amp; Hotels. Fixtures, screen plans and forms are for demonstration: nothing you type here is sent anywhere.</p>
+</footer>

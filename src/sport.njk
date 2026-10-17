@@ -1,0 +1,100 @@
+---
+layout: base.njk
+title: What's on the big screens
+ogTitle: "What's on at the Belle: football, rugby, F1, darts and more"
+description: "Every big game across five London sports pubs: Premier League, Champions League, England rugby at Twickenham, F1, darts and boxing. Filter by sport or by your local and book a table."
+og: sport
+theme: night
+permalink: /sport/
+bodyClass: page-sport
+---
+<section class="sport-hero">
+  <div class="sport-hero__floor" aria-hidden="true"></div>
+  <div class="wrap sport-hero__inner sport-hero__grid">
+    <div>
+      <p class="kicker">Sport at the Belle</p>
+      <h1>Every big game, <span class="neon neon--flicker">sound on.</span></h1>
+      <p class="lede">Football, rugby, NFL, F1, darts, boxing and plenty more, across five pubs with eighteen sound zones between them. Find the game, pick your Belle, book the table.</p>
+      <div class="btn-row">
+        <a class="btn btn--rose" href="#board">See the fixtures</a>
+        <button class="btn btn--ghost" type="button" data-book data-book-tab="party" data-occasion="Watch party">Host a watch party</button>
+      </div>
+    </div>
+    {%- set big = board.headlines[0] %}
+    {%- if big %}
+    <div class="bigscreen" data-upcoming>
+      <div class="bigscreen__tv">
+        <p class="bigscreen__label">Next big one</p>
+        <p class="bigscreen__comp">{{ big.competition }}</p>
+        <p class="bigscreen__title">{{ big.title }}</p>
+        <p class="bigscreen__when">{{ big.date | dayLong }} · {{ big.time or "time TBC" }}{% if big.channel %} · {{ big.channel }}{% endif %}</p>
+      </div>
+      <div class="bigscreen__stand" aria-hidden="true"></div>
+      <button class="btn btn--rose" type="button" data-book data-fix="{{ big.id }}" data-date="{{ big.date }}">Book for this one</button>
+    </div>
+    {%- endif %}
+  </div>
+  <div class="wrap">
+    <div class="screens-strip">
+      {%- for v in venues %}
+      <a class="screen-stat" href="{{ ('/' + v.slug + '/') | u }}">
+        <span class="screen-stat__logo">{% logo v.logo, v.name %}</span>
+        <span class="screen-stat__num">{% if v.screens %}{{ v.screens }} <small>screens</small>{% else %}Multi <small>screen wall</small>{% endif %}</span>
+        <span class="screen-stat__num">{{ v.soundZones }} <small>sound zones</small></span>
+        {%- if v.games %}<span class="small muted">{{ v.games }}</span>{% endif %}
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<div class="filters" id="board">
+  <div class="wrap filters__rows">
+    <div class="chips" role="group" aria-label="Sport">
+      <button class="chip" type="button" data-filter-sport="all" aria-pressed="true">All sport <small>{{ board.items.length }}</small></button>
+      {%- for s in board.sports %}
+      <button class="chip" type="button" data-filter-sport="{{ s.key }}" aria-pressed="false">{{ s.label }} <small>{{ s.count }}</small></button>
+      {%- endfor %}
+    </div>
+    <div class="chips" role="group" aria-label="Venue">
+      <button class="chip" type="button" data-filter-venue="all" aria-pressed="true">All five</button>
+      {%- for v in venues %}
+      <button class="chip" type="button" data-filter-venue="{{ v.slug }}" aria-pressed="false">{{ v.areaShort }}</button>
+      {%- endfor %}
+      <button class="chip chip--toggle" type="button" data-filter-big aria-pressed="false">Big games only</button>
+    </div>
+  </div>
+</div>
+
+<section class="wrap board" data-board>
+  <p class="board__count" data-board-count aria-live="polite">{{ board.items.length }} fixtures</p>
+  {%- for d in board.days %}
+  <div class="board__day" data-day="{{ d.date }}">
+    <h2>{{ d.date | dayLong }}</h2>
+    <div class="board__list">
+      {%- for f in d.items %}
+      {% include "partials/ticket.njk" %}
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+  <p style="text-align:center;margin-top:30px"><button class="btn btn--ghost" type="button" data-board-more hidden>Show later fixtures</button></p>
+  <p class="board__empty" data-board-empty hidden>Nothing on that combination yet. Try another sport, or <a href="#board" data-filter-sport="all">show everything</a>.</p>
+  <p class="sample-note" style="margin-top:40px">
+    Fixtures, kick-off times and channels are real, from the published TV listings as of 17 October 2026, and the times are UK time.
+    Which Belle shows what, and where the sound's on, is a <b>sample screen plan</b>: each pub would set its own.
+    Our sports schedule can change with demand, so to avoid disappointment, give your Belle a call before you come.
+  </p>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Part of a sports team?</p>
+      <h2>Bring the whole squad.</h2>
+      <p>Host your watch party or social at any Belle, indoors or out. We'll put your game on a screen with the sound up, sort a tab and a platter, and if it's at the Moretown or Hammersmith, the darts boards are right there for half-time.</p>
+      <button class="btn btn--rose" type="button" data-book data-book-tab="party" data-occasion="Watch party">Plan a watch party</button>
+    </div>
+    <div class="photo" style="aspect-ratio:16/10">{% img "moretown-pano", "The Moretown Belle's circular bar ringed with screens", "(min-width: 900px) 50vw, 100vw" %}</div>
+  </div>
+</section>

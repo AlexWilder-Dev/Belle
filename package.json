@@ -1,0 +1,18 @@
+{
+  "name": "belle-pubs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Speculative website for Belle Pubs & Hotels: five London sports pubs, four with boutique rooms.",
+  "type": "module",
+  "scripts": {
+    "images": "node scripts/build-images.js",
+    "og": "node scripts/build-og.js",
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.2",
+    "potrace": "2.1.8",
+    "sharp": "0.34.3"
+  }
+}

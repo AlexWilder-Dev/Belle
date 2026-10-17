@@ -1,0 +1,21 @@
+<svg class="crest" viewBox="0 0 400 380" role="img" aria-label="A heraldic griffin on a shield, with wings either side">
+  <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    {%- for side in [1, -1] %}
+    <g transform="translate(200 0) scale({{ side }} 1) translate(-200 0)">
+      <path d="M128 120C92 92 52 86 14 98c30 6 52 18 66 34"/>
+      <path d="M126 138C90 120 54 122 22 140c28 0 50 8 64 20"/>
+      <path d="M126 158C94 150 62 158 36 180c26-6 48-4 64 6"/>
+      <path d="M128 180c-26-2-52 10-70 34 22-10 44-12 62-6"/>
+      <path d="M132 204c-20 4-38 18-48 40 16-12 34-16 50-14"/>
+    </g>
+    {%- endfor %}
+    <path d="M130 70h140v130c0 70-40 110-70 128-30-18-70-58-70-128z" stroke-width="3"/>
+    <path d="M140 80h120v120c0 62-34 98-60 114-26-16-60-52-60-114z" stroke-width="1.2"/>
+  </g>
+  <g fill="currentColor">
+    <path d="M232 278c-6-26-4-52 6-76 4-10 0-20-8-26l14-30c-12 4-22 2-30-6 6 0 10-4 12-8-14 2-30-4-40 6-8 8-12 18-22 22-8 4-18 4-24 0 8 12 22 16 34 12-6 8-6 18 2 24 4-10 12-14 20-12-2 16 4 32 14 44 8 10 10 24 6 38l-12 14c14 0 22-2 28-2z"/>
+    <path d="M214 140l10-26 4 22z"/>
+  </g>
+  <circle cx="190" cy="152" r="4" fill="var(--night, #14100f)"/>
+  <text x="200" y="362" text-anchor="middle" fill="currentColor" style="font-family:var(--cond);letter-spacing:.3em;font-size:16px">VAUXHALL · SINCE 1869</text>
+</svg>

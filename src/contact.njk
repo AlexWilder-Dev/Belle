@@ -1,0 +1,74 @@
+---
+layout: base.njk
+title: Contact & gift vouchers
+ogTitle: "Contact the Belle · Five London pubs & head office"
+description: "Phone numbers, emails and addresses for all five Belles, head office contacts for corporate bookings and finance, the mailer, and a Belle meal for two to give as a present."
+og: contact
+permalink: /contact/
+bodyClass: page-contact
+---
+<section class="section--tight blush">
+  <div class="wrap">
+    <p class="kicker">Get in touch</p>
+    <h1>Say hello</h1>
+    <p class="lede">For a table, a room or a quick question, the quickest way is to ring the pub. For anything bigger, head office is here.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="dir">
+      {%- for v in venues %}
+      <div data-hours='{{ v.hours | json }}'>
+        <a href="{{ ('/' + v.slug + '/') | u }}">{% logo v.logo, v.name %}</a>
+        <p class="open-now" data-open-now></p>
+        <address style="font-style:normal">{{ v.address | join("<br>") | safe }}</address>
+        <p style="margin:.6em 0 0"><a href="tel:{{ v.phone | replace(' ', '') }}">{{ v.phone }}</a><br><a href="mailto:{{ v.email }}">{{ v.email }}</a></p>
+      </div>
+      {%- endfor %}
+      <div>
+        <h2 class="cond" style="font-size:1rem;color:var(--blue-deep)">Head office</h2>
+        {%- for p in site.headOffice %}
+        <p style="margin:0 0 .8em"><span class="small muted">{{ p.role }}</span><br><b>{{ p.name }}</b><br><a href="mailto:{{ p.email }}">{{ p.email }}</a></p>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0" id="vouchers">
+  <div class="wrap">
+    <div class="voucher">
+      <div class="voucher__price">{{ site.voucher.price }}</div>
+      <div>
+        <p class="kicker" style="color:var(--oxblood)">A present that gets eaten</p>
+        <h2>{{ site.voucher.title }}</h2>
+        <p>{{ site.voucher.text }} Sold by our friends at {{ site.voucher.seller }}, delivered as an e-voucher or by post.</p>
+        <a class="btn btn--ink" href="{{ site.voucher.url }}" rel="noopener">Buy the voucher</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section wash">
+  <div class="wrap enquire">
+    <div>
+      <p class="kicker">Anything else</p>
+      <h2>Drop us a line</h2>
+      <p>Feedback, lost umbrellas, press or partnerships. We read everything.</p>
+    </div>
+    <div class="enquire__form frame">
+      <form class="form" data-mock="contact" novalidate>
+        <div class="form__row form__row--2">
+          <label>Name <input type="text" name="name" autocomplete="name" required></label>
+          <label>Email <input type="email" name="email" autocomplete="email" required></label>
+        </div>
+        <label>About
+          <select name="topic"><option>A visit to one of the pubs</option><option>A room booking</option><option>Corporate or events</option><option>Suppliers & finance</option><option>Something else</option></select>
+        </label>
+        <label>Message <textarea name="message" rows="5" required></textarea></label>
+        <button class="btn btn--rose btn--wide" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>

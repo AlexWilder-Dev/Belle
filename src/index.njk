@@ -1,0 +1,163 @@
+---
+layout: base.njk
+title: Belle Pubs & Hotels
+ogTitle: "Belle Pubs & Hotels · Five London sports pubs, four with rooms"
+description: "Five sports pubs from the Tower to Hammersmith, with forty boutique rooms above four of them. Every big game, breakfast till 11.30, twenty Belle Burgers and Christmas parties for 2026."
+og: home
+bodyClass: page-home
+---
+{% set roomsTotal = venues | roomsTotal %}
+<section class="home-hero">
+  <div class="wrap home-hero__grid">
+    <div class="menu-card">
+      <img class="roses roses--tl" src="{{ 'menu-roses' | imgUrl(600) }}" alt="" width="600" height="425">
+      <div class="menu-card__inner">
+        <p class="kicker">Five London pubs · {{ roomsTotal }} rooms upstairs</p>
+        <h1>Beautiful <em>sports pubs</em> &amp; hotel rooms</h1>
+        <p>Thirty-one screens at the Moretown. Flowers on every wall at the Duchess. Beach huts in the garden at Hammersmith. Breakfast till half eleven, roasts on Sunday and a bed upstairs at four of the five.</p>
+        <div class="btn-row">
+          <a class="btn btn--ink" href="{{ '/sport/' | u }}">What's on the screens</a>
+          <button class="btn btn--ghost" type="button" data-book>Book a table</button>
+        </div>
+      </div>
+    </div>
+    <div class="postcards" aria-label="The five Belles">
+      {%- for v in venues %}
+      <a class="postcard" href="{{ ('/' + v.slug + '/') | u }}">
+        <span class="photo">{% img v.card, v.name + " from the street", "(min-width: 980px) 30vw, 74vw" %}</span>
+        <span class="postcard__name">{% logo v.logo, v.name %}</span>
+        <span class="postcard__area"><span>{{ v.areaShort }}</span><span>{% if v.rooms %}{{ v.rooms.count }} rooms{% else %}{{ v.screens }} screens{% endif %}</span></span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="next-up night section">
+  <div class="chequer chequer--thin" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="next-up__head">
+      <div>
+        <p class="kicker">On the big screens</p>
+        <h2>Coming up</h2>
+      </div>
+      <a class="btn btn--ghost" href="{{ '/sport/' | u }}">All {{ board.items.length }} fixtures</a>
+    </div>
+    <div class="tickets tickets--row" data-upcoming>
+      {%- for f in board.headlines | limit(8) %}
+      {% set night = true %}{% include "partials/ticket.njk" %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="xmas-band section">
+  <img class="roses roses--tr" src="{{ 'menu-roses-alt' | imgUrl(600) }}" alt="" width="600" height="425">
+  <div class="wrap xmas-band__grid">
+    <div>
+      <p class="kicker">Christmas 2026</p>
+      <h2>The work do, sorted.</h2>
+      <p class="countdown" data-countdown="{{ christmas.earlyBird.deadline }}"><strong data-days>13</strong> <span data-days-label>days left</span> to bag everyone a free Christmas cocktail</p>
+      <p>{{ christmas.earlyBird.text }} Private areas, whole-venue hire, set menus and buffets at all five Belles.</p>
+      <div class="btn-row">
+        <a class="btn btn--butter" href="{{ '/christmas/' | u }}">Plan the party</a>
+        <a class="btn btn--ghost" href="{{ '/christmas/#day' | u }}">Christmas Day lunch</a>
+      </div>
+    </div>
+    <ul class="price-list">
+      <li><span>Two-course set menu</span><b>£33</b></li>
+      <li><span>Three-course set menu</span><b>£43</b></li>
+      <li><span>Christmas buffet, 15+ guests</span><b>£34</b></li>
+      <li><span>Christmas Day lunch, from 11am</span><b>from £75</b></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="rule-head">Five Belles, one river</h2>
+    <p class="lede" style="margin-inline:auto;text-align:center">From the Tower to Hammersmith, every Belle is a short walk from the Tube, and four of them are a short walk from the Thames.</p>
+    {% include "partials/map.njk" %}
+    <div class="venues-strip">
+      {%- for p in map.pins %}{% set v = venues | venue(p.slug) %}
+      <a class="vcard" href="{{ ('/' + v.slug + '/') | u }}" data-hours='{{ v.hours | json }}'>
+        <span class="photo">{% img v.card, "", "(min-width: 1100px) 20vw, (min-width: 720px) 50vw, 100vw" %}<span class="vcard__n">{{ p.n }}</span></span>
+        <span class="vcard__body">
+          <span class="vcard__logo">{% logo v.logo, v.name %}</span>
+          <span class="open-now" data-open-now></span>
+          <span class="vcard__tag">{{ v.tagline }}</span>
+          <span class="vcard__facts">{{ v.stations[0].name }}{% if v.rooms %} · {{ v.rooms.count }} rooms{% endif %} · {{ v.soundZones }} sound zones</span>
+        </span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="stay-teaser blush section">
+  <div class="wrap stay-teaser__grid">
+    <div>
+      <img class="stay-teaser__badge" src="{{ 'badge-rooms' | imgUrl(240) }}" alt="Belle Hotel Rooms: come as a guest, leave as family" width="240" height="240">
+      <p class="kicker">Stay over</p>
+      <h2>{{ roomsTotal }} rooms above four Belles. Breakfast's on us.</h2>
+      <p>Fitzrovia for the West End, the Duchess for the Power Station, the Griffin for the Oval and the US Embassy, Hammersmith for the river. Every room has its own bathroom, every rate includes breakfast, and the bar's downstairs.</p>
+      <ul class="facts-row">
+        <li>Check-in 3pm</li><li>Check-out 11am</li><li>Breakfast 7.30–11.30</li><li>No lifts: we carry your bags</li>
+      </ul>
+      <a class="btn btn--rose" href="{{ '/stay/' | u }}">Compare the four hotels</a>
+    </div>
+    <div class="room-mosaic">
+      <span class="photo">{% img "room-griffin-king", "A Griffin Belle king room with blue linen and floral wallpaper", "(min-width: 900px) 36vw, 66vw" %}</span>
+      <span class="photo">{% img "room-fitzrovia-superior", "A Fitzrovia Belle superior double", "(min-width: 900px) 18vw, 33vw" %}</span>
+      <span class="photo">{% img "room-duchess-king-2", "A Duchess Belle king room", "(min-width: 900px) 18vw, 33vw" %}</span>
+      <span class="photo">{% img "room-griffin-twin", "A Griffin Belle twin room with tartan throws", "(min-width: 900px) 36vw, 66vw" %}</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="rule-head">Every week, every Belle</h2>
+    <div class="offers">
+      {%- for o in offers.weekly %}
+      <div class="offer">
+        <span class="offer__day">{{ o.day }}</span>
+        <p class="offer__big">{{ o.big }}</p>
+        <p><b>{{ o.title }}.</b> {{ o.text }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="burger-band night section">
+  <div class="wrap burger-band__grid">
+    <div class="photo">{% img "moretown-neon-burgers", "The pink neon Belle Burgers sign above a booth at the Moretown Belle", "(min-width: 900px) 40vw, 100vw" %}</div>
+    <div>
+      <p class="kicker">Our speciality</p>
+      <h2 class="neon neon--flicker">Belle Burgers</h2>
+      <p class="lede">Twenty smashed burgers, each with a sillier name than the last. Have yours dressed, topless or naked.</p>
+      <ul class="name-cloud">
+        {%- for b in menus.burgers.items | limit(14) %}<li>{{ b.name }}</li>{% endfor %}
+        <li>and six more</li>
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn--rose" href="{{ '/menus/#burgers' | u }}">Build your burger</a>
+        <span class="tag tag--butter">2 for 1, Mon–Fri till 7pm</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap rosie">
+    <div class="photo">{% img "rosie-galligan", "Rosie Galligan in an England rugby shirt, fist raised", "(min-width: 900px) 34vw, 100vw" %}</div>
+    <div>
+      <p class="kicker">Part of the Belle family</p>
+      <h2>Rosie Galligan, world champion</h2>
+      <p>England lock Rosie Galligan cut the ribbon on the Hammersmith Belle's garden in May 2025. Four months later she was a world champion, part of the Red Roses squad that won the Women's Rugby World Cup on home soil.</p>
+      <p>This summer Rosie swapped Saracens for Harlequins. Whenever the Red Roses are on, they're on at every Belle.</p>
+      <a class="btn btn--ghost" href="{{ '/sport/#rugby' | u }}">Rugby fixtures</a>
+    </div>
+  </div>
+</section>

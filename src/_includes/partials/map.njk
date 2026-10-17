@@ -1,0 +1,35 @@
+<figure class="rivermap">
+  <svg viewBox="0 0 {{ map.width }} {{ map.height }}" role="img" aria-labelledby="map-title map-desc">
+    <title id="map-title">The five Belles along the Thames</title>
+    <desc id="map-desc">A drawn map of London from Hammersmith in the west to Wapping in the east, with the Hammersmith, Duchess, Griffin, Fitzrovia and Moretown Belles marked.</desc>
+    <defs>
+      <pattern id="map-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="currentColor" stroke-opacity=".07"/></pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#map-grid)"/>
+    <path class="rivermap__bank" d="{{ map.river }}"/>
+    <path class="rivermap__river" d="{{ map.river }}"/>
+    <path class="rivermap__shine" d="{{ map.river }}"/>
+    <text class="rivermap__thames"><textPath href="#map-thames" startOffset="22%">River Thames</textPath></text>
+    <path id="map-thames" d="{{ map.river }}" fill="none" transform="translate(0 -14)"/>
+    {%- for l in map.landmarks %}
+    <g class="rivermap__mark" transform="translate({{ l.x }} {{ l.y }})">
+      {%- if l.chimneys %}
+      <g class="rivermap__chimneys" transform="translate(-22 -2)"><rect x="0" y="-26" width="44" height="18" rx="1"/><rect x="2" y="-46" width="5" height="22"/><rect x="11" y="-46" width="5" height="22"/><rect x="28" y="-46" width="5" height="22"/><rect x="37" y="-46" width="5" height="22"/></g>
+      {%- else %}
+      <circle r="4"/>
+      {%- endif %}
+      <text x="{{ l.dx or 0 }}" y="{{ l.dy }}" text-anchor="{% if l.dx %}start{% else %}middle{% endif %}">{{ l.name }}</text>
+    </g>
+    {%- endfor %}
+    {%- for p in map.pins %}
+    <a class="rivermap__pin" href="{{ ('/' + p.slug + '/') | u }}" transform="translate({{ p.x }} {{ p.y }})" aria-label="{{ p.name }}, {{ p.area }}">
+      <line x1="0" y1="0" x2="{{ p.dx * 0.6 }}" y2="{{ p.dy * 0.55 }}"/>
+      <circle r="17"/>
+      <text class="rivermap__n" y="7">{{ p.n }}</text>
+      <text class="rivermap__label" x="{{ p.dx }}" y="{{ p.dy }}" text-anchor="{{ p.anchor }}">{{ p.name }}</text>
+      <text class="rivermap__sub" x="{{ p.dx }}" y="{{ p.dy + 24 }}" text-anchor="{{ p.anchor }}">{{ p.area }}{% if p.rooms %} · {{ p.rooms }} rooms{% endif %}</text>
+    </a>
+    {%- endfor %}
+  </svg>
+  <figcaption class="sr-only">Map not to scale.</figcaption>
+</figure>

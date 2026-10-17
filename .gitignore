@@ -4,3 +4,4 @@ assets/source/pdfs/
 node_modules/
 dist/
 .DS_Store
+_site/

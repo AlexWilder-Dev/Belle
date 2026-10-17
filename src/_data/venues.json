@@ -1,0 +1,750 @@
+[
+  {
+    "slug": "moretown",
+    "name": "Moretown Belle",
+    "area": "Tower Hill & St Katharine Docks",
+    "areaShort": "Tower Hill",
+    "logo": "moretown",
+    "tagline": "Thirty-one screens and the biggest telly we've ever seen.",
+    "address": [
+      "5 Thomas More Square",
+      "Nesham Street",
+      "London E1W 1YY"
+    ],
+    "postcode": "E1W 1YY",
+    "phone": "020 7702 0900",
+    "email": "moretown@bellepubsandrestaurants.co.uk",
+    "hours": [
+      [
+        "08:00",
+        "23:00"
+      ],
+      [
+        "08:00",
+        "23:00"
+      ],
+      [
+        "08:00",
+        "23:00"
+      ],
+      [
+        "08:00",
+        "00:00"
+      ],
+      [
+        "08:00",
+        "00:00"
+      ],
+      [
+        "08:00",
+        "23:00"
+      ],
+      [
+        "08:00",
+        "22:30"
+      ]
+    ],
+    "hoursNote": "Sunday opening printed as \"080.30\" on the venue page; the homepage footer says 08.00.",
+    "stations": [
+      {
+        "name": "Tower Hill",
+        "lines": "District, Circle",
+        "walk": "8 min"
+      },
+      {
+        "name": "Aldgate East",
+        "lines": "District, Hammersmith & City",
+        "walk": "8 min"
+      },
+      {
+        "name": "Tower Gateway",
+        "lines": "DLR",
+        "walk": "0.4 mi"
+      }
+    ],
+    "landmark": "a stroll through St Katharine Docks from the Tower of London",
+    "screens": 31,
+    "screensText": "31 UHD 4K screens, multi-screen walls and the biggest single TV in Europe (so they tell us)",
+    "soundZones": 5,
+    "games": "5 darts boards · 3 pool tables",
+    "outside": "Big sunny garden at the front",
+    "rooms": null,
+    "christmasDay": true,
+    "lat": 51.5089,
+    "lon": -0.0681,
+    "hero": "moretown-pano-neon",
+    "ogImage": "moretown-pano-neon",
+    "card": "moretown-pano",
+    "socials": {
+      "facebook": "https://www.facebook.com/moretownbelle/",
+      "instagram": "https://www.instagram.com/themoretownbellex/"
+    },
+    "facts": [
+      [
+        "31",
+        "UHD screens"
+      ],
+      [
+        "5",
+        "sound zones"
+      ],
+      [
+        "5",
+        "darts boards"
+      ],
+      [
+        "3",
+        "pool tables"
+      ],
+      [
+        "120",
+        "seated for hire"
+      ],
+      [
+        "200",
+        "standing for hire"
+      ]
+    ],
+    "history": "Opened in 1997 in a brand-new office square as the Old Monk, then the Thomas More, then the Cape. We took it on and renamed it around 2019.",
+    "hire": "Whole venue for up to 120 seated or 200 standing, or a semi-private area. Meetings, breakfast briefings and presentations by day; birthdays, leaving dos, Christmas parties and wedding receptions by night.",
+    "gallery": [
+      "moretown-pano",
+      "moretown-neon-burgers",
+      "moretown-bar",
+      "moretown-500s",
+      "moretown-pool",
+      "moretown-darts",
+      "moretown-booths",
+      "moretown-poolballs",
+      "moretown-200s",
+      "moretown-back"
+    ]
+  },
+  {
+    "slug": "duchess",
+    "name": "Duchess Belle",
+    "area": "Battersea Power Station",
+    "areaShort": "Battersea",
+    "logo": "duchess",
+    "tagline": "Flowers on every wall and the Power Station across the road.",
+    "address": [
+      "101 Battersea Park Road",
+      "London SW8 4DS"
+    ],
+    "postcode": "SW8 4DS",
+    "phone": "020 7498 7611",
+    "email": "duchess@bellepubsandrestaurants.co.uk",
+    "hours": [
+      [
+        "08:00",
+        "23:00"
+      ],
+      [
+        "08:00",
+        "23:00"
+      ],
+      [
+        "08:00",
+        "23:00"
+      ],
+      [
+        "08:00",
+        "00:00"
+      ],
+      [
+        "08:00",
+        "00:00"
+      ],
+      [
+        "08:00",
+        "00:00"
+      ],
+      [
+        "08:00",
+        "23:00"
+      ]
+    ],
+    "hoursNote": "Venue page hours. The homepage footer gives 07.00 opening.",
+    "stations": [
+      {
+        "name": "Battersea Power Station",
+        "lines": "Northern",
+        "walk": "over the road"
+      },
+      {
+        "name": "Vauxhall",
+        "lines": "Victoria, National Rail"
+      }
+    ],
+    "landmark": "opposite Battersea Power Station, up the road from Battersea Dogs Home",
+    "screens": null,
+    "screensText": "UHD screens and a multi-screen wall",
+    "soundZones": 3,
+    "games": null,
+    "outside": "Two gardens: a sunny one at the back and a terrace at the front, with heaters for the colder months",
+    "rooms": {
+      "count": 8,
+      "booking": "https://via.eviivo.com/TheDuchessBelleHotelSW8",
+      "bookingLabel": "eviivo",
+      "summary": "Eight cosy, compact rooms over two floors, every one with a king-size bed for one or two.",
+      "types": [
+        {
+          "name": "King Classic",
+          "image": "room-duchess-king-2",
+          "text": "King-size bed, own bathroom, TV, tea & coffee."
+        },
+        {
+          "name": "King Classic",
+          "image": "room-duchess-3",
+          "text": "Painted butterflies on the wall, flowers downstairs."
+        },
+        {
+          "name": "En-suite",
+          "image": "room-duchess-ensuite",
+          "text": "Every room has its own bathroom."
+        }
+      ],
+      "kit": [
+        "King-size beds",
+        "Own bathroom",
+        "TV",
+        "Hairdryer",
+        "Iron",
+        "Tea & coffee",
+        "Central heating"
+      ],
+      "goodFor": "Battersea Power Station, the US Embassy, gigs at Evolution, shopping trips"
+    },
+    "christmasDay": true,
+    "lat": 51.4787,
+    "lon": -0.1437,
+    "hero": "duchess-exterior",
+    "ogImage": "duchess-exterior",
+    "card": "duchess-exterior",
+    "socials": {
+      "facebook": "https://www.facebook.com/DuchessBellepubBattersea/",
+      "instagram": "https://www.instagram.com/duchessbellepubbattersea/"
+    },
+    "facts": [
+      [
+        "1883",
+        "current building"
+      ],
+      [
+        "2",
+        "gardens"
+      ],
+      [
+        "3",
+        "sound zones"
+      ],
+      [
+        "8",
+        "rooms upstairs"
+      ]
+    ],
+    "timeline": [
+      [
+        "1789",
+        "The Duchess of York is built on this spot as part of Lovell & Peecock's Nine Elms development, named for the Duke of York's marriage to Princess Frederica Charlotte of Prussia."
+      ],
+      [
+        "1819",
+        "Land around the pub is auctioned off in the bar, according to Keith Alan Bailey's The Metamorphosis of Battersea."
+      ],
+      [
+        "1883",
+        "The old pub comes down and the building you're sitting in goes up."
+      ],
+      [
+        "2018",
+        "She becomes the Duchess Belle. The flowers arrive and never leave."
+      ]
+    ],
+    "hire": "The first-floor bar and balcony looks straight across at Battersea Power Station. Wedding receptions, birthdays, baby showers, hen and stag dos and wakes, at a price that won't make you wince.",
+    "gallery": [
+      "duchess-upstairs",
+      "duchess-topbar",
+      "duchess-bar",
+      "duchess-flowers",
+      "duchess-mural",
+      "duchess-garden",
+      "duchess-backbar",
+      "duchess-venue-pano"
+    ]
+  },
+  {
+    "slug": "fitzrovia",
+    "name": "Fitzrovia Belle",
+    "area": "Tottenham Court Road",
+    "areaShort": "Fitzrovia",
+    "logo": "fitzrovia",
+    "tagline": "Two bars, five rooms and breakfast from half seven on Tottenham Court Road.",
+    "address": [
+      "174 Tottenham Court Road",
+      "London W1T 7NT"
+    ],
+    "postcode": "W1T 7NT",
+    "phone": "020 7387 7149",
+    "email": "fitzrovia@bellepubsandrestaurants.co.uk",
+    "hours": [
+      [
+        "07:30",
+        "22:00"
+      ],
+      [
+        "07:30",
+        "22:00"
+      ],
+      [
+        "07:30",
+        "00:00"
+      ],
+      [
+        "07:30",
+        "01:00"
+      ],
+      [
+        "07:30",
+        "01:00"
+      ],
+      [
+        "07:30",
+        "00:00"
+      ],
+      [
+        "07:30",
+        "23:00"
+      ]
+    ],
+    "hoursNote": "Venue page hours (CAMRA agrees). The homepage footer gives 23.00 on Monday and Tuesday.",
+    "stations": [
+      {
+        "name": "Goodge Street",
+        "lines": "Northern",
+        "walk": "short walk"
+      },
+      {
+        "name": "Warren Street",
+        "lines": "Northern, Victoria",
+        "walk": "short walk"
+      }
+    ],
+    "landmark": "on Tottenham Court Road, a short walk from the British Museum",
+    "screens": 7,
+    "screensText": "7 screens across two bars",
+    "soundZones": 3,
+    "games": null,
+    "outside": "Tables on the pavement under the hanging baskets",
+    "rooms": {
+      "count": 5,
+      "booking": "https://via.eviivo.com/FtzrvW1T",
+      "bookingLabel": "eviivo",
+      "summary": "Five individually designed rooms on the first and second floors, with tiled wet rooms and rain showers.",
+      "types": [
+        {
+          "name": "Superior Double",
+          "image": "room-fitzrovia-superior",
+          "text": "Desk, armchair and a proper wardrobe."
+        },
+        {
+          "name": "Superior Double",
+          "image": "room-fitzrovia-superior-2",
+          "text": "Big windows over Tottenham Court Road."
+        },
+        {
+          "name": "Double with En-Suite",
+          "image": "room-fitzrovia-double",
+          "text": "Cosy, quiet colours, rain shower next door."
+        }
+      ],
+      "kit": [
+        "King-size beds",
+        "Tiled wet room, rain shower",
+        "TV",
+        "Hairdryer",
+        "Safe",
+        "Iron",
+        "Tea & coffee",
+        "Ceiling fan",
+        "Central heating"
+      ],
+      "goodFor": "the West End, the British Museum and Euston"
+    },
+    "christmasDay": false,
+    "lat": 51.5225,
+    "lon": -0.1351,
+    "hero": "fitzrovia-exterior",
+    "ogImage": "fitzrovia-exterior",
+    "card": "fitzrovia-exterior",
+    "socials": {
+      "facebook": "https://www.facebook.com/fitzroviabelle/",
+      "instagram": "https://www.instagram.com/fitzroviabellepub/"
+    },
+    "facts": [
+      [
+        "1780",
+        "first licensed"
+      ],
+      [
+        "7",
+        "screens"
+      ],
+      [
+        "3",
+        "sound zones"
+      ],
+      [
+        "5",
+        "rooms upstairs"
+      ]
+    ],
+    "timeline": [
+      [
+        "1780",
+        "Licensed as the Mortimer Arms."
+      ],
+      [
+        "1940",
+        "Bombed out in the Blitz."
+      ],
+      [
+        "1958",
+        "Rebuilt on the same spot."
+      ],
+      [
+        "2012",
+        "Renamed the Fitzrovia Belle. These days there's a piano in the front bar."
+      ]
+    ],
+    "hire": "Birthdays, anniversaries, company gatherings, leaving dos, wedding receptions and wakes, across two bars.",
+    "gallery": [
+      "fitzrovia-night",
+      "fitzrovia-ceiling",
+      "fitzrovia-booths",
+      "fitzrovia-bar",
+      "fitzrovia-frontbar",
+      "neon-cheesecake"
+    ]
+  },
+  {
+    "slug": "griffin",
+    "name": "Griffin Belle",
+    "area": "Vauxhall & Nine Elms",
+    "areaShort": "Vauxhall",
+    "logo": "griffin",
+    "tagline": "Award-winning for live sport, fourteen rooms upstairs, five minutes from the Oval.",
+    "address": [
+      "8 Wyvil Road",
+      "London SW8 2TH"
+    ],
+    "postcode": "SW8 2TH",
+    "phone": "020 7498 5598",
+    "email": "griffin@bellepubsandrestaurants.co.uk",
+    "hours": [
+      [
+        "07:30",
+        "23:00"
+      ],
+      [
+        "07:30",
+        "00:00"
+      ],
+      [
+        "07:30",
+        "00:00"
+      ],
+      [
+        "07:30",
+        "01:00"
+      ],
+      [
+        "07:30",
+        "01:00"
+      ],
+      [
+        "07:30",
+        "00:00"
+      ],
+      [
+        "08:30",
+        "23:00"
+      ]
+    ],
+    "hoursNote": "Venue page hours. The homepage footer gives 07.30 on Sunday.",
+    "stations": [
+      {
+        "name": "Nine Elms",
+        "lines": "Northern",
+        "walk": "short walk"
+      },
+      {
+        "name": "Vauxhall",
+        "lines": "Victoria, National Rail",
+        "walk": "short walk"
+      }
+    ],
+    "landmark": "between Vauxhall and Nine Elms, close to the Kia Oval and the US Embassy",
+    "screens": null,
+    "screensText": "The best UHD screens we could find and a multi-screen wall",
+    "soundZones": 3,
+    "games": null,
+    "outside": "Tables outside in the sun, with heaters for when it isn't",
+    "rooms": {
+      "count": 14,
+      "booking": "https://via.eviivo.com/ThGrffnSW8",
+      "bookingLabel": "eviivo",
+      "summary": "Fourteen individually designed rooms over three floors: doubles, singles and triples for when the whole team's staying.",
+      "types": [
+        {
+          "name": "King Classic",
+          "image": "room-griffin-king",
+          "text": "King-size bed, floral wall, blue linen."
+        },
+        {
+          "name": "Super King",
+          "image": "room-griffin-superking",
+          "text": "The biggest bed in the building."
+        },
+        {
+          "name": "Twin Room",
+          "image": "room-griffin-twin",
+          "text": "Two singles, tartan throws."
+        },
+        {
+          "name": "Triple Classic",
+          "image": "room-griffin-triple",
+          "text": "Room for three, for the visiting supporters' club."
+        },
+        {
+          "name": "Economy Cosy Double",
+          "image": "room-griffin-cosy",
+          "text": "Tucked under the eaves with a skylight. Snug, and priced like it."
+        }
+      ],
+      "kit": [
+        "Own bathroom",
+        "TV",
+        "Hairdryer",
+        "Iron",
+        "Tea & coffee",
+        "Central heating"
+      ],
+      "goodFor": "a morning appointment at the US Embassy, a day at the Oval, Vauxhall and the South Bank"
+    },
+    "christmasDay": true,
+    "lat": 51.4807,
+    "lon": -0.1238,
+    "hero": "griffin-exterior",
+    "ogImage": "griffin-exterior",
+    "card": "griffin-exterior",
+    "socials": {
+      "facebook": "https://www.facebook.com/griffinbellevauxhall/",
+      "instagram": "https://www.instagram.com/griffinbellevauxhall/"
+    },
+    "facts": [
+      [
+        "150+",
+        "years serving Vauxhall"
+      ],
+      [
+        "3",
+        "sound zones"
+      ],
+      [
+        "14",
+        "rooms upstairs"
+      ],
+      [
+        "2020",
+        "Star Pubs & Bars sport award"
+      ]
+    ],
+    "timeline": [
+      [
+        "1869",
+        "Trading as the Builders Arms."
+      ],
+      [
+        "Later",
+        "Wyvils, then the Vauxhall Griffin."
+      ],
+      [
+        "2018",
+        "Renamed the Griffin Belle, after the griffin on the badge of Vauxhall Motors, whose iron works started on Wandsworth Road."
+      ],
+      [
+        "2020",
+        "Wins Live Sports Venue at the Star Pubs & Bars Awards, sponsored by Sky Sports."
+      ]
+    ],
+    "hire": "Birthdays, anniversaries, company gatherings, leaving dos, wedding receptions and wakes. Watch parties for the whole team, then fourteen beds upstairs.",
+    "gallery": [
+      "griffin-interior",
+      "griffin-screens",
+      "griffin-banquettes",
+      "griffin-outside",
+      "griffin-exterior-tall",
+      "room-griffin-door"
+    ]
+  },
+  {
+    "slug": "hammersmith",
+    "name": "Hammersmith Belle",
+    "area": "King Street, Hammersmith",
+    "areaShort": "Hammersmith",
+    "logo": "hammersmith",
+    "tagline": "An 8,000 sq ft garden with beach huts, a castle and a sports pergola.",
+    "address": [
+      "225–227 King Street",
+      "London W6 9JT"
+    ],
+    "postcode": "W6 9JT",
+    "phone": "020 4616 0261",
+    "email": "hammersmith@bellepubsandrestaurants.co.uk",
+    "hours": [
+      [
+        "07:30",
+        "23:00"
+      ],
+      [
+        "07:30",
+        "23:00"
+      ],
+      [
+        "07:30",
+        "23:00"
+      ],
+      [
+        "07:30",
+        "00:00"
+      ],
+      [
+        "07:30",
+        "00:00"
+      ],
+      [
+        "07:30",
+        "00:00"
+      ],
+      [
+        "07:30",
+        "23:00"
+      ]
+    ],
+    "hoursNote": "Venue page hours.",
+    "stations": [
+      {
+        "name": "Ravenscourt Park",
+        "lines": "District",
+        "walk": "5 min"
+      },
+      {
+        "name": "Hammersmith",
+        "lines": "District, Piccadilly, H&C, Circle",
+        "walk": "12 min"
+      }
+    ],
+    "landmark": "on King Street between Ravenscourt Park and the new Civic Campus",
+    "screens": 13,
+    "screensText": "13 UHD screens including two super screens, plus TVs in the garden pergola",
+    "soundZones": 4,
+    "games": "Darts lounge · 5 oches",
+    "outside": "The Belle Enchanted Garden: 8,000 sq ft for up to 300, beach huts, a kids' castle and an all-weather sports pergola",
+    "rooms": {
+      "count": 13,
+      "booking": null,
+      "bookingLabel": "phone or email",
+      "summary": "Thirteen new rooms over two floors: doubles, singles and triples, some under stained-glass ceilings.",
+      "types": [
+        {
+          "name": "Double",
+          "image": "room-hammersmith-double",
+          "text": "Painted butterflies and a big comfy bed."
+        },
+        {
+          "name": "Twin",
+          "image": "room-hammersmith-twin",
+          "text": "Two singles under a stained-glass ceiling."
+        },
+        {
+          "name": "King",
+          "image": "room-hammersmith-king",
+          "text": "Light, bright and brand new."
+        }
+      ],
+      "kit": [
+        "Own bathroom",
+        "TV",
+        "Hairdryer",
+        "Iron",
+        "Tea & coffee",
+        "Central heating"
+      ],
+      "goodFor": "Ravenscourt Park, the river at Hammersmith, and families visiting west London"
+    },
+    "christmasDay": true,
+    "lat": 51.4931,
+    "lon": -0.2326,
+    "hero": "hammersmith-garden",
+    "ogImage": "hammersmith-night",
+    "card": "hammersmith-night",
+    "socials": {},
+    "facts": [
+      [
+        "8,000",
+        "sq ft garden"
+      ],
+      [
+        "300",
+        "in the garden"
+      ],
+      [
+        "13",
+        "screens"
+      ],
+      [
+        "4",
+        "sound zones"
+      ],
+      [
+        "5",
+        "oches"
+      ],
+      [
+        "13",
+        "rooms upstairs"
+      ]
+    ],
+    "timeline": [
+      [
+        "1600s",
+        "Licensed as the Hogs, after the Royal Hampshire Regiment (not the pigs)."
+      ],
+      [
+        "1883",
+        "Rebuilt by Sich's Chiswick brewery. The grand fireplace at the back is still here."
+      ],
+      [
+        "Jan 2025",
+        "Reopens as the Hammersmith Belle after a £1m refurbishment."
+      ],
+      [
+        "May 2025",
+        "Rosie Galligan and Cllr Zarar Qayyum cut the ribbon on the garden."
+      ]
+    ],
+    "hire": "Beach huts for your own little corner of the garden, private areas inside, and the whole garden for up to 300 when you've got something big to celebrate.",
+    "gallery": [
+      "hammersmith-garden",
+      "hammersmith-pergola",
+      "hammersmith-castle",
+      "hammersmith-castle-2",
+      "hammersmith-darts",
+      "hammersmith-benches",
+      "hammersmith-jug",
+      "hammersmith-bar",
+      "hammersmith-night"
+    ]
+  }
+]
